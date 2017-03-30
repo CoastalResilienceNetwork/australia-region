@@ -1,0 +1,126 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Oyster Reef Data for Matagorda Bay, Texas, 2008</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\Houfs1\gis\441526_00\shp\polygon</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>The present study explored the spatial and temporal demographic trends in oyster population dynamics and their relationships to freshwater inflows and the pathogen Dermo (Perkinsus marinus) on three reefs (Shell, Mad Island, and Sammy?s) in West Matagorda Bay, Texas. The objectives were to design and link three population models that simulate oyster population dynamics and integrate the environmental factors that influence growth, reproduction and settlement of larvae among these three reefs. The following variables were evaluated: relative abundance of oyster spat, submarket- and market-size oysters, average weighted incidence of Dermo and percent Dermo infection (prevalence) in submarket- and market-size oysters and their relationships to environmental variables of salinity, temperature, flow and distance from freshwater sources. Using a 30-month continuous dataset, environmental variables accounted for 36% of the variation in Dermo-related variables among the three reefs, and were also positively correlated with distance from freshwater sources. The relative abundance of spat and dead oysters was related to peaks in freshwater inflows occurring 30 days prior to larval settlement. Using these spatial and temporal relationships among biological and environmental variables, and data from five years of monitoring three reefs in Matagorda Bay, an integrated Stella model was developed that simulated oyster population responses to stochastic environmental changes over a 50-year period. Although the geological and structural complexity of each reef appeared to be similar, the model showed the relationship of growth, spawning and spat set were related to hydrologic variation between different reefs and time periods. The model revealed that up-estuary reefs relied on the distribution of larvae from down-estuary reefs following mortality related to freshwater inflow. The model also indicated that loss of freshwater inflows to down-estuary reefs resulted in higher sustained Dermo infections, thus loss of spawning potential and subsequent distribution of larvae to up-estuary reefs. The three oyster populations in West Matagorda Bay provide spawning connectivity and function as an integrated resource for sustaining all oyster reef populations in this bay system. The model presented in this research provides a basis for understanding the population dynamics of WMB as well as a better understanding of the interaction among the reefs that sustain these populations. The model developed in this investigation provides a basis for developing oyster population models for other bay systems and for future research regarding hydrologic influences on oyster population dynamics.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-96.206262</westbc>
+        <eastbc>-96.192130</eastbc>
+        <northbc>28.586798</northbc>
+        <southbc>28.581727</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <datacred>Culbertson, J. C. 2008. Spatial and temporal patterns of oyster communities and the influence of freshwater inflows on their response to the pathogen Dermo (Perkinsus marinus) in West Matagorda Bay, Texas.
+Texas A&amp;M University. College Station, Texas.
+</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>5</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>USA Contiguous Albers Equal Area Conic</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>37.5</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TX_Matagorda_Bay</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIELD1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20111223</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

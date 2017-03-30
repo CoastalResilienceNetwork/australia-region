@@ -1,0 +1,179 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title>Mississippi Department of Marine Resources and Mississippi Secretary of State Owned Lands that are Located within Estuarine Marsh</title>
+				<geoform>vector digital data</geoform>
+				<onlink>file://\\server2\data\GIS\GIS_DATA\CONSERVATION_LANDS\COASTAL_PRESERVES\MS\Coastal_Preserves_101310_utm16N</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Vector dataset obtained from the Mississippi Department of Marine Resources (MDMR). This dataset contains parcels owned by Mississippi, Mississippi Department of Marine Resources and Mississippi Secretary of State that are located within estuarine marsh. No metadata are available for these data. Direct any questions to the Point of Contact located on the Contact tab of the Identification section of this metadata.</abstract>
+			<purpose>These data were compiled for prescribed fire planning and wildfire response purposes for the partners of the Coastal Mississippi Fire Management Cooperative.  Development of this database was funded by the Coastal Impact Assistance Program administered by the Mississippi Department of Environmental Quality and by the Mississippi Forestry Commission.</purpose>
+		</descript>
+		<spdom>
+			<bounding>
+				<westbc>-89.647315</westbc>
+				<eastbc>-88.429335</eastbc>
+				<northbc>30.518176</northbc>
+				<southbc>30.174265</southbc>
+			</bounding>
+		</spdom>
+		<keywords/>
+		<accconst>None</accconst>
+		<useconst>REQUIRED: Restrictions and legal prerequisites for using the data set after access is granted.</useconst>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>653</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+				<ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>0.0</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>MS_coastal_reserves</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>ID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OWNER_NAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Perimeter</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Area</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Acres</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Hectares</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>PARCEL_ID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>ZONING</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>NAME_1</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>ADD1</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>ADD6</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>RANGE</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>TOWNSHIP</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>TR_SECT</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>CLT_ACR2</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>UNC_ACR2</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>QUAL_CLS</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>TXDIST1</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>EXMPT_CD</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>LND_USE1</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>LND_USE2</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distliab>See access and use constraints information.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20111113</metd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_coastal_reserves.xml</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\projected\MS_coastal_reserves.xml" dest="\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_coastal_reserves.xml" date="20111113" time="08232000"></copy></copyHistory></DataProperties></Esri></metadata>

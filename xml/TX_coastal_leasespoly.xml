@@ -1,0 +1,128 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>TX_coastal_leasespoly</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\AR201-MJENKS\I$\DSS\For_Gulf_DSS\For_Zach_and_Melissa_020311\First_dump_020311\TGLO\Coastalleasespoly\Coastalleasespoly_wgs84.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Locations of structures and activities permitted by the GLO within state-owned land and waters. Includes areal features such as dredging areas, parks, mitigation projects, and conservation easements.</abstract>
+      <purpose>Historically, Texans have turned to the Texas General Land Office for maps and other tools used to organize information about the natural resources this state has to offer. Besides historical maps, research, and data, the land office today uses Geographic Information Systems (GIS), global positioning systems (GPS), and computer-aided design (CAD) systems to compile, analyze, and distribute the most accurate information possible about the location of natural and human-made resources. These tools support the business functions of the General Land Office and serve as critical tools in the study and protection of our state's valued resources. The Land Office website contains a collection of dynamic interactive mapping websites that give Texans access to the vast collection of spatial data available at the agency. The data layers represent a specific asset, leased asset, or natural resource within the State of Texas and are maintained by GLO personnel.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-97.628831</westbc>
+        <eastbc>-93.817200</eastbc>
+        <northbc>30.132683</northbc>
+        <southbc>25.964254</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>Restriction Code: other restrictions; Other Constraints: Access constraints: None</accconst>
+    <datacred>Texas General Land Office: http://www.glo.texas.gov/index.html</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>153</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TX_coastal_leasespoly</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GLO_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PROJECT_NA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GRANTEE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ACTIVITY_T</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120129</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

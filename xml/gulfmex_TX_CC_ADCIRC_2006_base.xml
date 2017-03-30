@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?> 
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>The Nature Conservancy</origin>
+				<pubdate>20131201</pubdate>
+				<pubtime>unknown</pubtime>
+				<title>ADCIRC predicted storm surge for Corpus Christi Bay, Texas in 2006 under a simulated category 1 hurricane event and initial landcover derived from the SLAMM Model.</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>TNC Coastal Conservation and Resiliency Analyses</sername>
+					<issue>Corpus Christi Bay, Texas</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>205 N. Carizzo Street, Corpus Christi, TX, 78401, US</pubplace>
+					<publish>The Nature Conservancy</publish>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20131201</pubdate>
+						<pubtime>unknown</pubtime>
+						<title>Informing conservation and resiliency planning using sea-level rise and storm-surge scenario impact estimates in Corpus Christi Bay</title>
+						<serinfo>
+							<sername>TNC Coastal Conservation and Resiliency Analyses</sername>
+							<issue>Corpus Christi Bay, Texas</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Corpus Christi, TX</pubplace>
+							<publish>The Nature Conservancy</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The map shows the predicted storm surge for Corpus Christi Bay, Texas in 2006 under a simulated category 1 hurricane event. The storm surge simulation used the 2006 landcover map of initial conditions from the Sea Level Rise Affecting Marsh Model (SLAMM) to calculate the bottom friction resistance (Manning's n) and wind roughness (Z0) parameters for the Advanced Circulation (ADCIRC) storm surge model, completed by ARCADIS, Inc. The point file consists of nodes taken from the storm surge simulation model with attributes for node ID, latitude/longitude, elevation, and maximum storm surge height. The "Elevation" attribute shows elevation in feet from mean seal level (0ft) from the North American Vertical Datum of 1988 (NAVD88), where positive values represent elevations above sea level and negative values represent elevations below sea level. The "Surge_elev" field shows the maximum elevation of storm surge in feet from mean sea level (0ft) from NAVD88, where areas not inundated by the storm surge are labeled as no data values (-328080).</abstract>
+			<purpose>This file was created for The Nature Conservancy's Sea Level Rise Project for the northern Gulf of Mexico with funding from the Coastal Bend Bays and Estuary Program (CBBEP). This dataset represents the extent and magnitude of predicted storm surge inundation that might occur in 2006 under a simulated category 1 hurricane based on modeled landcover maps of Corpus Christi Bay, Texas using the Advanced Circulation model (ADCIRC). The landcover maps used for the study area were derived from Sea Level Rise Affecting Marsh Model (SLAMM) using the 1m of sea-level rise by 2100 scenario which predict how marshes might migrate inland due to increasing sea levels. This modeling effort was motivated by the need to provide a series of technical tools to the members of the Coastal Bend Bays and Estuary Program (CBBEP) to better understand the effects of sea level rise (SLR) and storm surge in the Corpus Christi region. The implementation of the ADCIRC model for SLR analysis complements the information produced by previous studies conducted by The Nature Conservancy (TNC). The products provided as part of this effort will help coastal managers, scientist and the conservation community in identifying the additional threat posed by storm surge given one meter of SLR by 2100 in the study area. This project has been funded through grants from the Coastal Bend Bays and Estuary Program. The intent of this project is to utilize the SLAMM data to analyze the effects of future landscapes and SLR on storm surge. Future landscapes include changes in land cover type and coastal subsidence. The land cover changes are implemented by utilizing the available SLAMM output information. Subsidence is accounted for by applying a region wide value assumed in the SLAMM analyses (Warren Pinnacle Consulting).  A SLR rate of one meter by 2100 is analyzed for this study for 2050 and 2100 conditions. Four scenarios of SLR were analyzed using the ADCIRC hydrodynamic model; the model evaluated the initial conditions in 2004 with and without salt marsh present, and two future scenarios under SLR in 2050 and 2100. ADCIRC is a physics based, unstructured mesh finite element model, solving the shallow water equations for time dependent, free surface circulation problems (Luettich et al. 2004). ADCIRC is commonly applied for tidal studies, including hurricane storm surge and flooding applications by state and federal agencies throughout the United States. All maps and coordinates in this report are referenced to the NAD83 horizontal datum and NAVD88 vertical datum.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20131201</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-97.874246</westbc>
+				<eastbc>-96.841865</eastbc>
+				<northbc>28.095380</northbc>
+				<southbc>27.447728</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLAMM</themekey>
+				<themekey>Conservation</themekey>
+				<themekey>Migration</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>SLR</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>environment</themekey>
+				<themekey>oceans</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Corpus Christi Bay</placekey>
+				<placekey>United States</placekey>
+				<placekey>Texas</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2006</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data.  This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+	</idinfo>
+	<dataqual>
+		<logic>None</logic>
+		<complete>None</complete>
+		<lineage>
+			<procstep>
+				<procdesc>TNC Conservation and Resiliency analyses were created from SLAMM and ADCIRC modeling outputs for Corpus Christi Bay, Texas (see reports at www.SLRportal.org)</procdesc>
+				<procdate>20131201</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Entity point</sdtstype>
+				<ptvctcnt>188179</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>Transverse Mercator 14N</mapprojn>
+					<transmer>
+						<sfctrmer>0.9996</sfctrmer>
+						<longcm>-99.0</longcm>
+						<latprjo>0.0</latprjo>
+						<feast>500000.0</feast>
+						<fnorth>0.0</fnorth>
+					</transmer>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>TX_CC_ADCIRC_2006_base.shp</enttypl>
+				<enttypd>Conservation and Resiliency Analyses</enttypd>
+				<enttypds>The Nature Conservancy</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Node</attrlabl>
+				<attrdef>Unique internal identifier for each ADCIRC model node</attrdef>
+				<attrdefs>ARCADIS, Inc.</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Latitude</attrlabl>
+				<attrdef>Latitude coordinates of node</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Longitude</attrlabl>
+				<attrdef>Longitude coordinates of node</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Bathymetry</attrlabl>
+				<attrdef>Bathymetry (elevation) of the node in feet</attrdef>
+				<attrdefs>Digital elevation model (see ARCADIS report)</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Surge_Elev</attrlabl>
+				<attrdef>Predicted storm surge elevation in feet</attrdef>
+				<attrdefs>ARCADIS, Inc.</attrdefs>
+				<attrdomv>
+					<udom>Predicted storm surge elevation in feet, nodes wihtout storm surge predicted are assigned a value of -328080</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+			</cntinfo>
+		</distrib>
+		<distliab>See access and use constraints information</distliab>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20131201</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20131223</metd>
+		<metrd>20131223</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metuc>None</metuc>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>Unclassified</metsc>
+			<metshd>None</metshd>
+		</metsi>
+	</metainfo>
+</metadata>

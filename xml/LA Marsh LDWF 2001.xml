@@ -1,0 +1,178 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>marsh_veg_type_poly_LDWF_2001_NAD83</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains vector line information. The original data set was collected through visual field observation by Greg Linscombe of LDWF and Robert H. Chabreck of LSU Agricultural Center. The observations were made while flying over the study area (Louisiana Coastal Zone) in a Bell 206 Jet Ranger helicopter. Flight was along north/south transects spaced 1.87 miles apart from the Texas State line to the Mississippi State line. Vegetative data was obtained at pre-determined stations spaced at 0.5 miles along each transect. The stations were located using a Trimble Ag 122 Global Positioning System (GPS) and a computer running GPSView by Geowarehouse. This information was recorded manually into field tally sheets and later this information was entered into a Microsoft Access database. At this point, this information was brought into a GIS application by converting the file to a database format (dbf). The marsh type delineation lines were produced by freehanding contours through on-screen interpretation. The flight line data was used as a guide for drawing the lines. The new data set resulted in a line coverage delineating vegetative marsh types. Coverage is of the coastal region of the State of Louisiana.</abstract>
+      <purpose>To update the existing Louisiana Coastal Marsh-Vegetative Type data from the previous years (1997, 1988, 1979, 1968 and 1949).</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.911256</westbc>
+        <eastbc>-88.735611</eastbc>
+        <northbc>30.509917</northbc>
+        <southbc>28.836371</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>Acknowledgement of the U.S. Geological Survey, National Wetlands Research Center and the LA Department of Wildlife and Fisheries as a data source would be appreciated in products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of this data. Sharing new data layers developed directly from these data would also be appreciated by U.S. Geological Survey, National Wetlands Research Center staff. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. The distributor shall not be liable for improper or incorrect use of this data, based on the description of appropriate/inappropriate uses described in this metadata document. These data are not legal documents and are not to be used as such.</useconst>
+    <datacred>The U.S. Geological Survey, National Wetlands Research Center acknowledges the Louisiana Department of Wildlife and Fisheries for use of data.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>744</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>marsh_veg_type_poly_LDWF_2001_NAD83</enttypl>
+        <enttypd>An indicator of soil and water salinity of an area and comprised of plant species having similar salt tolerances</enttypd>
+        <enttypds>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VEG_CODE</attrlabl>
+        <attrdef>Vegetative Marsh type</attrdef>
+        <attrdefs>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Typical vegetation is maidencane (Panicum hemitomon), pennywort (Hydrocotyle spp.), water hyacinth (Eichhornia crassipes), pickerelweed (Pontederia cordata), alligatorweed (Alternanthera philoxeroides), and bulltongue (Sagittaria falcata).</edomvd>
+            <edomvds>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>Intermediate Marsh. Marshes of low salinity with typical vegetation consisting of wiregrass (Spartina patens), deer pea (Vigna repens), bulltongue, Walter's millet (Echinochloa walteri), bullwhip (Scirpus californicus), and sawgrass (Cladium jamaicense).</edomvd>
+            <edomvds>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>B</edomv>
+            <edomvd>Brackish Marsh. Marshes of moderate salinity with typical vegetation consisting of wiregrass, three-cornered grass (Scirpus olneyi), saltmarsh bulrush (Scirpus robustus), and widgeongrass (Ruppia maritima).</edomvd>
+            <edomvds>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>S</edomv>
+            <edomvd>Salt Marsh. Typical vegetation is oystergrass (Spartina alterniflora), glasswort (Salicornia spp.), black rush (Juncus roemerianus), saltwort (Batis maritima), black mangrove (Avicennia germinans), and saltgrass (Distichlis spicata).</edomvd>
+            <edomvds>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Non-marsh/other</edomvd>
+            <edomvds>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>W</edomv>
+            <edomvd>Water</edomvd>
+            <edomvds>Louisiana Coastal Marsh Vegetative Type Map 1988, Louisiana Department of Wildlife and Fisheries.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Swamp</edomv>
+            <edomvd>Swamp</edomvd>
+            <edomvds>2001 Marsh Vegetative Type Project defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Hectares</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110816</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

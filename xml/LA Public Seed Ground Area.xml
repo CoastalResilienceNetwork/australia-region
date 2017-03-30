@@ -1,0 +1,167 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Public Seed Ground Area</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\AR201-MJENKS\I$\DSS\For_Gulf_DSS\SONRIS\Coastal_Restoration_Project_Features_Polygon\Coastal_Rest_Project_InfraPoly.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The intended purpose of this dataset is to identify the productive and unproductive oyster seed grounds in coastal Louisiana.</abstract>
+      <purpose>The state maintains large acreages of water bottoms that are designated as public seed grounds and reservations. These public areas are actively managed to provide a steady supply of seed oysters for fishermen to transplant onto private leases. State seed grounds are designated as such by Wildlife and Fisheries Commission action.
+
+</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.437779</westbc>
+        <eastbc>-88.810254</eastbc>
+        <northbc>30.312955</northbc>
+        <southbc>28.833610</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>LDNR Disclaimer: The information on this Web site has been carefully prepared from the best available sources of data. It is intended for general informational purposes only and should not be considered authoritative for navigational, engineering, other site-specific uses, or any other uses. The Louisiana Department of Natural Resources (LDNR) does not warrant or guarantee its accuracy, nor does LDNR assume any responsibility or liability for any reliance thereon.
+
+</useconst>
+    <datacred>Louisiana Department of Wildlife and Fisheries
+Publication_Date: June 1, 2005
+
+Contact Information: 
+Contact Person: Christy Lavergne
+Contact Organization: 
+Louisiana Department of Wildlife and Fisheries
+Contact Position: Biologist
+Contact Address: 
+Address Type: physical address
+Address: 2000 Quail Drive
+City: Baton Rouge
+State or Province: Louisiana
+Postal Code: 70808
+Country: USA
+Contact Address: 
+Address Type: mailing address
+Address: PO Box 98000
+City: Baton Rouge
+State or Province: Louisiana
+Postal Code: 70898-9000
+Country: USA
+Telephone: 225-765-2386
+E-mail: clavergne@wlf.louisiana.gov
+
+
+
+
+</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>663</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Empty_for_Seed_Ground_Metadata</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FED_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PROJECT_NA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FUNDING</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PPL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRUC_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRUC_CLAS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRUC_DESC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SPONSOR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STRUC_STAT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CONSTRUCTI</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110818</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

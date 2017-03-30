@@ -1,0 +1,323 @@
+FGDC Metadata for OYSTERS
+
+Identification_Information:
+  Citation:
+    Originator: Texas General Land Office
+    Publication_Date:
+    Publication_Time:
+    Title: Oysters
+    Edition:
+    Geospatial_Data_Presentation_Form: digital
+    Series_Information:
+      Series_Name:
+      Issue_Identification:
+    Publication_Information:
+      Publication_Place:
+      Publisher: Texas General Land Office
+    Other_Citation_Details:
+    Online_Linkage: http://www.glo.state.tx.us/wetnet
+    Larger_Work_Citation:
+    Scale_Denominator: 24000
+
+  Description:
+    Abstract:
+    To address the issues of concern, and in response to the requirements
+    of the Coastal Coordination Act, the Coastal Coordination Council has
+    designated Oyster Reefs as a coastal natural resource area requiring
+    special management under the Coastal Management Program and defined as
+    Natural or artificial formations in intertidal or subtidal areas that
+    are composed of oyster shell, live oysters, and other organisms and
+    that are discrete contiguous, and clearly distinguishable from scatter-
+    ed oysters.  Oyster reefs not only support the oyster fishery but also
+    serve as habitat, forage ground, or hiding places for numerous
+    estuarine species.
+
+    Purpose:
+    The oysters data set is a compilation of three data sets.  The first
+    data set was developed by Dr. Eric Powell of Texas A&M University's
+    Department of Oceanography under the auspices of the Galveston Bay
+    National Estuary Program.  The reefs were mapped using acoustic
+    equipment designed to return echo signal from the bay bottom.  In
+    very shallow areas where a smaller boat was used, it was not
+    possible to hang the equipment over the side of the boat; therefore
+    a poling technique was used to determine the location of the oyster
+    reefs.  The second and third data sets were both acquired from the
+    Texas Parks and Wildlife Department.  One was developed by a team
+    led by Warren Pulich and used aerials circa 1989.  The other was
+    developed by Betsi Blair which also used aerial photographs and
+    surveyed submerged aquatic vegetation including oyster reefs.
+
+    Supplemental_Information:
+
+      Procedures_Used:
+
+      Revisions:
+
+      Reviews_Applied_to_Data:
+
+      Related_Spatial_and_Tabular_Data_Sets:
+
+      Other_References_Cited:
+
+      Notes:
+
+  Time_Period_of_Content:
+    Currentness_Reference:
+
+  Status:
+    Progress:  Complete
+    Maintenance_and_Update_Frequency:
+
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -97.49356594
+      East_Bounding_Coordinate: -94.49163224
+      North_Bounding_Coordinate: 29.77856715
+      South_Bounding_Coordinate: 27.75390065
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus:  none
+      Theme_Keyword:  oysters oyster reef coastal natural resource area
+    Place:
+      Place_Keyword_Thesaurus:  none
+      Place_Keyword:  Corpus Christi to Matagorda Bay and Christmas Bay to Galveston Bay
+    Stratum:
+      Stratum_Keyword_Thesaurus:  none
+      Stratum_Keyword:
+    Temporal:
+      Temporal_Keyword_Thesaurus:  none
+      Temporal_Keyword:
+  Access_Constraints:
+
+  Use_Constraints:
+
+  Point_of_Contact:
+
+  Data_Set_Credit:
+
+  Security_Information:
+    Security_Classification_System: None
+    Security_Classification:  UNCLASSIFIED
+    Security_Handling_Description: None
+  Native_Data_Set_Environment: SunOS UNIX, ARC/INFO version 7.0.4
+  Cross_Reference:
+    Originator: Dr. Eric Powell
+    Publication_Date:
+    Publication_Time:
+    Title:
+    Edition:
+    Geospatial_Data_Presentation_Form: digital
+    Series_Information:
+      Series_Name:
+      Issue_Identification:
+    Publication_Information:
+      Publication_Place:
+      Publisher: Texas A&M Dept. of Oceanograph
+    Other_Citation_Details: Galveston Bay National Estuary
+    Online_Linkage: http://www.glo.state.tx.us/wetnet
+    Larger_Work_Citation:
+  Cross_Reference:
+    Originator: Texas Parks and Wildlife Department
+    Publication_Date: 1994
+    Publication_Time:
+    Title: Submerged Aquatic Vegetation
+    Edition:
+    Geospatial_Data_Presentation_Form: digital
+    Series_Information:
+      Series_Name:
+      Issue_Identification:
+    Publication_Information:
+      Publication_Place:
+      Publisher: Texas Parks and Wildlife Dept.
+    Other_Citation_Details:
+    Online_Linkage: http://www.glo.state.tx.us/wetnet
+    Larger_Work_Citation:
+  Cross_Reference:
+    Originator: Texas Parks and Wildlife Department - Warren Pulich
+    Publication_Date: 1989
+    Publication_Time:
+    Title:
+    Edition:
+    Geospatial_Data_Presentation_Form: digital
+    Series_Information:
+      Series_Name:
+      Issue_Identification:
+    Publication_Information:
+      Publication_Place:
+      Publisher: Texas Parks and Wildlife Dept.
+    Other_Citation_Details:
+    Online_Linkage: http://www.glo.state.tx.us/wetnet
+    Larger_Work_Citation:
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:  See Entity_Attribute_Information
+    Quantitative_Attribute_Accuracy_Assessment:
+      Attribute_Accuracy_Value:  See Explanation
+      Attribute_Accuracy_Explanation:
+        Attribute accuracy is described, where present, with each
+        attribute defined in the Entity and Attribute Section.
+  Logical_Consistency_Report:  Polygon topology present.
+  Completeness_Report:
+
+
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report:
+
+  Lineage: See also Supplemental_Information:
+    Process_Step:
+      Process_Description: JMARTINE ARCEDIT /COASTAL2/JMARTINE/SAV/OYSTERS
+      Source_Used_Citation_Abbreviation:None
+      Process_Date:  19970820
+      Process_Time:  1113
+      Source_Produced_Citation_Abbreviation: None
+    Process_Step:
+      Process_Description: JMARTINE BUILD OYSTERS POLY
+      Source_Used_Citation_Abbreviation:None
+      Process_Date:  19970820
+      Process_Time:  1114
+      Source_Produced_Citation_Abbreviation: None
+    Process_Step:
+      Process_Description: JMARTINE ARCEDIT /COASTAL2/JMARTINE/SAV/OYSTERS
+      Source_Used_Citation_Abbreviation:None
+      Process_Date:  19970820
+      Process_Time:  1119
+      Source_Produced_Citation_Abbreviation: None
+    Process_Step:
+      Process_Description: JMARTINE BUILD OYSTERS POLY
+      Source_Used_Citation_Abbreviation:None
+      Process_Date:  19970820
+      Process_Time:  1121
+      Source_Produced_Citation_Abbreviation: None
+    Process_Step:
+      Process_Description: JMARTINE   DOCUMENT OYSTERS CREATE JMARTINE
+      Source_Used_Citation_Abbreviation:None
+      Process_Date:  19970820
+      Process_Time:  1232
+      Source_Produced_Citation_Abbreviation: None
+    Process_Step:
+      Process_Description: SSHERIDA COPY /COASTAL2/JMARTINE/SAV/OYSTERS OYSTERS
+      Source_Used_Citation_Abbreviation:None
+      Process_Date:  19970820
+      Process_Time:  1238
+      Source_Produced_Citation_Abbreviation: None
+  Cloud_Cover:
+
+
+Spatial_Data_Organization_Information:
+  Direct_Spatial_Reference_Method:  Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type:  Point
+      Point_and_Vector_Object_Count:  3963
+      SDTS_Point_and_Vector_Object_Type:  String
+      Point_and_Vector_Object_Count:  5796
+      SDTS_Point_and_Vector_Object_Type:  GT-polygon composed of chains
+      Point_and_Vector_Object_Count:  3961
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar
+        Map_Projection:
+          Map_Projection_Name:  ALBERS
+            Longitude_of_Central_Meridian: -100
+            Latitude_of_Projection_Origin:             31
+            Latitude_of_First_Standard_Parallel:             28
+            Latitude_of_Second_Standard_Parallel:             35
+            False_Easting:  0.00000
+            False_Northing:  0.00000
+    Geodetic Model
+      Horizontal_Datum_Name:
+      Ellipsoid_Name:  Clarke 1866
+      Semi-major_Axis: 6,378,206.4
+      Denominator_of_Flattening: 294.98
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label:  OYSTERS.PAT
+      Entity_Type_Definition:  attribute table for oysters data layer
+      Entity_Type_Definition_Source:  TPWD and GBNEP from Dr. Eric Powell
+    Attribute:
+      Attribute_Label:  -
+      Attribute_Definition:  attribute table for oysters data layer
+      Attribute_Definition_Source:  TPWD and GBNEP from Dr. Eric Powell
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:  -
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:
+    Attribute:
+      Attribute_Label:  AREA
+      Attribute_Definition:  Area of poly/region in square coverage units
+      Attribute_Definition_Source:  Computed
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:  Positive real numbers
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:
+    Attribute:
+      Attribute_Label:  PERIMETER
+      Attribute_Definition:  Perimeter of poly/region in coverage units
+      Attribute_Definition_Source:  Computed
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:  Positive real numbers
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:
+    Attribute:
+      Attribute_Label:  OYSTERS#
+      Attribute_Definition:  Internal feature number
+      Attribute_Definition_Source:  Computed
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:  Sequential unique positive integer
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:
+    Attribute:
+      Attribute_Label:  OYSTERS-ID
+      Attribute_Definition:  User-assigned feature number
+      Attribute_Definition_Source:  User-defined
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:  Integer
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:
+    Attribute:
+      Attribute_Label:  Z
+      Attribute_Definition:  'descriptor for type of bottom encountered in Dr. Powell''s study'
+      Attribute_Definition_Source:  Dr. Eric Powell - Texas A&M University - Department of Oceanography
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:  0.000, 1.000, 2.000
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:
+    Attribute:
+      Attribute_Label:  NAME
+      Attribute_Definition:  Unknown
+      Attribute_Definition_Source:  Unknown
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value:  Unknown
+          Enumerated_Domain_Value_Definition:
+          Enumerated_Domain_Value_Definition_Source:
+  Overview_Description:
+    Entity_and_Attribute_Overview:
+
+    Entity_and_Attribute_Detail_Citation: Not Available
+
+Distribution_Information:
+Metadata_Reference_Section:
+  Metadata_Date: 19970820
+  Metadata_Contact: jmartine
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version:  19940608
+  Metadata_Time_Convention:  Local Time
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System:  None
+    Metadata_Security_Classification:  UNCLASSIFIED
+    Metadata_Security_Handling_Description:  None

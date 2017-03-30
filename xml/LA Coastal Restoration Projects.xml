@@ -1,0 +1,48 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata><idinfo><citation><citeinfo><title>Coastal_Rest_Project_InfraPoly</title><geoform>vector digital data</geoform><onlink>file://\\AR201-MJENKS\I$\DSS\For_Gulf_DSS\SONRIS\Coastal_Restoration_Project_Features_Polygon\Coastal_Rest_Project_InfraPoly.shp</onlink></citeinfo></citation><descript><abstract>The intended purpose of this data set is to provide polygon features for all infrastructures associated with LDNR coastal restoration projects.</abstract><purpose>Contains polygon features for all infrastructure associated with LDNR coastal restoration projects such as borrow areas, etc.</purpose></descript><spdom><bounding><westbc>-93.437779</westbc><eastbc>-88.810254</eastbc><northbc>30.312955</northbc><southbc>28.833610</southbc></bounding></spdom><accconst>None</accconst><useconst>LDNR Disclaimer: The information on this Web site has been carefully prepared from the best available sources of data. It is intended for general informational purposes only and should not be considered authoritative for navigational, engineering, other site-specific uses, or any other uses. The Louisiana Department of Natural Resources (LDNR) does not warrant or guarantee its accuracy, nor does LDNR assume any responsibility or liability for any reliance thereon.
+
+</useconst><datacred>USGS National Wetlands Research Center, Coastal Restoration Field Station
+
+Contact Information: 
+Contact Person: Christina Hebert
+Contact Organization: 
+U.S. Geological Survey National Wetlands Research Center, Coastal Restoration Field Station
+Contact Position: Geographer
+Contact Address: 
+Address Type: physical address
+Address: 617 North 3rd Street, Room 1017G
+City: Baton Rouge
+State or Province: Louisiana
+Postal Code: 70804
+Country: USA
+Contact Address: 
+Address Type: mailing address
+Address: PO Box 44027, Capitol Station
+City: Baton Rouge
+State or Province: Louisiana
+Postal Code: 70804
+Telephone: 225-342-4125
+Fax: 225-219-9370
+E-mail: csaltus@usgs.gov</datacred><native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native></idinfo><spdoinfo><direct>Vector</direct><ptvctinf><sdtsterm><sdtstype>GT-polygon composed of chains</sdtstype><ptvctcnt>663</ptvctcnt></sdtsterm></ptvctinf></spdoinfo><spref><horizsys><planar><mapproj><mapprojn>NAD 1983 UTM Zone 15N</mapprojn><transmer><sfctrmer>0.9996</sfctrmer><longcm>-93.0</longcm><latprjo>0.0</latprjo><feast>500000.0</feast><fnorth>0.0</fnorth></transmer></mapproj><planci><plance>coordinate pair</plance><coordrep><absres>0.000000002220024164500956</absres><ordres>0.000000002220024164500956</ordres></coordrep><plandu>Meter</plandu></planci></planar><geodetic><horizdn>D North American 1983</horizdn><ellips>GRS 1980</ellips><semiaxis>6378137.0</semiaxis><denflat>298.257222101</denflat></geodetic></horizsys></spref><eainfo><detailed><enttyp><enttypl>Coastal_Rest_Project_InfraPoly</enttypl></enttyp><attr><attrlabl>FID</attrlabl><attrdef>Internal feature number.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr><attrlabl>Shape</attrlabl><attrdef>Feature geometry.</attrdef><attrdefs>ESRI</attrdefs><attrdomv><udom>Coordinates defining the features.</udom></attrdomv></attr><attr><attrlabl>FED_ID</attrlabl></attr><attr><attrlabl>STATE_ID</attrlabl></attr><attr><attrlabl>PROJECT_NA</attrlabl></attr><attr><attrlabl>FUNDING</attrlabl></attr><attr><attrlabl>PPL</attrlabl></attr><attr><attrlabl>STRUC_ID</attrlabl></attr><attr><attrlabl>STRUC_CLAS</attrlabl></attr><attr><attrlabl>STRUC_DESC</attrlabl></attr><attr><attrlabl>SPONSOR</attrlabl></attr><attr><attrlabl>STRUC_STAT</attrlabl></attr><attr><attrlabl>COMMENTS</attrlabl></attr><attr><attrlabl>CONSTRUCTI</attrlabl></attr></detailed></eainfo><distinfo><distliab>See access and use constraints information.</distliab></distinfo><metainfo><metd>20110818</metd><metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv></metainfo><dataIdInfo><idPurp>Contains polygon features for all infrastructure associated with LDNR coastal restoration projects such as borrow areas, etc.</idPurp><idAbs>&lt;DIV STYLE="text-align:Left;"&gt;&lt;DIV&gt;&lt;P&gt;&lt;SPAN&gt;The intended purpose of this data set is to provide polygon features for all infrastructures associated with LDNR coastal restoration projects.&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;&lt;/DIV&gt;</idAbs><idCredit>USGS National Wetlands Research Center, Coastal Restoration Field Station
+
+Contact Information: 
+Contact Person: Christina Hebert
+Contact Organization: 
+U.S. Geological Survey National Wetlands Research Center, Coastal Restoration Field Station
+Contact Position: Geographer
+Contact Address: 
+Address Type: physical address
+Address: 617 North 3rd Street, Room 1017G
+City: Baton Rouge
+State or Province: Louisiana
+Postal Code: 70804
+Country: USA
+Contact Address: 
+Address Type: mailing address
+Address: PO Box 44027, Capitol Station
+City: Baton Rouge
+State or Province: Louisiana
+Postal Code: 70804
+Telephone: 225-342-4125
+Fax: 225-219-9370
+E-mail: csaltus@usgs.gov</idCredit><idCitation><resTitle>Coastal_Rest_Project_InfraPoly</resTitle></idCitation><resConst><Consts><useLimit>LDNR Disclaimer: The information on this Web site has been carefully prepared from the best available sources of data. It is intended for general informational purposes only and should not be considered authoritative for navigational, engineering, other site-specific uses, or any other uses. The Louisiana Department of Natural Resources (LDNR) does not warrant or guarantee its accuracy, nor does LDNR assume any responsibility or liability for any reliance thereon.</useLimit></Consts></resConst></dataIdInfo><mdDateSt>20110818</mdDateSt><Esri><ModDate>20110818</ModDate><ModTime>16183600</ModTime><ArcGISProfile>FGDC</ArcGISProfile></Esri></metadata>

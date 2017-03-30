@@ -1,0 +1,122 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>oyster_wave_profile1</title>
+        <geoform>vector digital data</geoform>
+        <othercit>Alsina, J.M. and Baldock, T.E., 2007. Improved representation of breaking wave energy dissipation in parametric wave transformation models, Coast. Eng., 54.
+
+Apotsos, A., Raubenheimer, B., Elgar, S. and Guza, R.T., 2008. Testing and calibrating parametric wave transformation models on natural beaches, Coast. Eng., 55.
+
+Van der Meer, J.W., Briganti, R., Zanuttigh, B. and Wang, B., 2005. Wave transmission and reflection at low crested structures: design formulae, oblique wave attack and spectral change, Coast. Eng., 52.</othercit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>The Nearshore Waves model in InVEST evaluates the potential of trapezoidal shaped oyster reefs and Reef Balls™ for reducing wave height, and wave energy, in coastal areas.  Wind-generated waves that travel from offshore regions to shores generally increase in height as they enter coastal regions, and become unstable and break, or dissipate some of their energy, when they enter shallow waters.  However, once broken, the waves’ remaining energy continues to travel towards the shoreline, sometimes causing erosion or at least bottom sediment suspension and movement.  
+
+Oyster reefs help reduce the amount of wave energy that reaches the shoreline because they constitute physical obstacles that forces waves to break, and dissipate more of their energy in the process.  Marine InVEST quantifies the amount of wave breaking induced by oyster reefs by modeling profiles of wave height in the nearshore in the presence and absence of those structures.  Model inputs consists of a shore-perpendicular 1-Dimensional bathymetry profile that extends from the shoreline to deep water, a value of offshore wave height and associated wave period, and the oyster reef physical characteristics and location.  From those inputs, the tool models the evolution of the input wave from the offshore region to the shoreline over the bathymetry, following the equations proposed by Alsina and Baldock (2007).  This model performed well when compared to various field measurements, even without calibration (Apostos et al., 2008).  When waves encounter the oyster reef, the model sidesteps the computation of dissipation caused by the breaking process and estimates directly the transmitted wave height shoreward of that structure following the equation of van der Meer et al. (2005).  The transmission coefficient is a function of the structure submergence, crest and base width, as well as the incident wave height.  Evolution of the wave from the reef to the shore is then computed using the aforementioned model.  
+
+For more information go to Natural Capital Project 
+
+</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-88.299971</westbc>
+        <eastbc>-88.274673</eastbc>
+        <northbc>30.382447</northbc>
+        <southbc>30.328693</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>7384</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>oyster_wave_profile1</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RASTERVALU</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PT_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PT_ID_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>x</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>depth</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>wave_nreef</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>wave_reef</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111223</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

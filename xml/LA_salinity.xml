@@ -1,0 +1,213 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Minerals Management Service</origin>
+        <pubdate>20020731</pubdate>
+        <title>LA_salinity</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>New Orleans, Louisiana</pubplace>
+          <publish>U.S. Minerals Management Service</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These data characterize coastal environments and wildlife by their sensitivity to spilled oil. The G-WIS data include shoreline habitats, sensitive biological resources, and human-use resources. Shapefiles and relational data tables representing the environmental sensitivity index (ESI), biology, and socio-economic components of the Louisiana Gulf-Wide Information System (G-WIS). Note that these data are delivered in Geographic coordinates (NAD83). The conversion of the spatial data layers from the original UTM working projection to the Geographic coordinate system resulted in a small decrease in precision, and necessitated small changes in some coverages and relational data tables to maintain topological and data integrity. The combined set of shapefiles, tables, metadata and additional information files is approximately 335 megabytes.</abstract>
+      <purpose>The G-WIS data are created to support environmental assessments associated with oil and gas exploration, production, and transportation activities in the Gulf of Mexico. The G-WIS data structure is closely related to the Environmental Sensitivity Index (ESI) data structure used by NOAA, USCG, and other agencies for oil spill planning and response purposes. These data therefore support the requirements of the Clean Water Act, with amendments by the Oil Pollution Act of 1990, in the development of response plans for immediate and effective protection of sensitive resources. G-WIS and ESI data are also appropriate for other natural resource management and environmental assessment purposes.</purpose>
+      <supplinf>These metadata describe shapefiles that are related to the ESI data. The metadata for this data set are encapsulated into several documents and graphics files. The metadata are not complete if you did not receive the following files along the dataset &gt;gwis-esi.text - this metadata in ASCII text form &gt;gwis-esi.html - this metadata in HTML form &gt;gwis-esi_faq.html - this metadata presented as Questions and Answers &gt;gwis-esi.xml - this metadata in XML form &gt;gwis-esi.sgml - this metadata in SGML form &gt;gwis-esi1.gif - thumbnail graphic of data set &gt;GWIS-ESI_README.HTML &gt;gwis-esi_readme.txt</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19720123</begdate>
+          <enddate>20020731</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Shoreline types were mapped using photointerpretation, helicopter overflights, and ground surveys conducted.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-93.904731</westbc>
+        <eastbc>-88.758367</eastbc>
+        <northbc>30.482044</northbc>
+        <southbc>28.854473</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Oil spill planning</themekey>
+        <themekey>Coastal Zone Management</themekey>
+        <themekey>Wildlife</themekey>
+        <themekey>Coastal resources</themekey>
+        <themekey>ESI</themekey>
+        <themekey>G-WIS</themekey>
+        <themekey>Sensitivity maps</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Louisiana</placekey>
+      </place>
+    </keywords>
+    <accconst>Restriction Code: other restrictions; Other Constraints: Access constraints: none</accconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Minerals Management Service</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>1201 Elmwood Park Boulevard</address>
+          <city>New Orleans</city>
+          <state>LA</state>
+          <postal>70123-2394</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(504) 736-2782</cntvoice>
+        <hours>0800-1600 CST</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>&lt;URL:gwis-esi1.gif&gt;</browsen>
+      <browsed>thumbnail graphic of data set</browsed>
+      <browset>GIF</browset>
+    </browse>
+    <datacred>This project was supported by the Minerals Management Service (MMS) 1201 Elmwood Park Blvd., MS-5220, New Orleans, LA 70123-2394. Norman Froomer with MMS coordinated the larger G-WIS project and was particularly supportive during the Louisiana portion of the project. This project was coordinated by Louisiana State University (LSU), Center for Coastal, Energy and Environmental Resources (CCEER) and the Department of Geography and Anthropology, 302 Howe-Russell, Baton Rouge, LA 70803. DeWitt Braud, Dina Sa, Hampton Peele, and Lynda Wayne were key contributors to the project. The majority of natural resources data used to develop the larger LA G-WIS data set were provided by the LDWF. Jim Hanifen coordinated the LDWF effort. The following LDWF personnel (listed alphabetically) were major Jan Bowman, Heather Warner Finley, Robert Helm, Noel Kinler, Gary Lester, Greg Linscombe, Mike Olinde, Gary Tilyou, and Bill Vermillion. At Research Planning, Inc. (RPI), Scott Zengel was the Project Manager. Colin Plank and Miles Hayes performed the shoreline classification. Zach Nixon was the GIS Coordinator, Jon Whitlock, and Jennifer Rainman performed data processing, and Kristi Suggs prepared the final metadata. Joanne Halls and William Holton contributed to the conceptual design of the project and participated in the LA G-WIS pilot project, which preceded this final data set.</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>703</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LA_salinity</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SALINITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA_SQM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIM_M</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA_AC</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Minerals Management Service</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>1201 Elmwood Park Boulevard</address>
+          <city>New Orleans</city>
+          <state>LA</state>
+          <postal>70123-2394</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(504) 736-2782</cntvoice>
+        <hours>0800-1600 CST</hours>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <fees>Contact distribution point of contact</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20020731</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20120201</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Louisiana Geographic Information Center</cntorg>
+          <cntper>Dina Sa</cntper>
+        </cntorgp>
+        <cntpos>Research Associate 4</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>E313 Howe-Russell Louisiana State University</address>
+          <city>Baton Rouge</city>
+          <state>LA</state>
+          <postal>70803</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>(225) 578-8358</cntvoice>
+        <cntemail>&lt;URL:mailto:dsa@lsu.edu&gt;</cntemail>
+        <hours>0800-1630 CST</hours>
+        <cntinst>Electronic messages preferred</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

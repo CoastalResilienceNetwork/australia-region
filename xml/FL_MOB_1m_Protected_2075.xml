@@ -1,0 +1,119 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>The Nature Conservancy</origin>
+        <title>MOB_2075_1m_Prot_WebMerc</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This raster data layer is the output of a simulation model named Sea Level Affecting Marshes Model (SLAMM) version 6.1 beta (www.warrenpinnacle.com). This is the simulated result for one specific time-step in the scenario modeled. Each raster cell value represents a vegetation category specific to the SLAMM model. Vegetation categories are described in the SLAMM 6 beta Technical Documentation.</abstract>
+      <purpose>This sea level rise simulation was performed by The Nature Conservancy for a project funded by the USEPA Gulf of Mexico Program, Project Number: MX-95463410-0, "Modeling and Abating the Impacts of Sea Level Rise on Five Significant Estuarine Systems in the Gulf of Mexico".</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.216834</westbc>
+        <eastbc>-87.688187</eastbc>
+        <northbc>31.189367</northbc>
+        <southbc>30.205743</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>SLAMM</themekey>
+        <themekey>sea level rise</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Mobile</placekey>
+      </place>
+    </keywords>
+    <accconst>The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accconst>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo />
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 16N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-87.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>VAT_MOB_2075_1m_Prot_WebMerc</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120726</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Kathy Freeman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Physical and Mailing</addrtype>
+          <address>222 S Westmonte DR</address>
+          <city>Altamonte Springs</city>
+          <state>FL</state>
+          <postal>32714</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>407-682-3664</cntvoice>
+        <cntemail>kfreeman@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

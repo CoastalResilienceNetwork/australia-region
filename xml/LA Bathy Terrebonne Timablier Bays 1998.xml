@@ -1,0 +1,82 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Bathymetry for Terrebonne/Timbalier Bays 1998</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The high resolution bathymetric data are gridded to 30m cells defined on a UTM projection where the locations of the value for each cell are at coordinates in UTM meter units evenly divisible by 30. The origin of these units is 500,000 meters west of the central meridian for the UTM projection and the equator. It should be noted that these UTM grids do NOT align with geographic parallels and meridians which define the extents of these DEM data sets. The lower resolution bathymetric data are gridded to 3 arc second cells defined on a geographic projection (latitude &amp; longitudes) with units of arc seconds (1 degee = 3600 arc seconds). The locations of the value for each cell are at geographic coordinates in arc second units evenly divisible by 3. The origin of these units is the prime meridian and the equator. The vertical extent of these grid cells are approximately 90m in length. The horizontal extent of these grid cells vary with latitude and in the real world the cells are not square. These grids are congruent with geographic parallels and meridians which define the extents of these DEM data sets. These 3 arc second gridded data are equivalently referred to as 3 arc second, Degree Square (DSQ), or 90m data. In this context these terms are interchangeable.The 3 arc second bathymetric data were derived from the higher resolution 30m gridded bathymetry and not generated independently. Null values (encoded -32767 within the DEMs) are used to represent all locations either above (outside) the local high water datum (the shoreline as defined by the National Ocean Service) or outside the extents of the estuary as delineated by the CAF. Bathymetric elevations within these data sets are referenced to the local tidal datum which typicaly is Mean Lowest Low Water (MLLW) averaged over a 19 year tidal epoch. Elevations above this datum (between the datum and the shoreline) have positive values (meters to centimeter resolution) while those below are negative. Note that this datum is different from that used by USGS for land elevation data that it distributes in DEM form which are referenced to Mean Sea Level (MSL).</abstract>
+      <purpose>Bathymetry for Terrebonne/Timbalier Bays 
+was derived from twelve surveys containing 94,975 
+soundings. No surveys were omitted. The average 
+separation between soundings was 115 meters. The 
+surveys used dated from 1934 and 1935. The 
+soundings ranged from 0.3 meters to -16.8 meters at 
+mean low water. Mean high water values of 0.4 and 
+0.5 meters were assigned to the shoreline. Six points 
+were found that were not consistent with the 
+surrounding data. These were removed prior to 
+tinning. Terrebonne/Timbalier Bays have twenty-
+three 7.5 minute DEMs and two one degree DEMs.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-91.131108</westbc>
+        <eastbc>-90.222570</eastbc>
+        <northbc>29.366052</northbc>
+        <southbc>29.027640</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>THESE BATHYMETRIC DATA SHOULD NOT BE USED FOR NAVIGATION PURPOSES</useconst>
+    <datacred>Shared with The Nature Conservancy by Lousiana State University.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>1193</rowcount>
+      <colcount>2923</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1927 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer />
+            <longcm />
+            <latprjo />
+            <feast />
+            <fnorth />
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000022200019600404634</absres>
+            <ordres>0.0000000022200019600404634</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.9786982</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <metainfo>
+    <metd>20110816</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

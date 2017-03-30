@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Warren Pinnacle Consulting, Inc. </origin>
+				<pubdate>20110422</pubdate>
+				<title>Landcover Map of Galveston Bay, Texas Produced from the Sea Level Rise Affecting Marsh Model (SLAMM) Using the 1m of Sea Level Rise by 2100 Scenario in 2075</title>
+				<geoform>raster digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The image shows the SLAMM landcover cateogories for Galveston Bay, Texas in 2075 derived from the the Sea Level Rise Affecting Marsh Model (SLAMM) version 6. The model used the 1 meter of sea-level rise by 2100 scenario and was produced by Warren Pinnacle Consulting, Inc. for the Nature Conservancy. The purpose of this map was to show how marshes are predicted to migrate inland due to increases in sea level by 2100. The SLAMM model produced landcover maps for 5 points in time for this specific sea level rise scenario, which included the starting point in 2004 and predicted landcover maps for 2025, 2050, 2075 and 2100. The SLAMM version 6 technical document can be accessed at http://warrenpinacle.com/prof/SLAMM.</abstract>
+			<purpose> Introduction: Tidal marshes are among the most susceptible ecosystems to climate change, especially accelerated sea-level rise (SLR). The Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) suggested that global sea level will increase by approximately 30 cm to 100 cm by 2100 (IPCC 2001). Rahmstorf (2007) suggests that this range may be too conservative and that the feasible range by 2100 is 50 to 140 cm. Rising sea levels may result in tidal marsh submergence (Moorhead and Brinson 1995) and habitat “migration” as salt marshes transgress landward and replace tidal freshwater and irregularly-flooded marsh (R. A. Park et al. 1991). In 2010 and 2011, The Nature Conservancy and Warren Pinnacle Consulting, Inc. worked together to produce an analysis of the potential effects of SLR on Galveston Bay, TX. Funding for TNC was provided through a grant from the Gulf of Mexico Foundation to support the Habitat Conservation &amp; Restoration Team, a part of the Governor’s Gulf of Mexico Alliance. Executive Summary: In order to understand the potential future impacts of sea-level rise (SLR) on the ecology of Galveston Bay, the Sea-Level Affecting Marshes Model (SLAMM) was applied. A grant from the Gulf of Mexico Foundation to support the Habitat Conservation &amp; Restoration Team, a part of the Governor’s Gulf of Mexico Alliance, was used to fund research to parameterize, calibrate, and run forecast simulations of multiple SLR scenarios until the year 2100. Historical wetland coverage information from a 1979 National Wetlands Inventory (NWI) survey was used as a starting point for model hindcasting. Hindcast simulations were run until 2004, the photo date of the newest NWI data layer. Despite significant changes in the wetland coverages in large areas of the bay due to anthropogenic changes and/or changes in NWI coding techniques, after multiple iterations of model calibration hindcast results indicated the model able to predict wetland loss in critical areas of the bay with reasonable accuracy (e.g. observed salt marsh loss in West Bay = 14%, SLAMM predicted 12%). The calibrated model was run for five individual SLR scenarios: 0.39, 0.69, 1, 1.5, and 2 m of SLR by 2100. At 1 m of SLR by 2100, what scientists consider to be the “most-likely” scenario, SLAMM predicts 67% losses of irregularly-flooded (or brackish) marsh throughout the bay. Under the same SLR scenario, 92% of the tidal swamp in the Trinity River delta is predicted to be lost. A map of erosion was produced to indicate the areas that are predicted to undergo the highest amount of marsh erosion, and showed the marshes protecting the Trinity Delta and Christmas Bay to be the most threatened by erosional forces. Simulations were also completed to assess the effect of elevation data layer uncertainty and the sensitivity of model results to individual parameters. Based on a LiDAR RMSE of 18 cm and a VDATUM correction RMSE of 10.1 cm, elevation uncertainty analysis indicated that model results are not very sensitive to error. Sensitivity analysis suggested tidal swamp, tidal flat, ocean beach, irregularly-flooded marsh, and estuarine beach were the most sensitive land cover types to changes in the historic trend parameter, which represents the rate of land subsidence. Overall, the application of SLAMM to Galveston Bay indicated marsh communities are susceptible to sea-level rise.</purpose>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-95.377978</westbc>
+				<eastbc>-94.334855</eastbc>
+				<northbc>29.987053</northbc>
+				<southbc>28.937281</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>SLAMM</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLR</themekey>
+				<themekey>Galveston</themekey>
+				<themekey>Bay</themekey>
+				<themekey>Texas</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>Migration</themekey>
+			</theme>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The user accepts all responsibility for use of these data.</useconst>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<rowcount>13422</rowcount>
+			<colcount>11612</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>glv_2075_1m.vat</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>Rowid</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>VALUE</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>COUNT</attrlabl>
+			</attr>
+		</detailed>
+	</eainfo>
+	<metainfo>
+		<metd>20111221</metd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><CreaDate>20111222</CreaDate><CreaTime>14452900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\inetpub\wwwroot\xml\glv_2075_1m</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Texas\SLR_Project_Data\all_metadata\glv_2075_1m" dest="\\MAPS21\C$\inetpub\wwwroot\xml\glv_2075_1m" date="20111222" time="14452900"></copy></copyHistory></DataProperties></Esri></metadata>

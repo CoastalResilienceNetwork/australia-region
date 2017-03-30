@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?> 
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>The Nature Conservancy</origin>
+				<pubdate>20131201</pubdate>
+				<pubtime>unknown</pubtime>
+				<title>Potential marsh conservation priority areas in 2100 due to 1m of Sea-Level Rise for Corpus Christi Bay, Texas.</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>TNC Coastal Conservation and Resiliency Analyses</sername>
+					<issue>Corpus Christi Bay, Texas</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>205 N. Carizzo Street, Corpus Christi, TX, 78401, US</pubplace>
+					<publish>The Nature Conservancy</publish>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20131201</pubdate>
+						<pubtime>unknown</pubtime>
+						<title>Informing conservation and resiliency planning using sea-level rise and storm-surge scenario impact estimates in Corpus Christi Bay</title>
+						<serinfo>
+							<sername>TNC Coastal Conservation and Resiliency Analyses</sername>
+							<issue>Corpus Christi Bay, Texas</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Corpus Christi, TX</pubplace>
+							<publish>The Nature Conservancy</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset was made to show all salt marshes (irregularly- and regularly-flooded) in Corpus Christi Bay, Texas in 2100 with 1 meter of sea level rise that are adjacent to but outside of management areas. These areas were identified as priority conservation areas based on their proximity to currently existing federal, state and TNC managmed lands within the study area. The two data types used for this analysis consisted of predicted landcover maps created by the SLAMM model and federal and state conservation areas. The SLAMM maps that were used were created by The Nature Conservancy (Florida) and consisted of predicted landcover maps from 2006 up to the year 2100 with a 15 meter resolution that showed how marshes are predicted to migrate inland due to multiple scenarios of sea-level rise. The SLAMM maps with the 1m sea-level rise scenarios for each project site were selected, where the regularly and irregularly flooded marsh categories were chosen for the analysis. The conservation areas selected were the same as the ones used in the previous analysis, which included all federally owned lands, state-level conservation areas, and TNC preserves. The conservation areas that were used were all those that were fell within the study area boundaries. The methodology for this analysis consisted of extracting all areas of irregularly and regularly flooded marshes from the 2100 predicted landcover maps for each project site. The 2100 marsh areas represent all of the marsh areas that either persisted or gained new area by 2100 due to 1m of sea-level rise and were extracted from each landcover image and then merged together. The next part of the analysis consisted of merging all state and federal conservation areas into a single file, clipping them to the study area for each project site, and then rasterizing them to the same resolution and extent of the SLAMM scenarios. Once the conservation area maps and marsh area maps were reclassified, then a raster calculation was conducted by summing each pixel between both images, to identify pixels that were marsh areas that did not fall within current conservation boundaries. These pixels were then extracted to form a new image of marsh areas by 2100 that are adjacnet to but outside of current conservation area boundaries.</abstract>
+			<purpose>This file was created for The Nature Conservancy's Sea Level Rise Project for the northern Gulf of Mexico with funding from the Coastal Bend Bays and Estuary Program (CBBEP). The purpose of this analysis was to identify priority marsh conservation areas based on the results from the Sea-Level Rise Affecting Marsh Model (SLAMM) for Corpus Christi Bay, Texas. The analysis consisted of two parts, which included the identification of current marsh areas that are predicted to persist until 2100 with 1m of sea-level rise, as well as new areas that are marshes are predicted to migrate into by 2100 with 1m of sea-level rise. The second part of the analysis consisted of identifying these marsh areas that lie outside of current conservation areas, which would constitute areas of priority for future protection. The marsh areas used for the analysis consisted of the regularly and irregularly flooded marsh categories from the SLAMM landcover maps coming from the National Wetland Inventory (2006) used in the SLAMM assessment for Corpus Christi Bay. This dataset shows all predicted salt marshes (>2500 sq. meters) in 2100 with 1 meter of sea level rise that are adjacent to but fall outside federal, state and/or Nature Conservancy managed lands within the Corpus Christi Bay, Texas project area boundaries. The data for this shapefile comes from SLAMM datasets, TNC lands data and The Protected Areas Database of the United States (PAD-US), which is a geodatabase, managed by USGS GAP, that illustrates and describes public land ownership, management and other conservation lands, including voluntarily provided privately protected areas. Management areas shown here are either federal, state, or managed by The Nature Conservancy and potentially do not include all management areas within the study area, nor do they consider the level of protection per management area.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20131201</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-97.644320</westbc>
+				<eastbc>-97.023500</eastbc>
+				<northbc>27.989512</northbc>
+				<southbc>27.570191</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLAMM</themekey>
+				<themekey>Conservation</themekey>
+				<themekey>Migration</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>SLR</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>environment</themekey>
+				<themekey>oceans</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Corpus Christi Bay</placekey>
+				<placekey>United States</placekey>
+				<placekey>Texas</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2006</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data.  This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+	</idinfo>
+	<dataqual>
+		<logic>None</logic>
+		<complete>None</complete>
+		<lineage>
+			<procstep>
+				<procdesc>TNC Conservation and Resiliency analyses were created from SLAMM and ADCIRC modeling outputs for Corpus Christi Bay, Texas (see reports at www.SLRportal.org)</procdesc>
+				<procdate>20131201</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Complete chain</sdtstype>
+				<ptvctcnt>125</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>Transverse Mercator 14N</mapprojn>
+					<transmer>
+						<sfctrmer>0.9996</sfctrmer>
+						<longcm>-99.0</longcm>
+						<latprjo>0.0</latprjo>
+						<feast>500000.0</feast>
+						<fnorth>0.0</fnorth>
+					</transmer>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>TX_CC_MarshConservePriorityAreas_2100_1m_SLR.shp</enttypl>
+				<enttypd>Conservation and Resiliency Analyses</enttypd>
+				<enttypds>The Nature Conservancy</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ObjectID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated, which indicate the marsh polygon identification from the previous analysis.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attrdef>Feature geometry</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Feature geometry</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Area defining the features in sq. meters.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+			</cntinfo>
+		</distrib>
+		<distliab>See access and use constraints information</distliab>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20131201</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20131223</metd>
+		<metrd>20131223</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metuc>None</metuc>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>Unclassified</metsc>
+			<metshd>None</metshd>
+		</metsi>
+	</metainfo>
+</metadata>

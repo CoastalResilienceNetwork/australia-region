@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?> 
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>The Nature Conservancy</origin>
+				<pubdate>20120101</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title>Existing marsh management areas in Galveston Bay and Jefferson County, Texas</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>TNC Conservation Planning Analyses</sername>
+					<issue>Galveston Bay and Jefferson County, Texas</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Corpus Christi, TX</pubplace>
+					<publish>The Nature Conservancy</publish>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20120101</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>Informing conservation planning using sea-level rise and storm surge impact estimates in the Galveston Bay and Jefferson County, Texas area</title>
+						<serinfo>
+							<sername>TNC Conservation Planning Analyses</sername>
+							<issue>Galveston Bay and Jefferson County, Texas</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Corpus Christi, TX</pubplace>
+							<publish>The Nature Conservancy</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<purpose>This dataset was made to show irregularly- and regularly-flooded marshes that are within and outside of management areas that are managed by federal and state governent, or by The Nature Conservancy.  </purpose>
+			<abstract>This dataset shows existing irregularly- and regularly-flooded marshes that are within and outside of management areas.  Management areas shown here are either federal, state, or managed by The Nature Conservancy and potentially do not include all management areas within the study area, nor do they consider the level of protection per management area.</abstract>
+		</descript>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120101</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-95.354965</westbc>
+				<eastbc>-93.831783</eastbc>
+				<northbc>29.906817</northbc>
+				<southbc>28.944026</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Conservation</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLR</themekey>
+				<themekey>Migration</themekey>
+				<themekey>SLAMM</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Galveston Bay</placekey>
+				<placekey>Jefferson County</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2004</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical address</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data were collected using methods that have unknown accuracy</attraccr>
+		</attracc>
+		<logic>Tests for integrity have not been performed</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Conservation analyses were created from SLAMM and ADCIRC modeling outputs</procdesc>
+				<procdate>20120101</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true1021003857</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu />
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="TX_GB_JC_ExistingMarshManagement">
+			<enttyp>
+				<enttypl>TX_GB_JC_ExistingMarshManagement</enttypl>
+				<enttypd>Feature Class</enttypd>
+				<enttypds>The Nature Conservancy</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FID_allmar</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>GRIDCODE</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>F_AREA</attrlabl>
+				<attrdef>Area of Feature</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COUNT</attrlabl>
+				<attrdef>Count of rastor cells making up the features from feature to rastor conversion in ArcGIS</attrdef>
+				<attrdefs>ESRI</attrdefs>				
+			</attr>
+			<attr>
+				<attrlabl>m_persist</attrlabl>
+				<attrdef>Marsh persistence area</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>viab2100</attrlabl>
+				<attrdef>Marsh viability score in 2100 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FID_Galv_m</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>STATE</attrlabl>
+				<attrdef>2-letter state abbreviation for management units in the United States</attrdef>
+				<attrdefs>US Government</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Texas</edomvd>
+						<edomv>TX</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SOURCE</attrlabl>
+				<attrdef>Data source.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>AREANAM</attrlabl>
+				<attrdef>The primary name of the property (publicly viewable).</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>AREANAM2</attrlabl>
+				<attrdef>Secondary name for management unit (not publicly viewable).</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>DESGNTN</attrlabl>
+				<attrdef>Area designation (e.g. National Park).</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Conservation Preserve</edomvd>
+						<edomv>Conservation Preserve</edomv>
+					</edom>
+					<edom>
+						<edomvd>Conservation Registry Program</edomvd>
+						<edomv>Conservation Registry Program</edomv>
+					</edom>
+					<edom>
+						<edomvd>Ecosystem Services Protection</edomvd>
+						<edomv>Ecosystem Services Protection</edomv>
+					</edom>
+					<edom>
+						<edomvd>Historic or Cultural Area</edomvd>
+						<edomv>Historic or Cultural Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>Industrial</edomvd>
+						<edomv>Industrial</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Forests, Grasslands and Arid Lands</edomvd>
+						<edomv>National Forests, Grasslands and Arid Lands</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Landscape Conservation Area</edomvd>
+						<edomv>National Landscape Conservation Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Other</edomvd>
+						<edomv>National Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Park</edomvd>
+						<edomv>National Park</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Special Interest / Management Area</edomvd>
+						<edomv>National Special Interest / Management Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Wilderness Preservation Area</edomvd>
+						<edomv>National Wilderness Preservation Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Wildlife Refuge Area</edomvd>
+						<edomv>National Wildlife Refuge Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>Natural Resource Management Area</edomvd>
+						<edomv>Natural Resource Management Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>Open Space Preserve</edomvd>
+						<edomv>Open Space Preserve</edomv>
+					</edom>
+					<edom>
+						<edomvd>Research or Experimental Lands</edomvd>
+						<edomv>Research or Experimental Lands</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown Designation</edomvd>
+						<edomv>Unknown Designation</edomv>
+					</edom>
+					<edom>
+						<edomvd>Working / Stewardship Landscape</edomvd>
+						<edomv>Working / Stewardship Landscape</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DESGNTN2</attrlabl>
+				<attrdef>Secondary area designation.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Conservation Preserve</edomvd>
+						<edomv>Conservation Preserve</edomv>
+					</edom>
+					<edom>
+						<edomvd>Conservation Registry Program</edomvd>
+						<edomv>Conservation Registry Program</edomv>
+					</edom>
+					<edom>
+						<edomvd>Ecosystem Services Protection</edomvd>
+						<edomv>Ecosystem Services Protection</edomv>
+					</edom>
+					<edom>
+						<edomvd>Historic or Cultural Area</edomvd>
+						<edomv>Historic or Cultural Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>Industrial</edomvd>
+						<edomv>Industrial</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Forests, Grasslands and Arid Lands</edomvd>
+						<edomv>National Forests, Grasslands and Arid Lands</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Landscape Conservation Area</edomvd>
+						<edomv>National Landscape Conservation Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Other</edomvd>
+						<edomv>National Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Park</edomvd>
+						<edomv>National Park</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Special Interest / Management Area</edomvd>
+						<edomv>National Special Interest / Management Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Wilderness Preservation Area</edomvd>
+						<edomv>National Wilderness Preservation Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>National Wildlife Refuge Area</edomvd>
+						<edomv>National Wildlife Refuge Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>Natural Resource Management Area</edomvd>
+						<edomv>Natural Resource Management Area</edomv>
+					</edom>
+					<edom>
+						<edomvd>Open Space Preserve</edomvd>
+						<edomv>Open Space Preserve</edomv>
+					</edom>
+					<edom>
+						<edomvd>Research or Experimental Lands</edomvd>
+						<edomv>Research or Experimental Lands</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown Designation</edomvd>
+						<edomv>Unknown Designation</edomv>
+					</edom>
+					<edom>
+						<edomvd>Working / Stewardship Landscape</edomvd>
+						<edomv>Working / Stewardship Landscape</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OWNER</attrlabl>
+				<attrdef>General ownership category.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Federal</edomvd>
+						<edomv>Federal</edomv>
+					</edom>
+					<edom>
+						<edomvd>Joint Ownership</edomvd>
+						<edomv>Joint Ownership</edomv>
+					</edom>
+					<edom>
+						<edomvd>Local</edomvd>
+						<edomv>Local</edomv>
+					</edom>
+					<edom>
+						<edomvd>Other</edomvd>
+						<edomv>Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>Private</edomvd>
+						<edomv>Private</edomv>
+					</edom>
+					<edom>
+						<edomvd>State / Province</edomvd>
+						<edomv>State / Province</edomv>
+					</edom>
+					<edom>
+						<edomvd>Tribal</edomvd>
+						<edomv>Tribal</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>Unknown</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AGENCY</attrlabl>
+				<attrdef>Name of managing agency.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CONSTAT</attrlabl>
+				<attrdef>Likelihood that an existing conservation situation is sufficient to secure biodiversity and allow for its persistence  (not publicly viewable)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Very Good</edomvd>
+						<edomv>Very Good</edomv>
+					</edom>
+					<edom>
+						<edomvd>Good</edomvd>
+						<edomv>Good</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fair</edomvd>
+						<edomv>Fair</edomv>
+					</edom>
+					<edom>
+						<edomvd>Poor</edomvd>
+						<edomv>Poor</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>Unknown</edomv>
+					</edom>
+					<edom>
+						<edomvd>No Value</edomvd>
+						<edomv>No Value</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TENUREEXP</attrlabl>
+				<attrdef>Date at which current conservation agreement expires.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>IUCNCAT</attrlabl>
+				<attrdef>IUCN category of management unit, indicating level of protection.</attrdef>
+				<attrdefs>IUCN</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>I</edomvd>
+						<edomv>I</edomv>
+					</edom>
+					<edom>
+						<edomvd>Ia</edomvd>
+						<edomv>Ia</edomv>
+					</edom>
+					<edom>
+						<edomvd>Ib</edomvd>
+						<edomv>Ib</edomv>
+					</edom>
+					<edom>
+						<edomvd>II</edomvd>
+						<edomv>II</edomv>
+					</edom>
+					<edom>
+						<edomvd>III</edomvd>
+						<edomv>III</edomv>
+					</edom>
+					<edom>
+						<edomvd>IV</edomvd>
+						<edomv>IV</edomv>
+					</edom>
+					<edom>
+						<edomvd>V</edomvd>
+						<edomv>V</edomv>
+					</edom>
+					<edom>
+						<edomvd>VI</edomvd>
+						<edomv>VI</edomv>
+					</edom>
+					<edom>
+						<edomvd>NA</edomvd>
+						<edomv>NA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>UNK</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GAPCAT</attrlabl>
+				<attrdef>GAP Analysis Program (GAP) code indicating level of protection for each management unit under the GAP criteria</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>1</edomvd>
+						<edomv>1</edomv>
+					</edom>
+					<edom>
+						<edomvd>2</edomvd>
+						<edomv>2</edomv>
+					</edom>
+					<edom>
+						<edomvd>3</edomvd>
+						<edomv>3</edomv>
+					</edom>
+					<edom>
+						<edomvd>4</edomvd>
+						<edomv>4</edomv>
+					</edom>
+					<edom>
+						<edomvd>5</edomvd>
+						<edomv>5</edomv>
+					</edom>
+					<edom>
+						<edomvd>7</edomvd>
+						<edomv>7</edomv>
+					</edom>
+					<edom>
+						<edomvd>8</edomvd>
+						<edomv>8</edomv>
+					</edom>
+					<edom>
+						<edomvd>9</edomvd>
+						<edomv>9</edomv>
+					</edom>
+					<edom>
+						<edomvd>4a</edomvd>
+						<edomv>4a</edomv>
+					</edom>
+					<edom>
+						<edomvd>4b</edomvd>
+						<edomv>4b</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PROTHOLD</attrlabl>
+				<attrdef>Organization that holds protection option. In many cases this will be "The Nature Conservancy".</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PROTMECH</attrlabl>
+				<attrdef>Protection mechanism</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Agreement</edomvd>
+						<edomv>Agreement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Assist - Fee-simple ownership</edomvd>
+						<edomv>Assist - Fee-simple ownership</edomv>
+					</edom>
+					<edom>
+						<edomvd>Assist - Full Conservation Easement</edomvd>
+						<edomv>Assist - Full Conservation Easement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Assist - Other</edomvd>
+						<edomv>Assist - Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>CE/Lease</edomvd>
+						<edomv>CE/Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>Certification</edomvd>
+						<edomv>Certification</edomv>
+					</edom>
+					<edom>
+						<edomvd>Deed Restriction</edomvd>
+						<edomv>Deed Restriction</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee/CE/Lease</edomvd>
+						<edomv>Fee/CE/Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee/DR</edomvd>
+						<edomv>Fee/DR</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee/Lease</edomvd>
+						<edomv>Fee/Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee-simple / easement combination</edomvd>
+						<edomv>Fee-simple / easement combination</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee-simple ownership</edomvd>
+						<edomv>Fee-simple ownership</edomv>
+					</edom>
+					<edom>
+						<edomvd>Full conservation easement</edomvd>
+						<edomv>Full conservation easement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Enlisted in COUNTY/OTHER government program</edomvd>
+						<edomv>government program - County/Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>Enlisted in FEDERAL government program</edomvd>
+						<edomv>government program - Federal</edomv>
+					</edom>
+					<edom>
+						<edomvd>Enlisted in STATE government program</edomvd>
+						<edomv>government program - State</edomv>
+					</edom>
+					<edom>
+						<edomvd>Lease</edomvd>
+						<edomv>Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>N/A</edomvd>
+						<edomv>N/A</edomv>
+					</edom>
+					<edom>
+						<edomvd>Other</edomvd>
+						<edomv>Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>Partial conservation easement</edomvd>
+						<edomv>Partial conservation easement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Transfer</edomvd>
+						<edomv>Transfer</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>Unknown</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PROTMECH2</attrlabl>
+				<attrdef>Secondary Protection mechanism.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PROTPROG</attrlabl>
+				<attrdef>Programmatic protection through government program.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PROTDATE</attrlabl>
+				<attrdef>Established date of protected area.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PRODATPR</attrlabl>
+				<attrdef>Level of precision of protection date.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Pre</edomvd>
+						<edomv>Pre</edomv>
+					</edom>
+					<edom>
+						<edomvd>Post</edomvd>
+						<edomv>Post</edomv>
+					</edom>
+					<edom>
+						<edomvd>Other</edomvd>
+						<edomv>Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>Exact</edomvd>
+						<edomv>Exact</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CF</attrlabl>
+				<attrdef>The level of confidence with which the Conservation Management Status (CMS) measure and indicators were estimated.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>High</edomvd>
+						<edomv>High</edomv>
+					</edom>
+					<edom>
+						<edomvd>Moderate</edomvd>
+						<edomv>Moderate</edomv>
+					</edom>
+					<edom>
+						<edomvd>Low</edomvd>
+						<edomv>Low</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNTRY</attrlabl>
+				<attrdef>Country name.</attrdef>
+				<attrdefs>US Government</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>United States of America</edomvd>
+						<edomv>United States</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MOD_DATE</attrlabl>
+				<attrdef>Date that this record was added or updated to the spatial TNC Lands database.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				
+			</attr>
+			<attr>
+				<attrlabl>CLSTRANSDA</attrlabl>
+				<attrdef>Date of CLS transaction.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SOURCE_ID</attrlabl>
+				<attrdef>Unique ID from source dataset.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>INT_HOLD</attrlabl>
+				<attrdef>General category of interest holder.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>DSGNTN_L</attrlabl>
+				<attrdef>Local designation.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>DSGNTN_L2</attrlabl>
+				<attrdef>Local designation 2.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>STATUS</attrlabl>
+				<attrdef>Status of the area (designated, proposed etc.).</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>LEGAL_REC</attrlabl>
+				<attrdef>URL, File, or other identifier of parcel legal records, including Conservation Track.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SENSDATA</attrlabl>
+				<attrdef>Sensitivity of property information. Is the DISTRIBUTION of data on this polygon RESTRICTED?</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Yes</edomv>
+						<edomvd>Yes</edomvd>
+					</edom>
+					<edom>
+						<edomv>No</edomv>
+						<edomvd>No</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pending</edomv>
+						<edomvd>Pending</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>TRACT_NAME</attrlabl>
+				<attrdef>Name of the Tract from CLS (not publicly viewable)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MABR_NAME</attrlabl>
+				<attrdef>Name of the Managed Area from CLS. (not publicly viewable)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CMS_INTENT</attrlabl>
+				<attrdef>The degree that a given action or suite of actions is/are focused on securing biodiversity.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Biodiversity Focus</edomvd>
+						<edomv>Biodiversity Focus</edomv>
+					</edom>
+					<edom>
+						<edomvd>Biodiversity Compatible</edomvd>
+						<edomv>Biodiversity Compatible</edomv>
+					</edom>
+					<edom>
+						<edomvd>Biodiversity Neutral</edomvd>
+						<edomv>Biodiversity Neutral</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>Unknown</edomv>
+					</edom>
+					<edom>
+						<edomvd>No Value</edomvd>
+						<edomv>No Value</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CMS_DURATN</attrlabl>
+				<attrdef>The temporal commitment to given action(s).</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Permanent Commitment</edomvd>
+						<edomv>Permanent Commitment</edomv>
+					</edom>
+					<edom>
+						<edomvd>Long-term Commitment</edomvd>
+						<edomv>Long-term Commitment</edomv>
+					</edom>
+					<edom>
+						<edomvd>Temporary Commitment</edomvd>
+						<edomv>Temporary Commitment</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>Unknown</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CMS_EMP</attrlabl>
+				<attrdef>The apparent capability of a managing entity (e.g. agency, owner, manager) to implement those actions necessary to achieve the stated intent based on governance, planning, and resource levels.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>High Potential</edomvd>
+						<edomv>High Potential</edomv>
+					</edom>
+					<edom>
+						<edomvd>Moderate Potential</edomvd>
+						<edomv>Moderate Potential</edomv>
+					</edom>
+					<edom>
+						<edomvd>Low Potential</edomvd>
+						<edomv>Low Potential</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>Unknown</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>QC_EXCEPT</attrlabl>
+				<attrdef>Exceptions or problems from Quality Control processes, including topology problems, invalid or missing values, etc. It is used during the quarterly QC process to flag records missing required fields or with other problems (not publicly viewable)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MA_IFMS_ID</attrlabl>
+				<attrdef>Managed Area IFMS ID to link to the CLS database.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>TR_IFMS_ID</attrlabl>
+				<attrdef>Tract IFMS ID to link to the CLS database.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CLS_ACRES</attrlabl>
+				<attrdef>The acreage as recorded in CLS, distinct from the acreage as calculated from the spatial data.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_AREA</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_LEN</attrlabl>
+				<attrdef>Feature geometry</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>TotalAcres</attrlabl>
+				<attrdef>Feature geometry</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				
+			</attr>
+			<attr>
+				<attrlabl>New_ID</attrlabl>
+				<attrdef>Unique internal identifier</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FLDAcres1m</attrlabl>
+				<attrdef>Federal managed acres affected by 1m sea level rise</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PCNTLoss1m</attrlabl>
+				<attrdef>Percent of federally managed land loss to 1m sea level rise</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FLDAcres2m</attrlabl>
+				<attrdef>Federal managed acres affected by 2m sea level rise</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PCNTLoss2m</attrlabl>
+				<attrdef>Percent of federally managed land loss to 2m sea level ris</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Managed</attrlabl>
+				<attrdef>Managed land</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Area_Name</attrlabl>
+				<attrdef>The name associated with the feature.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Manager</attrlabl>
+				<attrdef>The manager of the feature.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Acres</attrlabl>
+				<attrdef>Acres of land federally managed</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+				<attrdef>Area of federally managed lands</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+				<attrdef>Perimeter of federally managed lands</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FEDLANP020</attrlabl>
+				<attrdef>Internal feature number</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FEATURE1</attrlabl>
+				<attrdef>The primary or only type of Federal or Indian land and the owning agency. Where a polygon represents multiple Federal or Indian land types, this attribute describes the smaller or 'contained' land.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FEATURE2</attrlabl>
+				<attrdef>The secondary type of Federal or Indian land and the owning agency. Where a polygon represents multiple Federal or Indian land types, this attribute, in general, describes a land that surrounds or 'contains' the land referenced in Feature1. Feature2 may also be coded as 'Open Water' if a part of the Federal or Indian property referenced in Feature1 includes water</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FEATURE3</attrlabl>
+				<attrdef>The third type of Federal or Indian land and the owning agency. Where a polygon represents multiple Federal or Indian land types, this attribute, in general, describes a land that surrounds or 'contains' the land referenced in Feature1. Feature2 may also be coded as 'Open Water' if a part of the Federal or Indian property referenced in Feature1 includes water</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>AGBUR</attrlabl>
+				<attrdef>A code for the owning or administering agency.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>URL</attrlabl>
+				<attrdef>The URL, or Uniform Resource Locator, is the address of a page on the World Wide Web. The address, which provides the basis for establishing an electronic link from a client to the physical location of the page on an Internet server, consists of a server name, file path, and the page's file name. A URL in this data set is usually the address of a Federal agency website</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NAME1</attrlabl>
+				<attrdef>The name associated with Feature1.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NAME2</attrlabl>
+				<attrdef>The name associated with Feature2.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NAME3</attrlabl>
+				<attrdef>The name associated with Feature3.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>STATE_FIPS</attrlabl>
+				<attrdef>The two digit State code for the State in which the Federal land or Indian Reservation is located.</attrdef>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>TotalArea</attrlabl>
+				<attrdef>Total area of federally managed land tract</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>in_manage</attrlabl>
+				<attrdef>Type of management</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See access and use constraints information</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<country>USA</country>
+					<state>TX</state>
+					<city>Corpus Christi</city>
+					<postal>78401</postal>
+					<address>205 N. Carrizo St</address>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120101</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20120101</metd>
+		<metrd>20121220</metrd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+</metadata>

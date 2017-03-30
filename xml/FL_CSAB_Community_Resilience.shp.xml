@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>The Nature Conservancy</origin>
+				<pubdate>20120401</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title>Community Resilience Analysis of St. Andrews Bay and Choctawhatchee Bay, Florida</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>TNC Conservation Planning Analyses</sername>
+					<issue>Choctawhatchee and St. Andrews Bays, Florida</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Corpus Christi, TX</pubplace>
+					<publish>The Nature Conservancy</publish>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20120401</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>Informing conservation planning using sea-level rise and storm surge impact estimates in Saint Andrew and Choctawhatchee Bays, Florida</title>
+						<serinfo>
+							<sername>TNC Conservation Planning Analyses</sername>
+							<issue>Choctawhatchee and St. Andrews Bays, Florida</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Corpus Christi, TX</pubplace>
+							<publish>The Nature Conservancy</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This analysis combines the Community Risk Analysis and Marsh Viability Analysis to identify communities that might be least (or most) resilient based on a communities social vulnerability, exposure to storm surge, and the viability of marsh systems within each block group. Marsh systems offer many ecosystem services to human communities such as preventing shoreline erosion, storm surge buffering, increasing water quality, and fish habitat. This analysis assumes that communities are more resilient if they have lower social vulnerability, are less exposed to storm surge inundation and have marsh systems that can either maintain or increase in size 1 meter of with sea level rise by the year 2100.There are many locally-dependent factors that make a community more or less resilient to natural hazards, and some of these nuances cannot be captured with census block group level data, nor do viable marsh systems alone create more resilient human communities. This analysis should be interpreted as a demonstration of how coastal hazard risk information can be combined with ecosystem viability data to inform conservation planning activities that benefit both human and natural communities. Furthermore, the census data used in this analysis reflects conditions for the year 2000, the year for which this data was most recently available. This analysis is limited in that it compared socioeconomic conditions for the year 2000 with future inundation scenarios without modeling how the social landscape might change over the next 80 years. Projecting future socioeconomic conditions was beyond the scope of this work, and other published studies have had similar temporal limitations (e.g. Hallegatte et al. 2011, Frazier et al. 2010, and Zhang 2001). Ultimately, this analysis is intended to help coastal managers and decision makers plan for and respond to future changes, by illustrating how future climate-enhanced coastal hazards can impact communities throughout the region. The Community Resilience Analysis used in this study is one example of how socioeconomic and ecological information can be integrated with coastal hazards data to characterize community resilience. Using an indexing method similar to that which was used in the Community Risk Analysis, the combined marsh viability and community risk indices were classified on a 1-5, low to high, scale using an if-then logic model where communities with low risk and high marsh viability would be considered most resilient and communities with high risk and low marsh viability would be considered least resilient. It is also important to note that only block groups that currently contain marsh distribution were considered in this analysis.</abstract>
+			<purpose>This analysis combines the Community Risk Analysis and Marsh Viability Analysis to identify communities that might be least (or most) resilient based on a communities social vulnerability, exposure to storm surge, and the viability of marsh systems within each block group.</purpose>
+		</descript>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120401</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-86.801344</westbc>
+				<eastbc>-85.151985</eastbc>
+				<northbc>30.753836</northbc>
+				<southbc>29.838428</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>Conservation</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLR</themekey>
+				<themekey>Migration</themekey>
+				<themekey>SLAMM</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Saint Andrews Bay</placekey>
+				<placekey>Choctawhatchee Bay</placekey>
+				<placekey>Florida</placekey>
+				<placekey>United States</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2004</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical address</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data were collected using methods that have unknown accuracy</attraccr>
+		</attracc>
+		<logic>Tests for integrity have not been performed</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20120401</procdate>
+				<procdesc>Conservation analyses were created from SLAMM and ADCIRC modeling outputs</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Complete chain</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true1021003857</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu />
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>FL_CSAB_CommunityResilience</enttypl>
+				<enttypds>The Nature Conservancy</enttypds>
+				<enttypd>Feature Class</enttypd>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry automated by ESRI.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FIPSSTCO</attrlabl>
+				<attrdef>Unique FIPS state county identifier</attrdef>
+				<attrdefs>Federal Information Processing Standard</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>TRACT</attrlabl>
+				<attrdef>Unique tract identifier</attrdef>
+				<attrdefs>Federal Information Processing Standard</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>GROUP</attrlabl>
+				<attrdef>Unique group identifier</attrdef>
+				<attrdefs>Federal Information Processing Standard</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>STFID</attrlabl>
+				<attrdef>Unique identifier for data processing</attrdef>
+				<attrdefs>US Census, 2000.</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>GISJOIN</attrlabl>
+				<attrdef>Unique identifier for data processing</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attrdomv>
+					<udom>Unique identifier for data processing</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GISJOIN2</attrlabl>
+				<attrdef>Unique ID codes generated by TNC</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+				<attrdomv>
+					<udom>Unique identifier for data processing</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OID_</attrlabl>
+				<attrdef>Internally generated ID</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FIPS</attrlabl>
+				<attrdef>Unique identifier for each block group.</attrdef>
+				<attrdefs>Federal Information Processing Standard</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>KEY</attrlabl>
+				<attrdef>Unique identifier for each block group</attrdef>
+				<attrdefs>US Census, 2000.</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>P001001</attrlabl>
+				<attrdef>Total Population from 2000 Census</attrdef>
+				<attrdefs>Census TIGER data</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>H001001</attrlabl>
+				<attrdef>Total Housing Units from 2000 Census</attrdef>
+				<attrdefs>US Census, 2000.</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FID_1</attrlabl>
+				<attrdef>Internally generated ID</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>stfips</attrlabl>
+				<attrdef>Unique identifier for the state</attrdef>
+				<attrdefs>Federal Informaiton Processing Standard</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>stcofips</attrlabl>
+				<attrdef>Unique identifer for the county.</attrdef>
+				<attrdefs>Federal Information Processing Standard</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>name</attrlabl>
+				<attrdef>Block group name.</attrdef>
+				<attrdefs>US Census, 2000.</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>name_1</attrlabl>
+				<attrdef>Block group name.</attrdef>
+				<attrdefs>US Census, 2000.</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QBLACK</attrlabl>
+				<attrdef>Percent African American.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QINDIAN</attrlabl>
+				<attrdef>Percent Native American.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QASIAN</attrlabl>
+				<attrdef>Percent Asian and Hawaiian Islander.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QSPANISH</attrlabl>
+				<attrdef>Percent Hispanic.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QKIDS</attrlabl>
+				<attrdef>Percent of population under 5 years of age.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QPOP65O</attrlabl>
+				<attrdef>Percent of population age 65 and over.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MEDAGE</attrlabl>
+				<attrdef>Median age.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QFEMALE</attrlabl>
+				<attrdef>Percent female population.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PPUNIT</attrlabl>
+				<attrdef>Average number of people per household.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QRENTER</attrlabl>
+				<attrdef>Percent renter occupied units.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QFHH</attrlabl>
+				<attrdef>Percent female headed households, no spouse present.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>NRRESPC</attrlabl>
+				<attrdef>Nursing home residents per capita.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QCVLUN</attrlabl>
+				<attrdef>Percent civilian unemployment.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PERCAP</attrlabl>
+				<attrdef>Per capita Income (2000 dollars).</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QRICH</attrlabl>
+				<attrdef>Percentage of households earning 100,000 or more.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QPOVTY</attrlabl>
+				<attrdef>Percent living below the poverty level.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MEAN_HSEVA</attrlabl>
+				<attrdef>Mean House Value</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>MC_RENT</attrlabl>
+				<attrdef>Mean contract rent for renter occupied housing units.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PHYSICN</attrlabl>
+				<attrdef>Number persons per 100,000 population employed as healthcare practitioners and technical occupations.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QRFRM</attrlabl>
+				<attrdef>Percent rural farm population.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QMOHO</attrlabl>
+				<attrdef>Percent of housing units that are mobile homes.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QED12LES</attrlabl>
+				<attrdef>Percent of population 25 years or older with no high school diploma.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QCVLBR</attrlabl>
+				<attrdef>Percent of population participating in the labor force.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QFEMLBR</attrlabl>
+				<attrdef>Percent females participating in the labor force.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QAGRI</attrlabl>
+				<attrdef>Percent employment in farming, fishing, and forestry occupations.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QTRAN</attrlabl>
+				<attrdef>Percent employed in transportation, communications, and other public utilities.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QSERV</attrlabl>
+				<attrdef>Percent Employed in service industry.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QSSBEN</attrlabl>
+				<attrdef>Percent of population collecting social security benefits.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QMIGRA</attrlabl>
+				<attrdef>Percent Foreign Born Citizens Immigrating between 1990 and 2000.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>QURBAN</attrlabl>
+				<attrdef>Percent urban population.</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>HODENSTY</attrlabl>
+				<attrdef>Housing Density</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>stfid_1</attrlabl>
+				<attrdef>Identifier for each block group</attrdef>
+				<attrdefs>US Census, 2000.</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP1</attrlabl>
+				<attrdef>SoVI Component 1: Age (||); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP2</attrlabl>
+				<attrdef>SoVI Component 2: Race &amp; Class (Poverty) (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP3</attrlabl>
+				<attrdef>SoVI Component 3: Wealth (-); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP4</attrlabl>
+				<attrdef>SoVI Component 4: Urban / Rural Divide (||); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP5</attrlabl>
+				<attrdef>SoVI Component 5: Renters / Migrants (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP6</attrlabl>
+				<attrdef>SoVI Component 6: Gender (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP7</attrlabl>
+				<attrdef>SoVI Component 7: Hispanic (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COMP8</attrlabl>
+				<attrdef>SoVI Component 8: Native American / Special Needs (+); Refer to Read Me file for driving variables</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SoVI</attrlabl>
+				<attrdef>Aggregate SoVI Score</attrdef>
+				<attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+				<attrdef>Shape length</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Vuln</attrlabl>
+				<attrdef>Social vulnerability to SLR (high, medium, low)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>mrsh_loss</attrlabl>
+				<attrdef>Marsh loss due to SLR</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>mrsh_persi</attrlabl>
+				<attrdef>Marsh persistence with SLR</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>mrsh_gain</attrlabl>
+				<attrdef>Marsh gained due to SLR</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>mrsh_viab</attrlabl>
+				<attrdef>Marsh viability index</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>F_AREA</attrlabl>
+				<attrdef>SLR inundated area</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>slr2100</attrlabl>
+				<attrdef>Area of 1m SLR inundation by 2100</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>ss2004</attrlabl>
+				<attrdef>Storm surge inundated area in 2004</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>ss2100</attrlabl>
+				<attrdef>Storm surge inundated area in 2100</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>per_sl2100</attrlabl>
+				<attrdef>Percent of block group inundated by 1m SLR by 2100</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>per_ss2004</attrlabl>
+				<attrdef>Percent of block group inundated by storm surge in 2004</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>per_ss2100</attrlabl>
+				<attrdef>Percent of block group inundated by storm surge by 2100</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>rnk_sl2100</attrlabl>
+				<attrdef>Rank of block group by SLR in 2100 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>rnk_ss2004</attrlabl>
+				<attrdef>Rank of block group by storm surge in 2004 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>rnk_ss2100</attrlabl>
+				<attrdef>Rank of block group by sotrm surge in 2100 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>rsk_sl2100</attrlabl>
+				<attrdef>Risk to block group by SLR in 2100 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>rsk_ss2004</attrlabl>
+				<attrdef>Risk of block group to storm surge in 2004 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>rsk_ss2100</attrlabl>
+				<attrdef>Risk of block group to storm surge in 2100 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>mrsh_initi</attrlabl>
+				<attrdef>Inital marsh area</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>mrshrnk</attrlabl>
+				<attrdef>Marsh ranking (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CommRes</attrlabl>
+				<attrdef>Community resilience ranking (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>ssrisk_re</attrlabl>
+				<attrdef>Storm surge risk ranking (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>viabindex</attrlabl>
+				<attrdef>Viability index (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See access and use constraints information</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<country>USA</country>
+					<state>TX</state>
+					<city>Corpus Christi</city>
+					<postal>78401</postal>
+					<address>205 N. Carrizo St</address>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120401</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20120401</metd>
+		<metrd>20121220</metrd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+</metadata>

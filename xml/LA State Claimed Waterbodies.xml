@@ -1,0 +1,117 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>State Claimed Waterbodies</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The extent of the water bottoms shown on this web site may be of sufficient accuracy to determine an approximate acreage for the waterway but not of sufficient accuracy to determine a property boundary. The State Land Office does not have the extensive information required to determine a location of the legal boundary for each waterway claimed by our office. Users should be aware that a statewide inventory of state claimed water bottoms has not been completed at this time. Information regarding waterways which are claimed by the state and the adjoining land owner may have been received in the State Land Office but may not be currently posted on this web site. Information will be updated and added to this web site on a monthly basis until the statewide inventory is complete. After the statewide inventory has been completed, the data shown hereon is subject to revisions as additional information is received by the State Land Office. Users should check this web site from time to time for revisions.</abstract>
+      <purpose>The State Land Office uses a set of criteria, based on a review of historical maps and documents on file in the State Land Office, to uniformly select water bottoms throughout the state for inclusion in the water bottoms database. Once a waterway has been selected by this process, the extent of the water bottom is then digitized from USGS Digital Orthophotos (DOQQ). It is important to keep in mind that the extent of the water bottoms shown on this web site is only a representation of the extent of water as shown on the DOQQ and not the legal extent of the state’s claim.
+</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-92.600131</westbc>
+        <eastbc>-89.703836</eastbc>
+        <northbc>31.541974</northbc>
+        <southbc>30.066402</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>N/A</useconst>
+    <datacred>Louisiana State Land Office</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>594</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>StateWaterbodies</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TITLE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STATECLAIM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WEB_STATUS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>IMG_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ENTER_DATE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>EDIT_DATE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110819</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

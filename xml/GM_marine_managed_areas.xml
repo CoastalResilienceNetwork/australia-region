@@ -1,0 +1,706 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>GM_marine_managed_areas</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-97.422577</westbc>
+        <eastbc>-79.694101</eastbc>
+        <northbc>31.000196</northbc>
+        <southbc>24.003136</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>339</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>MPA_Inventory_Sites_ForWeb
+</enttypl>
+        <enttypd>Database of MPA geospatial data
+</enttypd>
+        <enttypds>MPAC
+</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape
+</attrlabl>
+        <attrdef>Feature geometry.
+</attrdef>
+        <attrdefs>ESRI
+</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_ID
+</attrlabl>
+        <attrdef>Unique site identifier assigned by MPAC
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <udom>Consists of government level identifier combined with unique number value.
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Area_KM
+</attrlabl>
+        <attrdef>Area of the protected area in square kilometers, including any terrestrial portions where applicable
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <udom>n/a
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_Name
+</attrlabl>
+        <attrdef>Official name of the MPA
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <udom>n/a
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Gov_Level
+</attrlabl>
+        <attrdef>Level of government responsible for designating and managing the site
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Federal
+</edomv>
+            <edomvd>MPA is designated and managed by a federal agency
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>State
+</edomv>
+            <edomvd>MPA is designated and managed by a state agency
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Territorial
+</edomv>
+            <edomvd>MPA is designated and managed by a territorial agency
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Local
+</edomv>
+            <edomvd>MPA is designated and managed by a local agency
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Partnership
+</edomv>
+            <edomvd>MPA is designated and managed by multiple agencies at more than one level of government
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NS_Full
+</attrlabl>
+        <attrdef>Status of the site with respect to the National System of MPAs
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Member
+</edomv>
+            <edomvd>Site has been approved as a National System MPA
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Not Eligible
+</edomv>
+            <edomvd>Site does not meet eligibility criteria for the National Systen
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Eligible
+</edomv>
+            <edomvd>Site meets eligibility criteria for the National System
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Nominated
+</edomv>
+            <edomvd>Site has been nominated, and is currently under consideration for entry to the National System
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Prot_Lvl
+</attrlabl>
+        <attrdef>Level of legal protection afforded to the site's natural and cultural resources and ecological processes
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Uniform Multiple Use
+</edomv>
+            <edomvd>MPAs or zones with a consistent level of protection and allowable activities, including certain extractive uses, across the entire protected area
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Zoned Multiple Use
+</edomv>
+            <edomvd>MPAs that allow some extractive activities throughout the entire site, but that use marine zoning to allocate specific uses to compatible places or times in order to reduce user conflicts and adverse impacts
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Zoned w/No Take Areas
+</edomv>
+            <edomvd>Multiple-use MPAs that contain at least one legally established management zone in which all resource extraction is prohibited
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>No Access
+</edomv>
+            <edomvd>MPAs or zones that restrict all human access to the area in order to prevent potential ecological disturbance, unless specifically permitted for designated special uses such as research, monitoring or restoration
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>No Impact
+</edomv>
+            <edomvd>MPAs or zones that allow human access, but that prohibit all activities that could harm the site's resources or disrupt the ecological or cultural services they provide. Examples of activities typically prohibited in no-impact MPAs include resource extraction of any kind (fishing, collecting, or mining); discharge of pollutants; disposal or
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>No Take
+</edomv>
+            <edomvd>MPAs or zones that allow human access and even some potentially harmful uses, but that totally prohibit the extraction or significant destruction of natural or cultural resources.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>To Be Determined
+</edomv>
+            <edomvd>MPA or zone that has been established, but has not yet officially designated it's specific level of protection.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mgmt_Plan
+</attrlabl>
+        <attrdef>The type of management plan developed for the site
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Site-Specific Management Plan
+</edomv>
+            <edomvd>A management plan has been developed specifically for the site
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>MPA Programmatic Management Plan
+</edomv>
+            <edomvd>A management plan has been developed for a broader MPA program, which includes the site
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Non-MPA Programmatic Species Management Plan
+</edomv>
+            <edomvd>A species management plan has been developed, which includes the management of the site
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Non-MPA Programmatic Fisheries Management Plan
+</edomv>
+            <edomvd>A fisheries management plan has been developed, which includes the management of the site
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Non-MPA Programmatic Habitat Management Plan
+</edomv>
+            <edomvd>A habitat management plan has been developed, which includes the management of the site
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Community Agreement
+</edomv>
+            <edomvd>A verbal or written community agreement has been reached for the management of the site
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>No Management Plan
+</edomv>
+            <edomvd>No management plan has been developed for the site, or the management plan is still in draft form
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Mgmt_Agen
+</attrlabl>
+        <attrdef>Agency responsible for managing the site
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <udom>n/a
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fish_Rstr
+</attrlabl>
+        <attrdef>Level of restrictions on commercial and/or recreational fishing
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Commercia and Recreational Fishing Prohibited
+</edomv>
+            <edomvd>MPAs or zones prohibit any type of fishing throughout the site, including both commercial and recreational
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Commercial and Recreational Fishing Restricted
+</edomv>
+            <edomvd>MPAs or zones place some type of restriction on all types of fishing, including both commercial and recreational. The level of restriction may vary throughout the MPA according to different zones or areas
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Commercial Fishing Prohibited
+</edomv>
+            <edomvd>MPAs or zones prohibit any type of commercial fishing. Recreational fishing may be allowed
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Commercial Fishing Prohibited and Recreational Fishing Restricted
+</edomv>
+            <edomvd>MPAs or zones prohibit any type of commercial fishing and place some type of restriction on recreational fishing
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Commercial Fishing Restricted
+</edomv>
+            <edomvd>MPAs or zones place some type of restriction on commercial fishing, which might vary throughout the MPA according to different zones or areas. Recreational fishing may be unrestricted
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Commercial Fishing Restricted and Recreational Fishing Prohibited
+</edomv>
+            <edomvd>MPAs or zones prohibit any type of recreational fishing and place some type of restriction on commercial fishing
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>No Site Restrictions
+</edomv>
+            <edomvd>MPAs or zones place no restrictions on any type of fishing throughout the site, including both commercial and recreational
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Recreational Fishing Prohibited
+</edomv>
+            <edomvd>MPAs or zones prohibit any type of recreational fishing. Commercial fishing may be allowed
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Recreational Fishing Restricted
+</edomv>
+            <edomvd>MPAs or zones place some type of restriction on recreational fishing, which might vary throughout the MPA according to different zones or areas. Commercial fishing may be unrestricted
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Restrictions Unkown
+</edomv>
+            <edomvd>MPAs or zones with unknown fishing restrictions
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Pri_Con_Fo
+</attrlabl>
+        <attrdef>Defines the primary characteristics of the area that the MPA was established to conserve.
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Natural Heritage
+</edomv>
+            <edomvd>MPAs or zones established and managed wholly or in part to sustain, conserve, restore, and understand the protected area?s natural biodiversity, populations, communities, habitats, and ecosystems; the ecological and physical processes upon which they depend; and, the ecological services, human uses and values they provide to this and future generations.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Cultural Heritage
+</edomv>
+            <edomvd>MPAs or zones established and managed wholly or in part to protect and understand submerged cultural resources that reflect the nation?s maritime history and traditional cultural connections to the sea.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Sustainable Production
+</edomv>
+            <edomvd>MPAs or zones established and managed wholly or in part with the explicit purpose of supporting the continued extraction of renewable living resources (such as fish, shellfish, plants, birds, or mammals) that live within the MPA, or that are exploited elsewhere but depend upon the protected area?s habitat for essential aspects of their ecology or life history (feeding, spawning, mating, or nursery grounds).
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Prot_Focus
+</attrlabl>
+        <attrdef>Ecological scale of site conservation targets
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Ecosystem
+</edomv>
+            <edomvd>MPAs or zones whose legal authorities and management measures are intended to protect all of the components and processes of the ecosystem within its boundaries
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Focal Resource
+</edomv>
+            <edomvd>MPAs or zones whose legal authorities and management measures specifically target a particular habitat, species complex, or single resource (either natural or cultural)
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Permanence
+</attrlabl>
+        <attrdef>Classification of the permanence of the site
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Permanent
+</edomv>
+            <edomvd>MPAs or zones whose legal authorities provide some level of protection to the site in perpetuity for future generations, unless reversed by unanticipated future legislation or regulatory actions
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Conditional
+</edomv>
+            <edomvd>MPAs or zones that have the potential, and often the expectation, to persist administratively over time, but whose legal authority has a finite duration and must be actively renewed or ratified based on periodic governmental reviews of performance
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Temporary
+</edomv>
+            <edomvd>MPAs that are designed to address relatively short-term conservation and/or management needs by protecting a specific habitat or species for a finite duration, with no expectation or specific mechanism for renewal
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Constancy
+</attrlabl>
+        <attrdef>Classification of the constancy of the site throughout the year
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Year-Round
+</edomv>
+            <edomvd>MPAs or zones that provide constant protection to the site throughout the year
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Seasonal
+</edomv>
+            <edomvd>MPAs or zones that protect specific habitats and resources, but only during fixed seasons or periods when human uses may disrupt ecologically sensitive seasonal processes such as spawning, breeding, or feeding aggregations
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Rotating
+</edomv>
+            <edomvd>MPAs or zones that cycle serially and predictably among a set of fixed geographic areas in order to meet short-term conservation or management goals (such as local stock replenishment followed by renewed exploitation of recovered populations)
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Estab_Yr
+</attrlabl>
+        <attrdef>The year the site was officially designated or established
+</attrdef>
+        <attrdefs>Managing Agency
+</attrdefs>
+        <attrdomv>
+          <udom>n/a
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>URL
+</attrlabl>
+        <attrdef>Website for the MPA created by the managing agency.
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <udom>n/a
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Site_Label
+</attrlabl>
+        <attrdef>Abbreviated site name
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <udom>n/a
+</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Vessel
+</attrlabl>
+        <attrdef>Describes if vessel access is allowed within the MPA.
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Unrestricted
+</edomv>
+            <edomvd>The site allows ship vessel access.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Restricted
+</edomv>
+            <edomvd>The site allows some vessel traffic, with restrictions.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Prohibited
+</edomv>
+            <edomvd>Vessel traffic within the site is prohibited.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Anchor
+</attrlabl>
+        <attrdef>Describes whether anchoring in the site is permitted.
+</attrdef>
+        <attrdefs>MPAC
+</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Unrestricted
+</edomv>
+            <edomvd>The site allows ship anchoring.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Restricted
+</edomv>
+            <edomvd>The site allows some anchoring, with restrictions.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+          <edom>
+            <edomv>Prohibited
+</edomv>
+            <edomvd>Anchoring within the site is prohibited.
+</edomvd>
+            <edomvds>MPAC
+</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20120201</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

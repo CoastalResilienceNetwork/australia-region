@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>ARCADIS USA, Inc. </origin>
+				<title>Predicted Overland Storm Surge Map for Grand Bay, Mississippi in 2050 using Hurricane Katrina (2005) Conditions and 2050 Landcover Map Derived from the SLAMM Model</title>
+				<geoform>raster digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The map shows the predicted overland storm surge for Grand Bay, Mississippi under hurricane Katrina (2005) conditions. The storm surge simulation used the 2050 predicted landcover map derived from the Sea Level Rise Affecting Marsh Model (SLAMM) to calculate the bottom friction resistance (Manning's n) and wind roughness (Z0) parameters for the storm surge model. The image was created from the original storm surge model point file by isolating all points that had positive elevation (land areas) and values other than -99999 (no data) for storm surge height. Once all land areas that were inundated by storm surge in the model were selected, the elevation value of each of the selected points was subtracted from the maximum storm surge elevation height, which showed height above sea level (0ft NAVD88), to calculate the height of the storm surge above the ground surface. The resulting values for the storm surge height above the ground surface were then averaged together using a spatial join to a vector polygon grid with a resolution of 150m, where the resolution was based on the maximum spacing between points in the original file for the study area. The vector grid was then converted to a raster image with the same resolution, which represented the maximum predicted storm surge height in feet above the ground surface within the study area.</abstract>
+			<purpose>This modeling effort was motivated by the need to provide a series of technical tools to the members of the Governor’s Gulf of Mexico Alliance to better understand the effects of sea level rise (SLR) and storm surge in key coastal areas.  The implementation of the ADvanced CIRCulation (ADCIRC) model for SLR analysis complements the information produced by previous studies conducted by The Nature Conservancy (TNC).  The products provided as part of this effort will help coastal managers, scientist and the conservation community in identifying the additional threat posed by storm surge given one meter of SLR by 2100 in the study area.  This project has been funded through grants from the Gulf of Mexico Foundation and the Mississippi Department of Marine Resources who have been supported by the Gulf of Mexico Alliance.
+In 2011, TNC and Warren Pinnacle Consulting, Inc. applied the Sea-Level Affecting Marshes Model (SLAMM) to analyze the potential effects of SLR on Grand Bay NERR in Mississippi and Alabama (Warren Pinnacle Consulting 2011). The SLAMM analyses provided forecasts of future Grand Bay area marsh landscapes under various potential SLR scenarios through the year 2100.
+The intent of this project is to utilize the SLAMM model output to analyze the effects of future landscapes and SLR on storm surge.  Future scenarios include changes in land cover type and coastal subsidence in the area.  The land cover changes are implemented by utilizing the available SLAMM output information.  Subsidence is accounted for by applying a region wide value assumed in the SLAMM analyses (Warren Pinnacle Consulting 2011).  A SLR rate of one meter by 2100 is analyzed for this study for 2050 and 2100 conditions.  
+Three scenarios of SLR were analyzed using the ADCIRC hydrodynamic model; the model evaluated the initial conditions in 2009 and future 2050 and 2100 scenarios.  ADCIRC is a physics based, unstructured mesh finite element model, solving the shallow water equations for time dependent, free surface circulation problems (Luettich et al. 2004). ADCIRC is commonly applied for tidal studies, including hurricane storm surge and flooding applications by state and federal agencies throughout the United States.
+Hurricane Katrina is the storm selected for analysis in this study area due to its relatively recent landfall in the study area.  Because of the recent nature of the storm, Hurricane Katrina is well documented and critical data necessary to hindcast a hurricane, such as highly accurate wind and pressures fields, are readily available.  Hurricane Katrina made its first landfall as a Category 3 hurricane near Buras, Louisiana at approximately 11:00 AM UTC.  Katrina made a second landfall near the Mississippi and Louisiana border at approximately 3:00 PM UTC.  Winds reached over 170 miles per hour (mph) in the Gulf of Mexico, while the Louisiana and Mississippi coast incurred sustained winds of over 120 mph rendering storm surge of over 30 feet in some locations in Mississippi.  Hurricane Katrina greatly impacted Gulf Coast communities from Louisiana to Florida, causing widespread flooding, immense economic damage and loss of life.  Hurricane Katrina is one of the most devastating natural disasters in United States history.  A location map of the study area is shown if Figure 1.  The path of Hurricane Katrina and the extents of the SLAMM models are also included.  All maps and coordinates in this report are referenced to the NAD83 horizontal datum and NAVD88 vertical datum.</purpose>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-88.498592</westbc>
+				<eastbc>-88.265550</eastbc>
+				<northbc>30.464834</northbc>
+				<southbc>30.318949</southbc>
+			</bounding>
+		</spdom>
+		<keywords/>
+		<accconst>None</accconst>
+		<useconst>The user accepts all responsibility for use of these data</useconst>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<rowcount>106</rowcount>
+			<colcount>148</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>NAD 1983 UTM Zone 16N</mapprojn>
+					<transmer>
+						<sfctrmer>0.9996</sfctrmer>
+						<longcm>-87.0</longcm>
+						<latprjo>0.0</latprjo>
+						<feast>500000.0</feast>
+						<fnorth>0.0</fnorth>
+					</transmer>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000002220024164500956</absres>
+						<ordres>0.000000002220024164500956</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<metainfo>
+		<metd>20120106</metd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><CreaDate>20120120</CreaDate><CreaTime>14300300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\inetpub\wwwroot\xml\gb_ss_2050</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\SLAMM\StormSurge\Metadata\gb_ss_2050" dest="\\MAPS21\C$\inetpub\wwwroot\xml\gb_ss_2050" date="20120120" time="14300300"></copy></copyHistory></DataProperties></Esri></metadata>

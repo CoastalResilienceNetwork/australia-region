@@ -1,0 +1,174 @@
+[
+    {
+        "displayName": "Coasts @ Risk, Boundaries & Habitats",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Global/",
+            "name": "Global",
+            "reportGpUrl": "http://services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "coastalresilience.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Coasts at Risk 2014",
+                "displayName": "Coasts at Risk (2014)",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Ecoregions and Provinces",
+                "displayName": "Ecoregions &amp; Provinces",
+                "includeLayers": [
+                    {
+                        "name": "TNC Marine Ecoregions of the World"
+                    },
+                    {
+                        "name": "TNC Major Emphasis Areas"
+                    },
+                    {
+                        "name": "TNC Marine Provinces"
+                    },
+                    {
+                        "name": "TNC Expanding Areas"
+                    },
+                    {
+                        "name": "UNESCO Pelagic Provinces of the World"
+                    },
+                    {
+                        "name": "UNESCO Biomes of the World"
+                    },
+                    {
+                        "name": "The Nature Conservancy Ocean Strategies 2016",
+                        "includeLayers": [
+                            {
+                                "name": "Climate Risk & Resilience and Blue Carbon"
+                            },
+                            {
+                                "name": "Global Fisheries"
+                            },
+                            {
+                                "name": "Ocean Planning & Protection"
+                            }
+                        ]
+                    }
+                ]
+            },
+            { 
+                "name": "Habitats",
+                "displayName": "Habitats",
+                "includeAllLayers": true
+           }
+        ]
+    },
+    {
+        "displayName": "Coastal Storms, Sea Level & Exposure",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://services.coastalresilience.org/arcgis/rest/services/Global/",
+            "name": "Global",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "coastalresilience.gdb" 
+        },
+        "includeLayers": [
+            { 
+                "name": "Hazards",
+                "displayName": "Hazards",
+                "includeLayers": [
+                    {
+                        "name": "Storm Hazards",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Waves and Sea Level",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Exposure (Social and Economic)",
+                        "includeLayers": [
+                            {
+                                "name": "Cyclone Economic Exposure",
+                                "includeAllLayers": true
+                            },
+                            {
+                                "name": "Storm Surge Economic Exposure",
+                                "includeAllLayers": true
+                            },
+                            {
+                                "name": "Storm Surge Physical Exposure",
+                                "includeAllLayers": true
+                            },
+                            {
+                                "name": "Global population under 10m elevation (per sq km)"
+                            },
+                            {
+                                "name": "Gridded Global Population (per sq km)"
+                            },
+                            {
+                                "name": "Global GDP distributed by gridded population (US$ x 1000 per sq km)"
+                            },
+                            {
+                                "name": "Urban Areas (low income)"
+                            },
+                            {
+                                "name": "Urban Areas (total residential assets)"
+                            },
+                            {
+                                "name": "Urban Areas (total all assets)"
+                            },
+                            {
+                                "name": "Multi-Hazard Mortality Risk Index"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "displayName": "FEMA Coastal Flood Hazards",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://regions.services.femadata.com/arcgis/rest/services/FEMA_R4/"
+        },
+        "includeLayers": [
+            {
+                "server": {
+                    "name": "FEMA_Region_IV_Coastal_Flood_Loss_Atlas_CFLA_Version_301"
+                },
+                "name": "CFLA Data",
+                "displayName": "Coastal Flood Loss Atlas",
+                "includeLayers": [
+                    {
+                        "name": "Building Loss Ratio",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Debris in Tons",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Debris in Truck Loads",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Short Term Shelter Population",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Per Capita Loss",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "Maximum Surge Depth (Ft)",
+                        "includeAllLayers": true
+                    },
+                    {
+                        "name": "SLOSH Basin Counties"
+                    }
+                ]    
+            }
+        ]
+    }
+]

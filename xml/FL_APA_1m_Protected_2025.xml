@@ -1,0 +1,274 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20110317</pubdate>
+        <title>APA_2025_1m_Prot_WebMerc</title>
+        <geoform>raster digital data</geoform>
+        <onlink>file://\\flfo-tnc\Science\GIS\SLAMM\APA_SLAMM\APA_Production.gdb</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This raster data layer is the output of a simulation model named Sea Level Affecting Marshes Model (SLAMM) version 6.1 beta (www.warrenpinnacle.com). This is the simulated result for year 2025 of a 1 meter sea level rise by 2100 scenario with developed dry land protected (developed dry land remains unchanged). Each raster cell value represents a vegetation category specific to the SLAMM model. Vegetation categories are described in the SLAMM 6 beta Technical Documentation.</abstract>
+      <purpose>This sea level rise simulation was performed by The Nature Conservancy under a contract granted by the Florida Department of Environmental Protection, DEP Agreement #: CM112, "Development of Coastal System Adaptation Strategies through Modeling of Sea Level Rise Impacts on Natural Systems at Apalachicola Bay"</purpose>
+    </descript>
+    <status>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-85.271243</westbc>
+        <eastbc>-84.681589</eastbc>
+        <northbc>30.019385</northbc>
+        <southbc>29.573169</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>SLAMM</themekey>
+        <themekey>sea level rise</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Apalachicola</placekey>
+      </place>
+    </keywords>
+    <accconst>Restriction Code: other restrictions; Other Constraints: Access constraints: Restriction Code: other restrictions; Other Constraints: Access constraints: Other Constraints: The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accconst>
+    <datacred>The Nature Conservancy</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo />
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>VAT_APA_FINsub__2025__1_meter_Pr1</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+<attrdef>SLAMM Vegetation Category (SLAMM version 6.1 beta)</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Developed Dry Land</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Undeveloped Dry Land</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Swamp</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Cypress Swamp</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Inland Fresh Marsh</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Tidal Fresh Marsh</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Scrub Shrub</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Regularly Flooded Marsh</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Mangrove</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Estuarine Beach</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Tidal Flat</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Ocean Beach</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Ocean Flat</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Rocky Intertidal</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Inland Open Water</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>16</edomv>
+            <edomvd>Riverine Tidal</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>17</edomv>
+            <edomvd>Estuarine Water</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>18</edomv>
+            <edomvd>Tidal Creek</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>19</edomv>
+            <edomvd>Open Ocean</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>20 </edomv>
+            <edomvd>Irregularly Flooded Marsh</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>21</edomv>
+            <edomvd>Not Used</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>22</edomv>
+            <edomvd>Inland Shore</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>23</edomv>
+            <edomvd>Tidal Swamp</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>24</edomv>
+            <edomvd>Blank</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>25</edomv>
+            <edomvd>Vegetated Tidal Flat</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>26</edomv>
+            <edomvd>Back Shore</edomvd>
+          </edom>
+</attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120802</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Kathy Freeman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+        <cntaddr>
+          <addrtype>Physical and Mailing</addrtype>
+          <address>222 S Westmonte DR</address>
+          <city>Altamonte Springs</city>
+          <state>FL</state>
+          <postal>32714</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>407-682-3664</cntvoice>
+        <cntemail>kfreeman@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

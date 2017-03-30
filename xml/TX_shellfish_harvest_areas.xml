@@ -1,0 +1,167 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Classification of Shellfish Harvesting Areas</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\LDJ2XYRH1M681\C\Documents and Settings\thawkins006\Desktop\Harvesting Areas GDB\Harvesting_Areas_2010.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Classification of Shellfish Harvesting Areas.</abstract>
+      <purpose>Molluscan shellfish are defined as oysters, clams, and mussels.    All shellfish in Texas waters must be harvested from approved or conditionally approved areas.  The status of shellfish growing waters in Texas estuaries is subject to change by the Texas Department of State Health Services at any time. These changes may be due to high rainfall and runoff, flooding, hurricanes and other extreme weather conditions, major spills, red tides, or the failure or inefficient operation of wastewater treatment facilities.  The current status of shellfish harvesting areas may be obtained from the local Texas Parks and Wildlife office or by calling, toll-free, 1-800-685-0361.  Texas Parks and Wildife posts the Regulations for Oysters and Other Aquatic Life on their Web site at www.tpwd.state.tx.us/publications/annual/fish/oysterreg/.
+
+</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-97.797293</westbc>
+        <eastbc>-93.750000</eastbc>
+        <northbc>30.013931</northbc>
+        <southbc>25.902230</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>Not to be used for navigational purposes. The status of shellfish growing waters in Texas estuaries is subject to change by the Texas Department of State Health Services at any time. These changes may be due to high rainfall and runoff, flooding, hurricanes and other extreme weather conditions, major spills, red tides, or the failure or inefficient operation of wastewater treatment facilities. Current status of shellfish harvesting areas may be obtained from your local Texas Parks and Wildlife Department office or by calling, toll-free (in state only), 1-800-685-0361.</useconst>
+    <datacred>Texas Department of State Health Services - Seafood and Aquatic Life Group: http://www.dshs.state.tx.us/seafood/classification.shtm</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>277</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TX_shellfish_harvest_areas</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SF_MAP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SQ_Miles</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SYSTEM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>DSHS, Center for Health Statistics</cntorg>
+        </cntorgp>
+        <cntpos>GIS Team Lead</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>1100 W. 49th Street</address>
+          <city>Austin</city>
+          <state>TX</state>
+          <postal>78756</postal>
+        </cntaddr>
+        <cntvoice>512-458-7111 ext. 6762</cntvoice>
+        <cntfax>512-458-7344</cntfax>
+        <cntemail>GIS@dshs.state.tx.us</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20120129</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>DSHS, Center for Health Statistics</cntorg>
+        </cntorgp>
+        <cntpos>GIS Team Lead</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>1100 W. 49th Street</address>
+          <city>Austin</city>
+          <state>TX</state>
+          <postal>78756</postal>
+        </cntaddr>
+        <cntvoice>512-458-7111 ext. 6762</cntvoice>
+        <cntfax>512-458-7344</cntfax>
+        <cntemail>GIS@dshs.state.tx.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

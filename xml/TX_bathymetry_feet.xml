@@ -1,0 +1,117 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>TX_bathymetry_feet</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\165.91.54.36\gis_data\BathyTopoTXCoast_V0.2\Shapefiles\Bathymetry.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Bathymetry was constructed from xyz hydrographic survey data from the northwest Gulf of Mexico Continental Shelf and inshore areas. The underlying source data are about 3.5 million soundings from 300 historic hydrographic surveys conducted in 1930-2005 by the U. S. Coast Survey, and available from the NOAA National Geophysical Data Center. Vector contours were derived from the source data sets using the GMT (Generic Mapping Tools) software package. Editing of source data reconciled: differences in zero datum; land subsidence with time; a diversity of survey methods and depth units; various other errors/ inaccuracies; and changes in nearshore bathymetry with time. The data were gridded, surfaced, smoothed, and re-gridded prior to contouring. Editing of contours was carried out in the Adobe Illustrator software package. The vector contours were imported from Adobe Illustrator into Arc-GIS, where GIS-compatible files containing the contours were created. As a final step, the contours were subjected to line smoothing. For more information on NOAA Coast Survey hydrographic data sets, refer to: http://www.ngdc.noaa.gov/mgg/bathymetry/hydro.html Note: Bathymetric contours describing navigation channels, the Intracoastal Waterway, riverbeds, and nearshore areas may in certain areas be incomplete or unreliable, and subject to change due to natural or anthropogenic causes. For reliable and up-to-date information on shipping channels and navigation safety, refer to U. S. Coast Survey charts: http://ocsdata.ncd.noaa.gov/OnLineViewer/GulfCoastViewerTable.html For more information on GMT, refer to: http://gmt.soest.hawaii.edu/ Note: Support of the Texas Parks and Wildlife Department in preparation of these datasets is gratefully acknowledged.</abstract>
+      <purpose>Purpose was to assemble seamless bathymetry, shoreline, and land topography of the Texas Continental Shelf and coastal region, which is as good as the underlying U. S. Coast Survey xyz hdrographic survey data sets, the NOAA Medium Resolution Digital Vector Shoreline, and the U. S. Geological Survey National Elevation Dataset ; and export this bathymetry/ shoreline/ land topography in a form compatible with geographic information systems.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-97.716758</westbc>
+        <eastbc>-91.999906</eastbc>
+        <northbc>30.000017</northbc>
+        <southbc>25.831255</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>Not to be used for navigation.  Always cite the source of the data</useconst>
+    <datacred>Troy Holcombe and Cesar Arias, Department of Oceanography, Texas A&amp;M University</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>7183</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TX_bathymetry_feet</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>CONTOUR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20120129</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

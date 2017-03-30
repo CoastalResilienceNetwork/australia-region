@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Prepared for the Nature Conservancy by Warren Pinnacle Consulting, Inc.</origin>
+				<pubdate>20110422</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title>Landcover Map of Grand Bay, Mississippi Produced from the Sea Level Rise Affecting Marsh Model (SLAMM) Using the 2m of Sea Level Rise by 2100 Scenario in 2100</title>
+				<geoform>raster digital data</geoform>
+				<serinfo>
+					<sername>TNC SLAMM Analyses</sername>
+					<issue>Grand Bay NERR, Mississippi</issue>
+				</serinfo>
+				<pubinfo>
+					<publish>The Nature Conservancy</publish>
+					<pubplace>Corpus Christi, TX</pubplace>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20110422</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>SLAMM Analysis of Grand Bay NERR and Environs</title>
+						<serinfo>
+							<sername>TNC SLAMM Analyses</sername>
+							<issue>Grand Bay NERR, Mississippi</issue>
+						</serinfo>
+						<pubinfo>
+							<publish>Prepared for the Nature Conservancy by Warren Pinnacle Consulting, Inc.</publish>
+							<pubplace>Waitsfield, VT</pubplace>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The image shows the SLAMM landcover cateogories for the Grand Bay National Estuarine Research Reserve (NERR) in 2100 derived from the the Sea Level Rise Affecting Marsh Model (SLAMM) version 6. The model used the 2 meter of sea-level rise by 2100 scenario and was produced by Warren Pinnacle Consulting, Inc. for the Nature Conservancy. The purpose of this map was to show how marshes are predicted to migrate inland due to increases in sea level by 2100. The SLAMM model produced landcover maps for 5 points in time for this specific sea level rise scenario, which included the starting point in 2009 and predicted landcover maps for 2025, 2050, 2075 and 2100. The SLAMM version 6 technical document can be accessed at http://warrenpinacle.com/prof/SLAMM.</abstract>
+			<purpose>Tidal marshes are among the most susceptible ecosystems to climate change, especially accelerated sea-level rise (SLR).  The Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) suggested that global sea level will increase by approximately 30 cm to 100 cm by 2100 (IPCC 2001).  Rahmstorf (2007) suggests that this range may be too conservative and that the feasible range by 2100 is 50 to 140 cm.  Rising sea levels may result in tidal marsh submergence (Moorhead and Brinson 1995) and habitat &#8220;migration&#8221; as salt marshes transgress landward and replace tidal freshwater and irregularly-flooded marsh (R. A. Park et al. 1991). Beginning in 2009, the Nature Conservancy and Warren Pinnacle Consulting, Inc. worked together to produce an analysis of the potential effects of sea-level rise on Grand Bay Estuary and its environs.  Funding for TNC was provided through a grant from the Gulf of Mexico Foundation to support the Habitat Conservation &amp; Restoration Team, a part of the Governor&#8217;s Gulf of Mexico Alliance. </purpose>
+		</descript>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20110422</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-88.499212</westbc>
+				<eastbc>-88.265992</eastbc>
+				<northbc>30.485571</northbc>
+				<southbc>30.313705</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>SLAMM</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLR</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>Migration</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Grand Bay NERR</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>United States</placekey>
+			</place>
+			<temporal>
+				<tempkt>none</tempkt>
+				<tempkey>2009</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical address</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data were collected using methods that have unknown accuracy</attraccr>
+		</attracc>
+		<logic>Tests for integrity have not been performed</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>SLAMM modeling outputs are created from a number of source data (see report)</procdesc>
+				<procdate>20110422</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Grid Cell</rasttype>
+			<rowcount>1878</rowcount>
+			<colcount>2218</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true1021003857</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu />
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>gbn2100_2m</enttypl>
+				<enttypd>Raster</enttypd>
+				<enttypds>The Nature Conservancy</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Rowid</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>VALUE</attrlabl>
+				<attrdef>SLAMM Land Use and Land Class classification</attrdef>
+				<attrdefs>Warren Pinnacle Consulting, Inc.</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>Developed Dry Land</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>Undeveloped Dry Land</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>Nontidal Swamp</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>Cypress Swamp</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>Inland Fresh Marsh</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd>Tidal Fresh Marsh</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>7</edomv>
+						<edomvd>Transitional Salt Marsh</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>8</edomv>
+						<edomvd>Regularly Flooded Marsh (Saltmarsh)</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>9</edomv>
+						<edomvd>Mangrove</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>10</edomv>
+						<edomvd>Estuarine Beach</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>11</edomv>
+						<edomvd>Tidal Flat</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>12</edomv>
+						<edomvd>Ocean Beach</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>13</edomv>
+						<edomvd>Ocean Flat</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>14</edomv>
+						<edomvd>Rocky Intertidal</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>15</edomv>
+						<edomvd>Inland Open Water</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>16</edomv>
+						<edomvd>Riverine Tidal Open Water</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>17</edomv>
+						<edomvd>Estuarine Open Water</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>18</edomv>
+						<edomvd>Tidal Creek</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>19</edomv>
+						<edomvd>Open Ocean</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>20</edomv>
+						<edomvd>Irregularly Flooded Marsh</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>21</edomv>
+						<edomvd>Not Used</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>22</edomv>
+						<edomvd>Inland Shore</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>23</edomv>
+						<edomvd>Tidal Swamp</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>24</edomv>
+						<edomvd>Not Used</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>25</edomv>
+						<edomvd>Vegetated Tidal flat</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+				<attrdomv>
+					<edom>
+						<edomv>26</edomv>
+						<edomvd>Back Shore</edomvd>
+						<edomvds>Warren Pinnacle Consulting, Inc.</edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>COUNT</attrlabl>
+				<attrdef>Cell count of SLAMM LULC classes</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>ESRI generated cell count</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<metainfo>
+		<metd>20110422</metd>
+		<metrd>20121220</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+	</metainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See access and use constraints information</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<country>USA</country>
+					<state>TX</state>
+					<city>Corpus Christi</city>
+					<postal>78401</postal>
+					<address>205 N. Carrizo St</address>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20110422</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+</metadata>

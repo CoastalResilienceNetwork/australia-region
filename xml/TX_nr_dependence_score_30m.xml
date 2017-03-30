@@ -1,0 +1,131 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Texas Natural Resource  Dependence Score</title>
+        <edition>Version 1</edition>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Oyster restoration projects can provide social and economic benefits to those communities whose livelihoods depend most upon the health of coastal natural resources. We used 2000 census data that had been produced by the U.S. National Oceanic and Atmospheric Administration through the National Ocean Service (NOS)’ Special Project (SP) Office to calculate and map the percentage of the workforce employed in agriculture, forestry, and fishing per census block group to identify coastal communities with high levels of natural resource job dependence. Percent employed in agriculture, forestry, and fishing was calculated by dividing raw number employed in sector by the total workforce per block group in counties touching the shoreline. The Euclidean allocation tool was used to assign nearest values to cells within the study area 2 km off the coast and a 30m, 30m grid was produced.</abstract>
+      <purpose>In response to the Deepwater Horizon oil spill in April 2010, The Nature Conservancy in collaboration with multiple partners including NOAA, the University of Southern Mississippi, Stanford University, and ESRI, has developed an online web mapping application and robust Gulf of Mexico spatial database to help facilitate restoration and recovery decisions. Primarily targeted to help our state programs and the state agencies and partners they work with, the Gulf Restoration Decision Support project is being advanced to inform the identification of oyster reef restoration projects with maximum ecological, social and economic benefits. The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas. The Oyster Restoration Dashboard is organized by state and permits users to easily visualize locations most appropriate for oyster restoration investment using a suite of ecological, social and economic criteria. The suitability criteria vary somewhat between states due to differences in data availability, however all states include basic ecological measures such as depth, salinity and historic oyster distribution.</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.798506</westbc>
+        <eastbc>-93.788426</eastbc>
+        <northbc>29.998841</northbc>
+        <southbc>25.937894</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Gulf of Mexico, Oyster Restoration</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Gulf of Mexico, Florida, Mississippi, Alabama, Louisiana, Texas</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>1917 1st Ave</address>
+          <city>Seattle</city>
+          <state>WA</state>
+          <postal>98101</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>206-343-4345</cntvoice>
+        <cntemail>zferdana@tnc.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>Gulf Restoration Decision Support project</browsen>
+    </browse>
+    <datacred>TNC created the scored raster layers for inclusion in the Oyster Restoration Dashboard. For more information about TNC's Gulf Restoration Decision Support project go to http://coastalresilience.org/. For more information on the socioeconomic layer that was used to generate this layer see NOAAs Spatial Trends in Coastal Socioeconomics by going to http://coastalsocioeconomics.noaa.gov/.</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo />
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>VAT_TX_nr_dependence_score_30m</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20120129</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+        </cntaddr>
+        <cntemail>zferdana@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

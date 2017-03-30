@@ -1,0 +1,160 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Cumulative surface oil from Deepwater Horizon oil spill</title>
+        <edition>Version 1</edition>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset was derived from daily composite polygons of surface oil from the Deepwater Horizon oil spill. The polygons were digitized by NOAA's National Environmental Satellite, Data and Information Service (NESDIS). In order to get an estimated total surface area cover by oil, these digitized polygons were made into raster grids, with each day having a value of one. Raster grids were combined with the values representing the total number of days of observed, digitized surface oil. Not every day of the oil spill was captured by NESDIS. The first date the surface oil was captured as composite polygons was May 17, and the last was August 25, 2010. Therefore these data do not represent the full duration of the spill.</abstract>
+      <purpose>The purpose of this dataset is to depict the cumulative surface oil from the Deepwater Horizon oil spill of 2010.</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-95.079482</westbc>
+        <eastbc>-78.245046</eastbc>
+        <northbc>34.051240</northbc>
+        <southbc>19.174941</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Oil spill, Oceans, Deepwater Horizon, Gulf of Mexico, cumulative surface oil</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Gulf of Mexico, Florida, Mississippi, Alabama, Louisiana, Texas</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>1917 1st Ave </address>
+          <city>Seattle</city>
+          <state>WA</state>
+          <postal>98101</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>206-343-4345</cntvoice>
+        <cntemail>zferdana@tnc.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>Gulf Restoration Decision Support project</browsen>
+    </browse>
+    <datacred>NESDIS produced the composite, daily polygons and The Nature Conservancy (TNC) transformed the polygons into raster grids and combined them into the final cumulative surface oil data.  For more information regarding the digitized, composite polygons from NESDIS see http://www.ssd.noaa.gov/PS/MPS/deepwater.html.  For more information about TNC's Gulf Restoration Decision Support project go to http://coastalresilience.org/gulf-of-mexico. </datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.0.2414</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <typesrc>None</typesrc>
+      </srcinfo>
+      <procstep />
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>52296</rowcount>
+      <colcount>49344</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 Albers</mapprojn>
+          <albers>
+            <stdparll>20.0</stdparll>
+            <stdparll>60.0</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>40.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0000000037055025714494162</absres>
+            <ordres>0.0000000037055025714494162</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>deepwater.vat</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Rowid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdomv>
+          <edom />
+          <rdom />
+          <codesetd />
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+        <attrdomv>
+          <edom />
+          <rdom />
+          <codesetd />
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110315</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+        </cntaddr>
+        <cntemail>zferdana@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>This dataset is provided to give a general illustration of the magnitude and cumulative surface distribution of the Deepwater Horizon oil spill. Presence of surface oil was depicted from satellite imagery at a certain time and therefore may not be accurately represented if oceanographic conditions altered the suface area throughout that day. Further, since not every day of the oil spill was digitized from the imagery, the cumulative effects are likely to be under-represented.</metuc>
+  </metainfo>
+</metadata>

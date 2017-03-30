@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>The Nature Conservancy</origin>
+				<pubdate>20120101</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title>Predicted existing marsh losses in 2100 under a 1m sea leavel rise scenario in Galveston Bay and Jefferson County, Texas.</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>TNC Conservation Planning Analyses</sername>
+					<issue>Galveston Bay and Jefferson County, Texas</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Corpus Christi, TX</pubplace>
+					<publish>The Nature Conservancy</publish>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20120101</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>Informing conservation planning using sea-level rise and storm surge impact estimates in the Galveston Bay and Jefferson County, Texas area</title>
+						<serinfo>
+							<sername>TNC Conservation Planning Analyses</sername>
+							<issue>Galveston Bay and Jefferson County, Texas</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Corpus Christi, TX</pubplace>
+							<publish>The Nature Conservancy</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset shows the percentage of loss of existing irregularly flooded and regularly flooded marshes by 2100 under a 1 m SLR scenario. SLAMM was used to predict the future distribution of marshes and the marsh persistence and loss calculations were summarized by each individual marsh polygon.</abstract>
+			<purpose>This dataset shows the percentage of loss of existing irregularly flooded and regularly flooded marshes by 2100 under a 1 m sea level rise scenario.</purpose>
+		</descript>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120101</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-95.354965</westbc>
+				<eastbc>-93.831783</eastbc>
+				<northbc>29.906817</northbc>
+				<southbc>28.944026</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Conservation</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLR</themekey>
+				<themekey>Migration</themekey>
+				<themekey>SLAMM</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Galveston Bay</placekey>
+				<placekey>Jefferson County</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2004</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical address</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data were collected using methods that have unknown accuracy</attraccr>
+		</attracc>
+		<logic>Tests for integrity have not been performed</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Conservation analyses were created from SLAMM and ADCIRC modeling outputs</procdesc>
+				<procdate>20120101</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>G-polygon</sdtstype>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>Transverse Mercator 15N</mapprojn>
+					<transmer>
+						<sfctrmer>0.9996</sfctrmer>
+						<longcm>-93.0</longcm>
+						<latprjo>0.0</latprjo>
+						<feast>500000.0</feast>
+						<fnorth>0.0</fnorth>
+					</transmer>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="TX_GB_JC_ExistingMarsh_loss_2100">
+			<enttyp>
+				<enttypl>TX_GB_JC_ExistingMarsh_loss_2100</enttypl>
+				<enttypd>Feature Class</enttypd>
+				<enttypds>The Nature Conservancy</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>GRIDCODE</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>F_AREA</attrlabl>
+				<attrdef>Area of Feature</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COUNT</attrlabl>
+				<attrdef>Count of rastor cells making up the features from feature to rastor conversion in ArcGIS</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>m_persist</attrlabl>
+				<attrdef>Marsh persistence area</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>viab2100</attrlabl>
+				<attrdef>Marsh viability score in 2100 (see report)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See access and use constraints information</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<country>USA</country>
+					<state>TX</state>
+					<city>Corpus Christi</city>
+					<postal>78401</postal>
+					<address>205 N. Carrizo St</address>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120101</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20120101</metd>
+		<metrd>20121220</metrd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+</metadata>

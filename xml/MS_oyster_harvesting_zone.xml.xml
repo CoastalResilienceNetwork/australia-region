@@ -1,0 +1,171 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title>MS_oyster_harvesting_zone</title>
+				<geoform>vector digital data</geoform>
+				<onlink>file://\\server2\data\GIS\GIS_DATA\POPULATION_or_HABITAT_MONITORING\OYSTER_REEFS\Oyster_Harvesting_Zones.shp</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set is a shape file showing the locations of oyster harvesting/growing areas, the zones' classification and conditions for closure of conditionally approved areas.</abstract>
+			<purpose>This data set is useful for depicting the general location of oyster harvesting/growing areas.</purpose>
+		</descript>
+		<spdom>
+			<bounding>
+				<westbc>-89.648215</westbc>
+				<eastbc>-88.384436</eastbc>
+				<northbc>30.458940</northbc>
+				<southbc>30.146117</southbc>
+			</bounding>
+		</spdom>
+		<keywords/>
+		<accconst>None</accconst>
+		<useconst>These data were generated for use by the Mississippi Department of Marine Resources. The Mississippi Department of Marine Resources does not endorse or recommend the use of this data for any specific purpose. The data represent research mapping efforts and should not be used for legal purposes.</useconst>
+		<datacred>Mississippi Department of Marine Resources</datacred>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>63</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+				<ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>0.0</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Oyster_Harvesting_Zones
+</enttypl>
+				<enttypd>Polygons defining the location and extent of Mississippi oyster harvesting zones
+</enttypd>
+				<enttypds>Mississippi Department of Marine Resources
+</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape
+</attrlabl>
+				<attrdef>Feature geometry.
+</attrdef>
+				<attrdefs>ESRI
+</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.
+</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ID
+</attrlabl>
+				<attrdef>internal agency information
+</attrdef>
+				<attrdefs>Mississippi Department of Marine Resources
+</attrdefs>
+				<attrdomv>
+					<udom>internal agency information
+</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CONDITIONS
+</attrlabl>
+				<attrdef>Classification of area/zone
+</attrdef>
+				<attrdefs>Mississippi Department of Marine Resources
+</attrdefs>
+				<attrdomv>
+					<udom>Values: Approved, Conditionally Approved, Restricted, Prohibited, Unclassified
+</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ZONE_ID
+</attrlabl>
+				<attrdef>Area/zone designation
+</attrdef>
+				<attrdefs>Mississippi Department of Marine Resources
+</attrdefs>
+				<attrdomv>
+					<udom>Area/zone designation
+</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>NEWFIELD1
+</attrlabl>
+				<attrdef>internal Agency information
+</attrdef>
+				<attrdefs>Mississippi Department of Marine Resources
+</attrdefs>
+				<attrdomv>
+					<udom>internal Agency information
+</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distliab>See access and use constraints information.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20111113</metd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_oyster_harvesting_zone.xml</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\projected\MS_oyster_harvesting_zone.xml" dest="\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_oyster_harvesting_zone.xml" date="20111113" time="08241600"></copy></copyHistory></DataProperties></Esri></metadata>

@@ -1,0 +1,160 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Irregularly Flooded Marsh Viability in Grand Bay, Mississippi from 2009 to 2100 Derived from Predicted Landcover Maps Produced by the Sea Level Rise Affecting Marsh Model (SLAMM)</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This file was produced to show the percent change in contiguous irregularly flooded marsh areas in Grand Bay, Mississippi from 2009 to 2100. The irregularly flooded marsh polygons were derived from the predicted landcover maps from 2009 to 2100, which were produced by the Sea Level Rise Affecting Marsh Model (SLAMM) using the 1m of sea level rise by 2100 scenario in the Grand Bay National Estuarine Research Reserve (NERR). The file was created by extracting all irregularly flooded marsh pixels from each of the 5 SLAMM landcover maps produced for the 1m scenario, which include the intial condicion in 2009 and predicted landcover maps for 2025, 2050, 2075, and 2100. The irregularly flooded marsh pixels were then combined to form polygons of contiguous areas, or marsh complexes. The total area of irregularly flooded marsh was calculated for each marsh complex for 2009, 2025, 2050, 2075, and 2100. The difference in area and percent change in irregularly flooded marsh was then calculated for each marsh complex to represent marsh viability.</abstract>
+      <purpose>Tidal marshes are among the most susceptible ecosystems to climate change, especially accelerated sea-level rise (SLR). The Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) suggested that global sea level will increase by approximately 30 cm to 100 cm by 2100 (IPCC 2001). Rahmstorf (2007) suggests that this range may be too conservative and that the feasible range by 2100 is 50 to 140 cm. Rising sea levels may result in tidal marsh submergence (Moorhead and Brinson 1995) and habitat “migration” as salt marshes transgress landward and replace tidal freshwater and irregularly-flooded marsh (R. A. Park et al. 1991). Beginning in 2009, the Nature Conservancy and Warren Pinnacle Consulting, Inc. worked together to produce an analysis of the potential effects of sea-level rise on Grand Bay Estuary and its environs. Funding for TNC was provided through a grant from the Gulf of Mexico Foundation to support the Habitat Conservation &amp; Restoration Team, a part of the Governor’s Gulf of Mexico Alliance. 
+
+
+</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.496326</westbc>
+        <eastbc>-88.267330</eastbc>
+        <northbc>30.459179</northbc>
+        <southbc>30.318657</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>SLAMM</themekey>
+        <themekey>Sea Level Rise</themekey>
+        <themekey>SLR</themekey>
+        <themekey>Grand Bay</themekey>
+        <themekey>Mississippi</themekey>
+        <themekey>NERR</themekey>
+        <themekey>Marsh</themekey>
+        <themekey>Migration</themekey>
+        <themekey>Viability</themekey>
+        <themekey>Percent</themekey>
+        <themekey>Change</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The user accepts all responsibility for use of these data.</useconst>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1811</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Grand_Bay_Irregularly_Flooded_Marsh_Viability</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID_mosaic</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>origID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>y2009</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>y2025</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>y2050</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>y2075</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>y2100</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>dif_09_25</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>dif_09_50</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>dif_09_00</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>per_09_25</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>per_09_50</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>per_09_75</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>per_09_00</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>dif_09_75</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>high_viab</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111101</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

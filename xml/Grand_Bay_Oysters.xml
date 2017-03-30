@@ -1,0 +1,150 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Grand Bay National Estuarine Research Reserve</origin>
+        <title>Oyster Shell Coverage in Grand Bay National Estuarine Research Reserve</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>The primary objective of Phase I of the Oyster Inventory Survey Project is to map existing 
+intertidal oyster reefs, dead and alive, along the intertidal zones of bays, bayous, and lakes 
+located within the boundary of the Grand Bay National Estuarine Research Reserve. Areas 
+containing oyster shells will be mapped according to a percent cover classification scheme that 
+will ultimately improve the management strategy for oyster reef protection and restoration. Oyster 
+reefs will be observed during low-tide events at all locations to obtain the maximum extent of 
+oyster shell coverage and plotted by hand using six inch high-resolution, true-color orthoimagery 
+obtained from the state of Mississippi. Two test runs at the North Rigolets Bayou and Crooked 
+Bayou proved that the six inch resolution imagery provides accurate detail to map oyster reefs “in 
+situ” by boat and will provide enhanced spatial resolution for areas of critical interest (e.g. 
+restoration reefs). Upon completion of data collection, oyster reefs classifications and extents will 
+be mapped using heads up digitizing in ArcView 9.3. Database attributes will be attached to the 
+shape (polygon/point) to describe information pertaining to the oyster resources. Ancillary data 
+will consist of Trimble GeoXH GPS points and USGS quadrangle topographic maps. </purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.475988</westbc>
+        <eastbc>-88.394883</eastbc>
+        <northbc>30.412623</northbc>
+        <southbc>30.343602</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Grand Bay</themekey>
+        <themekey>Mississippi</themekey>
+        <themekey>NERR</themekey>
+        <themekey>Oyster</themekey>
+        <themekey>Coverage</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The user accepts all responsibility for use of these data.</useconst>
+    <datacred>To view more detailed descriptions of metadata for this file visit: http://grandbaynerr.org/wp-content/uploads/2010/08/Oyster-Inventory-Survey-1.pdf</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>684</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Grand_Bay_Oysters</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TIME_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBSERVERS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>WATERBODY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OBJECT_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>UNIQUE_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CLASS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMENTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Le_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Coverage</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111101</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

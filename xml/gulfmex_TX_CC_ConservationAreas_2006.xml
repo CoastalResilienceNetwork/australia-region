@@ -1,0 +1,774 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?> 
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>The Nature Conservancy</origin>
+				<pubdate>20131201</pubdate>
+				<pubtime>unknown</pubtime>
+				<title>Existing Federal, State and Nature Conservancy conservation areas in Corpus Christi Bay, Texas.</title>
+				<geoform>vector digital data</geoform>
+				<serinfo>
+					<sername>TNC Coastal Conservation and Resiliency Analyses</sername>
+					<issue>Corpus Christi Bay, Texas</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>205 N. Carizzo Street, Corpus Christi, TX, 78401, US</pubplace>
+					<publish>The Nature Conservancy</publish>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20131201</pubdate>
+						<pubtime>unknown</pubtime>
+						<title>Informing conservation and resiliency planning using sea-level rise and storm-surge scenario impact estimates in Corpus Christi Bay</title>
+						<serinfo>
+							<sername>TNC Coastal Conservation and Resiliency Analyses</sername>
+							<issue>Corpus Christi Bay, Texas</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Corpus Christi, TX</pubplace>
+							<publish>The Nature Conservancy</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset was made to show all land conservation areas in the Corpus Christi Bay, Texas project region. This dataset shows all federal, state and Nature Conservancy conservation managed lands that impact salt marsh areas within the Corpus Christi Bay, Texas project area boundaries.</abstract>
+			<purpose>This file was created for The Nature Conservancy's Sea Level Rise Project for the northern Gulf of Mexico with funding from the Coastal Bend Bays and Estuary Program (CBBEP). This dataset includes all federal, state and Nature Conservancy conservation lands within the Corpus Christi Bay, Texas project area boundaries. The data for this shapefile comes from the TNC Lands database and The Protected Areas Database of the United States (PAD-US), which is a geodatabase, managed by USGS GAP, that illustrates and describes public land ownership, management and other conservation lands, including voluntarily provided privately protected areas. Management areas shown here are either federal, state, or managed by The Nature Conservancy and potentially do not include all management areas within the study area, nor do they consider the level of protection per management area.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20131201</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-97.821974</westbc>
+				<eastbc>-96.984707</eastbc>
+				<northbc>27.990666</northbc>
+				<southbc>27.629071</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLAMM</themekey>
+				<themekey>Conservation</themekey>
+				<themekey>Management</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>SLR</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>environment</themekey>
+				<themekey>oceans</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Corpus Christi Bay</placekey>
+				<placekey>United States</placekey>
+				<placekey>Texas</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2006</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data.  This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.0.3348</native>
+	</idinfo>
+	<dataqual>
+		<logic>None</logic>
+		<complete>None</complete>
+		<lineage>
+			<procstep>
+				<procdesc>TNC Conservation and Resiliency analyses were created from SLAMM and ADCIRC modeling outputs for Corpus Christi Bay, Texas (see reports at www.SLRportal.org)</procdesc>
+				<procdate>20131201</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>Complete chain</sdtstype>
+				<ptvctcnt>117</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>Transverse Mercator 14N</mapprojn>
+					<transmer>
+						<sfctrmer>0.9996</sfctrmer>
+						<longcm>-99.0</longcm>
+						<latprjo>0.0</latprjo>
+						<feast>500000.0</feast>
+						<fnorth>0.0</fnorth>
+					</transmer>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000001</absres>
+						<ordres>0.000001</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>TX_CC_ConservationAreas.shp</enttypl>
+				<enttypd>Conservation and Resiliency Analyses</enttypd>
+				<enttypds>The Nature Conservancy</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Category</attrlabl>
+				<attrdef>General category for the protection mechanism associated with the protected area.  'Fee' is the most common way real estate is owned.  A conservation 'easement' creates a legally enforceable land preservation agreement between a landowner and government agency or qualified land protection organization (i.e. land trust).  'Other' types of protection include leases, agreements or those over marine waters.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Own_Type</attrlabl>
+				<attrdef>General land owner description (e.g. Federal, Tribal, State, Private) standardized for the US. See MSL Owner Type Domain descriptions in PAD-US Standards Manual or geodatabase look up table for detailed descriptions.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Own_Name</attrlabl>
+				<attrdef>Land owner and primary entity responsible for managing parcel when 'Manager Name' is not attributed (e.g. USFS, State Fish and Game, City Land, TNC) standardized for the US. See MSL Owner Name Domain descriptions in PAD-US Standards Manual or geodatabase look up table for detailed descriptions.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Loc_Own</attrlabl>
+				<attrdef>The actual name of the land owner provided by the data source, to complement the standardized 'Owner Name' field (e.g. State Fish and Wildlife is the standardized 'Owner Name' but Washington Department of Fish and Wildlife is the 'Local Owner').  Not standardized in MSL.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Mang_Name</attrlabl>
+				<attrdef>This field is attributed when the agency or entity responsible for managing a parcel differs from the 'Owner Name'.  Not standardized in MSL.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>P_Des_Tp</attrlabl>
+				<attrdef>The primary land management description or designation, standardized for nation (e.g. Area of Critical Environmental Concern resides in this field with Big Bear, as an example, in the 'Primary Designation Name' field.  See MSL Primary Designation Type domain descriptions for details and Appendix A for crosswalk and definitions.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>P_Loc_Ds</attrlabl>
+				<attrdef>The primary land management description or designation as provided by data source. Not standardized in MSL.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>P_Des_Nm</attrlabl>
+				<attrdef>The name of protected area only (with no designation type) standardized to Proper Case without acronyms or parcel identifiers.  This field enables users to search for a protected area by name, regardless of how many parcels it contains but can be concatenated with the Primary Designation Type field.  The Primary Local Name field, from the data source, is calculated into this field and standardized.  In previous PAD-US versions the designation type was included.  This field is in transition to the updated standard.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>P_Loc_Nm</attrlabl>
+				<attrdef>The name of the protected area as provided by the data source not standardized for the US.  As a result, this field may include designations, different formats, spelling errors, unit or area identifiers unique to parcels but joins to source data files.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Status</attrlabl>
+				<attrdef>Current legal or "official" standing of the site defined as: Designated - Site has been legally or administratively decreed; Proposed - Site has approval but is awaiting legal declaration/decree; Other - Site is recognized in a manner not otherwise classified or Unknown - Current status of this site is not known.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>State_Nm</attrlabl>
+				<attrdef>Name of state or territory spelled out in Proper Case.  See domain descriptions in PAD-US Standards Manual or geodatabase look up table for details.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Agg_Src</attrlabl>
+				<attrdef>Organization credited with data aggregation and name of aggregated data set.  Attributed in the format 'organization name_filename.filetype'  (e.g. TNC_SecuredAreas2008.shp).  Use acronym or replace spaces with underscore.  A data aggregator submits data in the PAD-US schema according to standards and/or aggregates regional or national datasets with required fields for PAD-US translation.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GIS_Src</attrlabl>
+				<attrdef>The source of GIS spatial and attribute information the aggregator obtained (e.g. WYG&amp;F_whmas08.shp) for each record.  Preferably files names match original source data to facilitate future updates.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Src_Date</attrlabl>
+				<attrdef>:  The date (mm/dd/yyyy) GIS data was obtained by the data source for aggregation.  If month or day is unknown date is 00.  This date represents the best available data the source has to support management at the time.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GIS_Acres</attrlabl>
+				<attrdef>Acres calculated from the 'calculate geometry' tool</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Source_UID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Source_PAI</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>S_Des_Tp</attrlabl>
+				<attrdef>Additional or overarching management designation of a protected area polygon under which another may overlap (e.g. National Forest is described in this field, while an overlapping Wilderness Area is in the Primary Designation Type).  See MSL domain descriptions in PADUS Standards Manual or geodatabase look up table for details.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>S_Loc_Ds</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>S_Loc_Nm</attrlabl>
+				<attrdef>The name of the protected area as provided by the source. Not standardized.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GAP_Sts</attrlabl>
+				<attrdef>The GAP Status Code is a measure of management intent to conserve biodiversity defined as: Status 1: An area having permanent protection from conversion of natural land cover and a mandated management plan in operation to maintain a natural state within which disturbance events (of natural type, frequency, intensity, and legacy) are allowed to proceed without interference or are mimicked through management.  Status 2: An area having permanent protection from conversion of natural land cover and a mandated management plan in operation to maintain a primarily natural state, but which may receive uses or management practices that degrade the quality of existing natural communities, including suppression of natural disturbance.  Status 3: An area having permanent protection from conversion of natural land cover for the majority of the area, but subject to extractive uses of either a broad, low-intensity type (e.g., logging, OHV recreation) or localized intense type (e.g., mining). It also confers protection to federally listed endangered and threatened species throughout the area.  Status 4: There are no known public or private institutional mandates or legally recognized easements or deed restrictions held by the managing entity to prevent conversion of natural habitat types to anthropogenic habitat types. The area generally allows conversion to unnatural land cover throughout or management intent is unknown.  See the PADUS Standards Manual for a summary of methods.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GAPCdSrc</attrlabl>
+				<attrdef>An acronym to describe the organization(s) that applied the Gap Status Code to the polygon.  This field also describes the methods used for assigning GAP Status as follows: 'GAP - Default' is assigned when GAP's categorical assignment of status has been applied, without more detailed review or inquiry.  'GAP' is assigned when standard methods (management plan reviewed and/or land manager interviewed to assign GAP Status to a protected area) apply as provided above.  'GAP - other organization' (e.g. GAP - NPS) applies when the measure is assigned in partnership with GAP, including review.  When another organization applied GAP Status according to their methods then 'other organization' (e.g. TNC) is assigned.  See the PADUS Standards Manual for more information.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GAPCdDt</attrlabl>
+				<attrdef>The most current Year (yyyy) the GAP Status Code was assigned to the polygon.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>IUCN_cat</attrlabl>
+				<attrdef>International Union for the Conservation of Nature (IUCN) management categories assigned to protected areas for inclusion in the UNEP- World Conservation Monitoring Center's (WCMC) World Database for Protected Areas (WDPA) and the Commission for Environmental Cooperation's (CEC) North American Terrestrial Protected Areas Database.  IUCN defines a protected area as, "A clearly defined geographical space, recognized, dedicated and managed, through legal or other effective means, to achieve the long-term conservation of nature with associated ecosystem services and cultural values". Categorization follows as:  Category Ia: Strict Nature Reserves are strictly protected areas set aside to protect biodiversity and also possibly geological / geomorphological features, where human visitation, use and impacts are strictly controlled and limited to ensure preservation of the conservation values.  Such protected areas can serve as indispensible reference areas for scientific research and monitoring.  Category Ib: Wilderness Areas are protected areas are usually large unmodified or slightly modified areas, retaining their natural character and influence, without permanent or significant human habitation, which are protected and managed so as to preserve their natural condition.  Category II: National Park protected areas are large natural or near natural areas set aside to protect large-scale ecological processes, along with the complement of species and ecosystems characteristic of the area, which also provide a foundation for environmentally and culturally compatible spiritual, scientific, educational, recreational and visitor opportunities.  Category III: Natural Monument or Feature protected areas are set aside to protect a specfic natural monument, which can be a land form, sea mount, submarine caverns, geological feature such as caves or even a living feature such as an ancient grove.  They are generally quite small protected areas and often have high visitor value.  Category  IV: Habitat/species management protected areas aim to protect particular species or habitats and management reflects this priority.  Many category IV protected areas will need regular, active interventions to address the requirements of particular species or to maintain habitats, but this is not a requirement of this category.  Category V: Protected landscape/seascape protected areas occur where the interaction of people and nature over time has produced an area of distinct character with significant ecological, biological, cultural and scenic value.  Category VI: Protected area with sustainable use of natural resources are generally large, with much of the area in a more-or-less natural condition and wherea a proportion is under sustainable natural resource management and where such exploitation is seen as one of the main aims of the area.  See the PADUS Standards Manual for a summary of methods.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Access</attrlabl>
+				<attrdef> Level of public access permitted.  Open  no special requirements for public access to the property (may include regular hours available);  Restricted  requires a special permit from the owner for access, a registration permit on public land or has highly variable times when open to use;  Closed  no public access allowed (land bank property, special ecological study areas, military bases, etc.  Unknown  no available information.  Access is assigned categorically by Primary Designation Type (See the PAD-US Standards Manual) when Unknown.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Access_Src</attrlabl>
+				<attrdef> Documents the Source of Access domain assignment (e.g. State Data Steward or GAP Default categorical assignment).  When locally assigned Access Source identifies that organization, generally the Aggregator Source, and follows the Aggregator Source standard.  If Access is Unknown, categorical assignments are made by Primary Designation Type and Access Source = GAP Default.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Date_Est</attrlabl>
+				<attrdef>The Year (yyyy) the protected area was designated, decreed or otherwise established.  Date is assigned by name, regardless of overlaps in topology (e.g. Yellowstone National Park: 1872, Frank Church-River of No Return Wilderness Area: 1980)</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>Comments</attrlabl>
+				<attrdef>Comments from either the original data source or aggregator.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>STATE</attrlabl>
+				<attrdef>2-letter state abbreviation for management units in the United States</attrdef>
+				<attrdefs>tnc_State domain</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Alabama</edomvd>
+						<edomv>AL</edomv>
+					</edom>
+					<edom>
+						<edomvd>Alaska</edomvd>
+						<edomv>AK</edomv>
+					</edom>
+					<edom>
+						<edomvd>Arizona</edomvd>
+						<edomv>AZ</edomv>
+					</edom>
+					<edom>
+						<edomvd>Arkansas</edomvd>
+						<edomv>AR</edomv>
+					</edom>
+					<edom>
+						<edomvd>California</edomvd>
+						<edomv>CA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Colorado</edomvd>
+						<edomv>CO</edomv>
+					</edom>
+					<edom>
+						<edomvd>Connecticut</edomvd>
+						<edomv>CT</edomv>
+					</edom>
+					<edom>
+						<edomvd>Delaware</edomvd>
+						<edomv>DE</edomv>
+					</edom>
+					<edom>
+						<edomvd>District of Columbia</edomvd>
+						<edomv>DC</edomv>
+					</edom>
+					<edom>
+						<edomvd>Florida</edomvd>
+						<edomv>FL</edomv>
+					</edom>
+					<edom>
+						<edomvd>Georgia</edomvd>
+						<edomv>GA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Hawaii</edomvd>
+						<edomv>HI</edomv>
+					</edom>
+					<edom>
+						<edomvd>Idaho</edomvd>
+						<edomv>ID</edomv>
+					</edom>
+					<edom>
+						<edomvd>Illinois</edomvd>
+						<edomv>IL</edomv>
+					</edom>
+					<edom>
+						<edomvd>Indiana</edomvd>
+						<edomv>IN</edomv>
+					</edom>
+					<edom>
+						<edomvd>Iowa</edomvd>
+						<edomv>IA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Kansas</edomvd>
+						<edomv>KS</edomv>
+					</edom>
+					<edom>
+						<edomvd>Kentucky</edomvd>
+						<edomv>KY</edomv>
+					</edom>
+					<edom>
+						<edomvd>Louisiana</edomvd>
+						<edomv>LA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Maine</edomvd>
+						<edomv>ME</edomv>
+					</edom>
+					<edom>
+						<edomvd>Maryland</edomvd>
+						<edomv>MD</edomv>
+					</edom>
+					<edom>
+						<edomvd>Massachusetts</edomvd>
+						<edomv>MA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Michigan</edomvd>
+						<edomv>MI</edomv>
+					</edom>
+					<edom>
+						<edomvd>Minnesota</edomvd>
+						<edomv>MN</edomv>
+					</edom>
+					<edom>
+						<edomvd>Mississippi</edomvd>
+						<edomv>MS</edomv>
+					</edom>
+					<edom>
+						<edomvd>Missouri</edomvd>
+						<edomv>MO</edomv>
+					</edom>
+					<edom>
+						<edomvd>Montana</edomvd>
+						<edomv>MT</edomv>
+					</edom>
+					<edom>
+						<edomvd>Nebraska</edomvd>
+						<edomv>NE</edomv>
+					</edom>
+					<edom>
+						<edomvd>Nevada</edomvd>
+						<edomv>NV</edomv>
+					</edom>
+					<edom>
+						<edomvd>New Hampshire</edomvd>
+						<edomv>NH</edomv>
+					</edom>
+					<edom>
+						<edomvd>New Jersey</edomvd>
+						<edomv>NJ</edomv>
+					</edom>
+					<edom>
+						<edomvd>New Mexico</edomvd>
+						<edomv>NM</edomv>
+					</edom>
+					<edom>
+						<edomvd>New York</edomvd>
+						<edomv>NY</edomv>
+					</edom>
+					<edom>
+						<edomvd>North Carolina</edomvd>
+						<edomv>NC</edomv>
+					</edom>
+					<edom>
+						<edomvd>North Dakota</edomvd>
+						<edomv>ND</edomv>
+					</edom>
+					<edom>
+						<edomvd>Not Applicable</edomvd>
+						<edomv>NO</edomv>
+					</edom>
+					<edom>
+						<edomvd>Ohio</edomvd>
+						<edomv>OH</edomv>
+					</edom>
+					<edom>
+						<edomvd>Oklahoma</edomvd>
+						<edomv>OK</edomv>
+					</edom>
+					<edom>
+						<edomvd>Oregon</edomvd>
+						<edomv>OR</edomv>
+					</edom>
+					<edom>
+						<edomvd>Pennsylvania</edomvd>
+						<edomv>PA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Rhode Island</edomvd>
+						<edomv>RI</edomv>
+					</edom>
+					<edom>
+						<edomvd>South Carolina</edomvd>
+						<edomv>SC</edomv>
+					</edom>
+					<edom>
+						<edomvd>South Dakota</edomvd>
+						<edomv>SD</edomv>
+					</edom>
+					<edom>
+						<edomvd>Tennessee</edomvd>
+						<edomv>TN</edomv>
+					</edom>
+					<edom>
+						<edomvd>Texas</edomvd>
+						<edomv>TX</edomv>
+					</edom>
+					<edom>
+						<edomvd>Utah</edomvd>
+						<edomv>UT</edomv>
+					</edom>
+					<edom>
+						<edomvd>Virginia</edomvd>
+						<edomv>VA</edomv>
+					</edom>
+					<edom>
+						<edomvd>Vermont</edomvd>
+						<edomv>VT</edomv>
+					</edom>
+					<edom>
+						<edomvd>Washington</edomvd>
+						<edomv>WA</edomv>
+					</edom>
+					<edom>
+						<edomvd>West Virginia</edomvd>
+						<edomv>WV</edomv>
+					</edom>
+					<edom>
+						<edomvd>Wisconsin</edomvd>
+						<edomv>WI</edomv>
+					</edom>
+					<edom>
+						<edomvd>Wyoming</edomvd>
+						<edomv>WY</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>AREANAM</attrlabl>
+				<attrdef>The primary name of the property (publicly viewable).</attrdef>
+				<attrdefs>TNC</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>GAPCAT</attrlabl>
+				<attrdef>GAP Analysis Program (GAP) code indicating level of protection for each management unit under the GAP criteria</attrdef>
+				<attrdefs>TNC</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>1</edomvd>
+						<edomv>1</edomv>
+					</edom>
+					<edom>
+						<edomvd>2</edomvd>
+						<edomv>2</edomv>
+					</edom>
+					<edom>
+						<edomvd>3</edomvd>
+						<edomv>3</edomv>
+					</edom>
+					<edom>
+						<edomvd>4</edomvd>
+						<edomv>4</edomv>
+					</edom>
+					<edom>
+						<edomvd>5</edomvd>
+						<edomv>5</edomv>
+					</edom>
+					<edom>
+						<edomvd>7</edomvd>
+						<edomv>7</edomv>
+					</edom>
+					<edom>
+						<edomvd>8</edomvd>
+						<edomv>8</edomv>
+					</edom>
+					<edom>
+						<edomvd>9</edomvd>
+						<edomv>9</edomv>
+					</edom>
+					<edom>
+						<edomvd>4a</edomvd>
+						<edomv>4a</edomv>
+					</edom>
+					<edom>
+						<edomvd>4b</edomvd>
+						<edomv>4b</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PROTHOLD</attrlabl>
+				<attrdef>Organization that holds protection option. In many cases this will be "The Nature Conservancy".</attrdef>
+				<attrdefs>TNC</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PROTMECH</attrlabl>
+				<attrdef>Protection mechanism</attrdef>
+				<attrdefs>TNC; tnc_protmech</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomvd>Agreement</edomvd>
+						<edomv>Agreement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Assist - Fee-simple ownership</edomvd>
+						<edomv>Assist - Fee-simple ownership</edomv>
+					</edom>
+					<edom>
+						<edomvd>Assist - Full Conservation Easement</edomvd>
+						<edomv>Assist - Full Conservation Easement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Assist - Other</edomvd>
+						<edomv>Assist - Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>CE/Lease</edomvd>
+						<edomv>CE/Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>Certification</edomvd>
+						<edomv>Certification</edomv>
+					</edom>
+					<edom>
+						<edomvd>Deed Restriction</edomvd>
+						<edomv>Deed Restriction</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee/CE/Lease</edomvd>
+						<edomv>Fee/CE/Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee/DR</edomvd>
+						<edomv>Fee/DR</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee/Lease</edomvd>
+						<edomv>Fee/Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee-simple / easement combination</edomvd>
+						<edomv>Fee-simple / easement combination</edomv>
+					</edom>
+					<edom>
+						<edomvd>Fee-simple ownership</edomvd>
+						<edomv>Fee-simple ownership</edomv>
+					</edom>
+					<edom>
+						<edomvd>Full conservation easement</edomvd>
+						<edomv>Full conservation easement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Enlisted in COUNTY/OTHER government program</edomvd>
+						<edomv>government program - County/Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>Enlisted in FEDERAL government program</edomvd>
+						<edomv>government program - Federal</edomv>
+					</edom>
+					<edom>
+						<edomvd>Enlisted in STATE government program</edomvd>
+						<edomv>government program - State</edomv>
+					</edom>
+					<edom>
+						<edomvd>Lease</edomvd>
+						<edomv>Lease</edomv>
+					</edom>
+					<edom>
+						<edomvd>N/A</edomvd>
+						<edomv>N/A</edomv>
+					</edom>
+					<edom>
+						<edomvd>Other</edomvd>
+						<edomv>Other</edomv>
+					</edom>
+					<edom>
+						<edomvd>Partial conservation easement</edomvd>
+						<edomv>Partial conservation easement</edomv>
+					</edom>
+					<edom>
+						<edomvd>Transfer</edomvd>
+						<edomv>Transfer</edomv>
+					</edom>
+					<edom>
+						<edomvd>Unknown</edomvd>
+						<edomv>Unknown</edomv>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>CLSTRANSDA</attrlabl>
+				<attrdef>Date of CLS transaction.</attrdef>
+				<attrdefs>TNC</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SENSDATA</attrlabl>
+				<attrdef>Sensitivity of property information; is the data for internal TNC use only?</attrdef>
+				<attrdefs>TNC</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>Yes</edomv>
+						<edomvd>Yes</edomvd>
+					</edom>
+					<edom>
+						<edomv>No</edomv>
+						<edomvd>No</edomvd>
+					</edom>
+					<edom>
+						<edomv>Pending</edomv>
+						<edomvd>Pending</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MA_IFMS_ID</attrlabl>
+				<attrdef>Managed Area IFMS ID to link to the CLS database.</attrdef>
+				<attrdefs>TNC</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>TR_IFMS_ID</attrlabl>
+				<attrdef>Tract IFMS ID to link to the CLS database.</attrdef>
+				<attrdefs>TNC</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>CLS_ACRES</attrlabl>
+				<attrdef>The acreage as recorded in CLS, distinct from the acreage as calculated from the spatial data.</attrdef>
+				<attrdefs>TNC</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Shp_Length</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shp_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+			</cntinfo>
+		</distrib>
+		<distliab>See access and use constraints information</distliab>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20131201</caldate>
+					<time>unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20131223</metd>
+		<metrd>20131223</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metuc>None</metuc>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>Unclassified</metsc>
+			<metshd>None</metshd>
+		</metsi>
+	</metainfo>
+</metadata>

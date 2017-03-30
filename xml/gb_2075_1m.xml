@@ -1,0 +1,107 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Warren Pinnacle Consulting, Inc. </origin>
+        <pubdate>20110422</pubdate>
+        <title>Landcover Map of Grand Bay, Mississippi Produced from the Sea Level Rise Affecting Marsh Model (SLAMM) Using the 1m of Sea Level Rise by 2100 Scenario in 2075</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The image shows the SLAMM landcover cateogories for the Grand Bay National Estuarine Research Reserve (NERR) in 2075 derived from the the Sea Level Rise Affecting Marsh Model (SLAMM) version 6. The model used the 1 meter of sea-level rise by 2100 scenario and was produced by Warren Pinnacle Consulting, Inc. for the Nature Conservancy. The purpose of this map was to show how marshes are predicted to migrate inland due to increases in sea level by 2100. The SLAMM model produced landcover maps for 5 points in time, which included the initial condition in 2009 and predicted landcover maps for 2025, 2050, 2075 and 2100. The SLAMM version 6 technical document can be accessed at http://warrenpinacle.com/prof/SLAMM.</abstract>
+      <purpose>Tidal marshes are among the most susceptible ecosystems to climate change, especially accelerated sea-level rise (SLR).  The Intergovernmental Panel on Climate Change (IPCC) Special Report on Emissions Scenarios (SRES) suggested that global sea level will increase by approximately 30 cm to 100 cm by 2100 (IPCC 2001).  Rahmstorf (2007) suggests that this range may be too conservative and that the feasible range by 2100 is 50 to 140 cm.  Rising sea levels may result in tidal marsh submergence (Moorhead and Brinson 1995) and habitat “migration” as salt marshes transgress landward and replace tidal freshwater and irregularly-flooded marsh (R. A. Park et al. 1991).  
+
+Beginning in 2009, the Nature Conservancy and Warren Pinnacle Consulting, Inc. worked together to produce an analysis of the potential effects of sea-level rise on Grand Bay Estuary and its environs.  Funding for TNC was provided through a grant from the Gulf of Mexico Foundation to support the Habitat Conservation &amp; Restoration Team, a part of the Governor’s Gulf of Mexico Alliance. </purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.499212</westbc>
+        <eastbc>-88.265919</eastbc>
+        <northbc>30.485571</northbc>
+        <southbc>30.313640</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>SLAMM</themekey>
+        <themekey>Sea Level Rise</themekey>
+        <themekey>SLR</themekey>
+        <themekey>Grand Bay</themekey>
+        <themekey>Mississippi</themekey>
+        <themekey>NERR</themekey>
+        <themekey>Marsh</themekey>
+        <themekey>Migration</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The user accepts all responsibility for use of these data.</useconst>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>2219</rowcount>
+      <colcount>2597</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>gb_2075_1m.vat</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Rowid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111101</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

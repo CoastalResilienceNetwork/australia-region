@@ -1,0 +1,327 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>National Atlas of the United States and the United States Geological Survey</origin>
+				<title>Reserve</title>
+				<edition>2006</edition>
+				<geoform>vector digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>U.S. National Atlas Federal and Indian Land Areas provides the federal- and Indian-owned land areas for geographic display and analysis at regional and national levels. This shapefile was downloaded from the Mississippi Geospatial Clearinghouse and clipped to the coastal counties of Mississippi.</abstract>
+			<purpose>U.S. National Atlas Federal and Indian Land Areas represents the federal- and Indian-owned land areas (for example, Bureau of Indian Affairs, Department of Defense, and Tennessee Valley Authority) of the United States. U.S. National Atlas Federal and Indian Land Areas provides the federal- and Indian-owned land areas for geographic display and analysis at regional and national levels.</purpose>
+		</descript>
+		<status>
+			<update>Annually</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-82452.646997</westbc>
+				<eastbc>1225443.026608</eastbc>
+				<northbc>2017012.462633</northbc>
+				<southbc>928339.774142</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>polygon, federal lands, Indian lands, boundaries, planningCadastre</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>United States, Puerto Rico, U.S. Virgin Islands</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>1972-2004</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>Restriction Code: license; Other Constraints: The data are provided by multiple, third party data vendors under license to ESRI for inclusion on ESRI Data &amp; Maps for use with ESRI® software.  Each data vendor has its own data licensing policies and may grant varying redistribution rights to end users. Please consult the redistribution rights below for this data set provided on ESRI Data &amp; Maps. As used herein, “Geodata” shall mean any digital data set consisting of geographic data coordinates and associated attributes.The redistribution rights for this data set: Public domain data from U.S. government is freely redistributable with proper metadata and source attribution.The terms and conditions below apply to all the data sets provided on ESRI Data &amp; Maps.Proprietary Rights and Copyright: Licensee acknowledges that the Data and Related Materials contain proprietary and confidential property of ESRI and its licensor(s). The Data and Related Materials are owned by ESRI and its licensor(s) and are protected by United States copyright laws and applicable international copyright treaties and/or conventions.Limited Warranty and Disclaimer: ESRI warrants that the media upon which the Data and Related Materials are provided will be free from defects in materials and workmanship under normal use and service for a period of ninety (90) days from the date of receipt.THE DATA AND RELATED MATERIALS ARE EXCLUDED FROM THE LIMITED WARRANTY, AND THE LICENSEE EXPRESSLY ACKNOWLEDGES THAT THE DATA CONTAINS SOME NONCONFORMITIES, DEFECTS, OR ERRORS. ESRI DOES NOT WARRANT THAT THE DATA WILL MEET LICENSEE'S NEEDS OR EXPECTATIONS; THAT THE USE OF THE DATA WILL BE UNINTERRUPTED; OR THAT ALL NONCONFORMITIES, DEFECTS, OR ERRORS CAN OR WILL BE CORRECTED. ESRI IS NOT INVITING RELIANCE ON THIS DATA, AND THE LICENSEE SHOULD ALWAYS VERIFY ACTUAL DATA.EXCEPT FOR THE LIMITED WARRANTY SET FORTH ABOVE, THE DATA AND RELATED MATERIALS CONTAINED THEREIN ARE PROVIDED "AS-IS," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.HIGH RISK ACTIVITIES: (A) THE DATA AND RELATED MATERIALS ARE NOT FAULT-TOLERANT AND ARE NOT DESIGNED, MANUFACTURED, OR INTENDED FOR USE OR RESALE FOR INSURANCE UNDERWRITING OR WITH CRITICAL HEALTH AND SAFETY OR ONLINE CONTROL EQUIPMENT IN HAZARDOUS ENVIRONMENTS THAT REQUIRE FAIL-SAFE PERFORMANCE, INCLUDING, BUT NOT LIMITED TO THE OPERATION OF NUCLEAR FACILITIES, NAVIGATION OR GUIDANCE (I.E., AIRCRAFT, NAUTICAL VEHICLE, ETC.), OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL, EMERGENCY RESPONSE, TERRORISM PREVENTION OR RESPONSE, LIFE SUPPORT, OR WEAPONS SYSTEMS ("HIGH RISK ACTIVITIES"). ESRI SPECIFICALLY DISCLAIMS ANY EXPRESS OR IMPLIED WARRANTY OF FITNESS FOR HIGH RISK ACTIVITIES.(B) TO THE EXTENT PERMITTED BY LAW, LICENSEE AGREES TO INDEMNIFY, DEFEND, AND HOLD ESRI, ITS OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, SUBCONTRACTORS, LICENSORS, SUCCESSORS, AND ASSIGNS HARMLESS FROM AND AGAINST ANY AND ALL LIABILITY, LOSSES, CLAIMS, EXPENSES (INCLUDING ATTORNEYS' FEES), DEMANDS, OR DAMAGES OF ANY KIND, INCLUDING DIRECT, INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, ARISING OUT OF OR IN ANY WAY CONNECTED WITH LICENSEE'S USE OR PERMITTING THE USE BY OTHERS OF THE DATA, AND VENDOR'S HARDWARE OR SOFTWARE FOR HIGH RISK ACTIVITIES. DELIVERY OF THE DATA, AND VENDOR'S HARDWARE OR SOFTWARE DOES NOT CONSTITUTE A WAIVER OF THE RIGHTS AND OBLIGATIONS SET FORTH IN THIS ARTICLE.Exclusive Remedy and Limitation of Liability: The entire liability of ESRI or its licensor(s) and Licensee's exclusive remedy shall be to terminate the Agreement upon Licensee returning the Data and Related Materials to ESRI with a copy of Licensee's invoice/receipt and ESRI returning the license fees paid to Licensee.IN NO EVENT SHALL ESRI AND/OR ITS LICENSOR(S) BE LIABLE FOR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOST PROFITS, LOST SALES, OR BUSINESS EXPENDITURES, INVESTMENTS, OR COMMITMENTS IN CONNECTION WITH ANY BUSINESS; LOSS OF ANY GOODWILL; OR FOR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT OR USE OF THE DATA AND RELATED MATERIALS, HOWEVER CAUSED, ON ANY THEORY OF LIABILITY, AND WHETHER OR NOT ESRI OR ITS LICENSOR(S) HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. THESE LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY EXCLUSIVE REMEDY.Third Party Beneficiary: ESRI's licensor(s) has (have) authorized ESRI to (sub)distribute and (sub)license its (their) data as incorporated into the Data and Related Materials. As an intended third party beneficiary to this Agreement, the ESRI licensor(s) is (are) entitled to directly enforce, in its own name, the rights and obligations undertaken by the Licensee and to seek all legal and equitable remedies as are afforded to ESRI.In the event that the data vendor(s) has (have) granted the end user permission to redistribute the Geodata, please use proper proprietary or copyright attribution for the various data vendor(s), and provide the associated metadata file(s) with the Geodata. In compliance with FGDC metadata standards, ESRI has attempted to practice proper metadata methodologies by providing any data source information, descriptions, and file names to assist in this effort.</accconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>ESRI</cntorg>
+					<cntper>Data Team</cntper>
+				</cntorgp>
+				<cntpos>Data Team</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>us</country>
+				</cntaddr>
+				<cntvoice>909-793-2853</cntvoice>
+				<cntfax>909-793-5953</cntfax>
+				<cntemail>info@esri.com</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>2671</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+				<ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>0.0</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>Reserve</enttypl>
+				<enttypd>The polygons represent the federal- and Indian-owned lands of 640 acres or more within United States.</enttypd>
+				<enttypds>National Atlas of the United States and the United States Geological Survey</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>GNIS_ID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>AREASQKM</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>FTYPE</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>FCODE</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>ADMINTYPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>LOADDATE</attrlabl>
+				<attrdef>MGCP attribute</attrdef>
+				<attrdefs>ITS</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>2007</rdommin>
+						<rdommax>2050</rdommax>
+					</rdom>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>QUALITY</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ITS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvds>national data model</edomvds>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvds>national data model</edomvds>
+					</edom>
+					<edom>
+						<edomv>0</edomv>
+						<edomvd>unknown</edomvd>
+						<edomvds>national data model</edomvds>
+					</edom>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>OWNERORMAN</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SCALE</attrlabl>
+				<attrdef>scale category on whether it can be displayed at 1:100000, 1:24000, or 1:6000</attrdef>
+				<attrdefs>national data model, ITS</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>small scale</edomvd>
+						<edomvds>national data model</edomvds>
+					</edom>
+					<edom>
+						<edomvds>national data model</edomvds>
+						<edomv>2</edomv>
+						<edomvd>medium scale</edomvd>
+					</edom>
+					<edom>
+						<edomvds>national data model</edomvds>
+						<edomv>3</edomv>
+						<edomvd>large scale</edomvd>
+					</edom>
+					<edom>
+						<edomvds>national data model</edomvds>
+						<edomv>0</edomv>
+						<edomvd>unknown or scale NA</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+					</edom>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PERMANENT_</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>SOURCE_FEA</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>SOURCE_DAT</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>SOURCE_D_1</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>SOURCE_ORI</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>DATA_SECUR</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>DISTRIBUTI</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>ESRI; ESRI International Distributors</cntorg>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>us</country>
+				</cntaddr>
+				<cntvoice>800-447-9778</cntvoice>
+			</cntinfo>
+		</distrib>
+		<distliab>See access and use constraints information.</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SDE Feature Class</formname>
+					<transize>3.201</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer/>
+						<accinstr>002</accinstr>
+					</onlinopt>
+					<offoptn>
+						<offmedia>dvdRom</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+			<fees>Software purchase price. ESRI Data &amp; Maps is available only as part of ESRI® software. To use this data requires software that supports SDC files.</fees>
+			<ordering>ESRI Data &amp; Maps is available only as part of ESRI® software.In the United States, contact the ESRI Telebusiness staff at 800-447-9778 for more information about our software and data.Outside the United States, please direct all inquiries to your local ESRI International Distributor.  This information can be found at http://gis.esri.com/intldist/contactint.cfm.</ordering>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20111112</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>ESRI</cntorg>
+					<cntper>Data Team</cntper>
+				</cntorgp>
+				<cntpos>Data Team</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>380 New York Street</address>
+					<city>Redlands</city>
+					<state>California</state>
+					<postal>92373-8100</postal>
+					<country>us</country>
+				</cntaddr>
+				<cntvoice>909-793-2853</cntvoice>
+				<cntfax>909-793-5953</cntfax>
+				<cntemail>info@esri.com</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_parks_reserves_public_lands.xml</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\projected\MS_parks_reserves_public_lands.xml" dest="\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_parks_reserves_public_lands.xml" date="20111113" time="08244600"></copy></copyHistory></DataProperties></Esri></metadata>

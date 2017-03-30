@@ -1,0 +1,15 @@
+Source:
+Alabama Department of Conservation and Natural Resources, 1995 (publication)
+
+Article Title: The 1995 Atlas of Major Public Oyster Reefs of Alabama and a Review of Oyster Management efforts 1975-1995
+
+Journal Title: Alabama Marine Resources Bulletin No.14
+
+Authors: Walter M. Tatum, Mark S. Van Hoose, Ralph W. Havard, and Mark C. Clark
+
+Original point data (X and Y coordinates) are in:
+
+Alabama State Plane
+West Zone
+Feet
+NAD 1927

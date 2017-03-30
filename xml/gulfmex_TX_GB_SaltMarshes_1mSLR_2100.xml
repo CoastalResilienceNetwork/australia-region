@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>The Nature Conservancy</origin>
+				<pubdate>20120101</pubdate>
+				<pubtime>Unknown</pubtime>
+				<title>Predicted Marsh Areas in 2100 due to 1m of Sea-Level Rise for Galveston Bay, Texas</title>
+				<geoform>rastor digital data</geoform>
+				<serinfo>
+					<sername>TNC Conservation Planning Analyses</sername>
+					<issue>Galveston Bay, TX</issue>
+				</serinfo>
+				<pubinfo>
+					<pubplace>Corpus Christi, TX</pubplace>
+					<publish>The Nature Conservancy</publish>
+				</pubinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<pubdate>20120101</pubdate>
+						<pubtime>Unknown</pubtime>
+						<title>Informing conservation planning using sea-level rise and storm surge impact estimates in the Galveston Bay and Jefferson County, Texas area</title>
+						<serinfo>
+							<sername>TNC Conservation Planning Analyses</sername>
+							<issue>Galveston Bay, TX</issue>
+						</serinfo>
+						<pubinfo>
+							<pubplace>Corpus Christi, TX</pubplace>
+							<publish>The Nature Conservancy</publish>
+						</pubinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The two data types used for this analysis consisted of predicted landcover maps created by the SLAMM model and federal and state conservation areas. The SLAMM maps that were used were created for The Nature Conservancy by Warren Pinnacle Consulting, Inc. and consisted of predicted landcover maps from 2009 up to the year 2100 with a 10 meter resolution that showed how marshes are predicted to migrate inland due to multiple scenarios of sea-level rise. The SLAMM maps with the 1m sea-level rise scenarios for each project site were selected, where the regularly and irregularly flooded marsh categories were chosen for the analysis.The methodology for this analysis consisted of extracting all areas of irregularly and regularly flooded marshes from the 2100 predicted landcover maps for each project site. The 2100 marsh areas represent all of the marsh areas that either persisted or gained new area by 2100 due to 1m of sea-level rise. The marsh categories were extracted from each 2100 landcover image, reclassified as a Boolean image, and then merged together using the addition operator with the overlay tool in the Idrisi GIS software.</abstract>
+			<purpose>The purpose of this analysis was to identify priority marsh conservation areas based on the results from the Sea-Level Rise Affecting Marsh Model (SLAMM) for the four different project sites in the Gulf of Mexico. The analysis consisted of two parts, which included the identification of current marsh areas that are predicted to persist until 2100 with 1m of sea-level rise, as well as new areas that are marshes are predicted to migrate into by 2100 with 1m of sea-level rise. The second part of the analysis consisted of identifying these marsh areas that lie outside of current conservation areas, which would constitute areas of priority for future protection. The marsh areas used for the analysis consisted of the regularly and irregularly flooded marsh categories from the SLAMM landcover maps coming from the National Wetland Inventory used in the SLAMM assessment for each project site.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120101</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-95.377978</westbc>
+				<eastbc>-94.334907</eastbc>
+				<northbc>29.987053</northbc>
+				<southbc>28.937351</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Conservation</themekey>
+				<themekey>Marsh</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLR</themekey>
+				<themekey>Migration</themekey>
+				<themekey>SLAMM</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Galveston Bay</placekey>
+				<placekey>Texas</placekey>
+				<placekey>United States</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2004</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical address</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>The Nature Conservancy</datacred>
+		<secinfo>
+			<secsys>None</secsys>
+			<secclass>Unclassified</secclass>
+			<sechandl>None</sechandl>
+		</secinfo>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data were collected using methods that have unknown accuracy</attraccr>
+		</attracc>
+		<logic>Tests for integrity have not been performed</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdesc>Conservation analyses were created from SLAMM and ADCIRC modeling outputs</procdesc>
+				<procdate>20120101</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<rowcount>11479</rowcount>
+			<colcount>9936</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true1021003857</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu />
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="TX_GB_Marshes.rst.vat">
+			<enttyp>
+				<enttypl>TX_GB_Marshes.rst.vat</enttypl>
+				<enttypd>Raster</enttypd>
+				<enttypds>The Nature Conservancy</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Value</attrlabl>
+				<attrdef>Land classification (0=non marsh, 1=marsh)</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>COUNT</attrlabl>
+				<attrdef>Count of inundated areas (cells)</attrdef>
+				<attrdefs>ESRI</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Class_name</attrlabl>
+				<attrdef>Name of land classification</attrdef>
+				<attrdefs>The Nature Conservancy</attrdefs>
+			</attr>
+		</detailed>
+	</eainfo>
+	<metainfo>
+		<metd>20120101</metd>
+		<metrd>20121220</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+	</metainfo>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See access and use constraints information</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<country>USA</country>
+					<state>TX</state>
+					<city>Corpus Christi</city>
+					<postal>78401</postal>
+					<address>205 N. Carrizo St</address>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20120101</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+</metadata>

@@ -1,0 +1,203 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA Dispersant Pre-Approval Area, Geographic NAD83, LOSCO (1999)</title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a region dataset delineating the areas of offshore Louisiana having Regional Response Team VI (RRT 6) pre-approval for the use of dispersants to break up an oil spill. This area is defined as that area of no less than 10 meters depth and at least three nautical miles from the nearest shoreline, out to the limit of the Exclusive Economic Zone. Three nautical miles from the nearest shoreline for Louisiana corresponds to the state's territorial limits. This data set is bounded on the west by the Galveston Marine Safety Office zone and on the east by the Mobile Marine Safety Office zone. The attributes of the boundary arcs indicate the source of each section of the boundary.</abstract>
+      <purpose>The data layer can be used as a guide for the Federal On Scene Coordinator (FOSC), the Louisiana Oil
+Spill Coordinator's Office, the Regional Response Team VI (RRT 6), and oil spill response
+organizations in the event of an oil spill emergency.  During such an event the
+clean-up methods of mechanical, in-situ burn, and dispersant are all options.  The
+establishment of preapproved areas for these methods allows the OSC to quickly approve
+their application in non-excluded areas.
+
+These data were derived from seven different sources, and as a
+result there are some areas that are less reliable than others.
+In particular, the area near the north end of the Chandeleur
+Islands 
+is an approximation, however the delineation is conservative
+in that area, so as to exclude, rather than include the area
+in question for pre-approval designation.  Most of the remainder
+of the boundary, which is represented by data derived from
+NOAA point depths is relative to Mean Low Gulf conditions, hence
+is also conservative based on the source data.
+
+The user should be aware that meteorological events such as hurricanes
+may alter the position of the 10m depth line delineating the shoreward limit
+of the dispersant preapproval zone or may have already
+have already altered the position from that represented in these
+data.  Furthermore, geomorphological processes due to sediment load are causing landward
+migration of isocontours at a rate of about 25 meters per year in the
+Mississippi River Delta Plain area (east and west of where the Mississippi
+empties out into the Gulf).  Because these data are based on historical
+NOAA charts, the effects of this migration have not been captured.
+
+This data set in geographic coordinates, NAD83 is a reference data set for
+the Louisiana Oil Spill Coordinator's Office (LOSCO).</purpose>
+    </descript>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>These unaltered data may not be redistributed without all of the elements
+of the metadata listed in the Supplemental_Information section of this
+metadata document.  It is recommended that third parties wishing to use
+these data obtain them from the Distributor listed in this metadata document.
+
+If these data are altered or incorporated into another dataset, they are not
+to be redistributed without also: altering the name of the dataset,
+including a Content Standards for Digital Geospatial Metadata
+(FGDC-STD-001-1998) compliant metadata file that describes the dataset and
+reflects the alteration steps that makes the new dataset different from this
+one, and citing this dataset in the metadata as a source for the altered
+dataset using the source citation specified below.
+
+If these digital data are used in the production of a report or in the compilation of a
+standalone printed map, then this dataset is to be cited in the report or on the map
+using the source citation specified below.
+
+The following source citation is to be used when citing this dataset:
+LOSCO Environmental Baseline Inventory Dataset 'Oil Dispersant
+Preapproval Area for Offshore Louisiana, Geographic NAD83,
+LOSCO (2000) [dispersant_preapproval_area_LOSCO_1999]'
+
+Users hereby agree to abide by the use and reproduction conditions specified above.
+By using the data described in these metadata, the user acknowledges that the terms
+and conditions of use have been read and that the user is bound by these criteria.</useconst>
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>dispersant_preapproval_area_LOSCO_1999</enttypl>
+        <enttypd>attributes of regions</enttypd>
+        <enttypds>3001, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>dis_preapp</attrlabl>
+        <attrdef>indication if dispersant use is preapproved</attrdef>
+        <attrdefs>3001, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>y</edomv>
+            <edomvd>dispersant use preapproved in this area</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DIS_PREAPP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DIS_PREA_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIS_PREA_2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Area_SQMI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>dispersant_preapproval_area_LOSCO_1999.aat (coverage only, not present in shape)</enttypl>
+        <enttypd>attribute table for arcs delineating boundary of preapproval area</enttypd>
+        <enttypds>3001, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>bnd_type</attrlabl>
+        <attrdef>source of boundary arc</attrdef>
+        <attrdefs>3001, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>constructed</edomv>
+            <edomvd>
+a constructed arc necessary to connect other valid data when they
+don't intersect, but should
+</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>EEZ</edomv>
+            <edomvd>Exclusive Economic Zone</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Louisiana state boundary</edomv>
+            <edomvd>Louisiana state territorial limit, three nautical miles from the shoreline</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MSO Port Arthur / MSO Galveston</edomv>
+            <edomvd>Boundary between Port Arthur and Galveston Marine Safety Office Zones</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MSO Morgan City / MSO Mobile</edomv>
+            <edomvd>Boundary between Morgan City and Mobile Marine Safety Office Zones</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MSO New Orleans / MSO Mobile</edomv>
+            <edomvd>Boundary between New Orleans and Mobile Marine Safety Office Zones</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NOAA 10meter depth</edomv>
+            <edomvd>10m depth line from CONGEOG3DLBTH data</edomvd>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>TerrainBase 10m depth</edomv>
+            <edomvd>self-evident</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110831</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,208 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>GM_coastal_ctys</title>
+        <edition>Version 1</edition>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Oyster restoration projects can provide social and economic benefits to those communities whose livelihoods depend most upon the health of coastal natural resources. To identify coastal communities with high levels of natural resource job dependence, we used data produced by the U.S. National Oceanic and Atmospheric Administration through the National Ocean Service (NOS)’ Special Project (SP) Office that was based on 2000 census information. We used the original file "block_groups2000_wgs84" and extracted the information pertaining to Gulf of Mexico coastal counties for total population, population below the poverty line, total workforce, and workforce employed in farming, forestry, fishing, and construction. From this data we calculated the percentage of workforce employed in farming, forestry, fishing, and construction. We also amended the original shapefile, downloaded from http://coastalsocioeconomics.noaa.gov/, to include county name and a coastal county identifier.</abstract>
+      <purpose>In response to the Deepwater Horizon oil spill in April 2010, The Nature Conservancy in collaboration with multiple partners including NOAA, the University of Southern Mississippi, Stanford University, and ESRI, has developed an online web mapping application and robust Gulf of Mexico spatial database to help facilitate restoration and recovery decisions. Primarily targeted to help our state programs and the state agencies and partners they work with, the Gulf Restoration Decision Support project is being advanced to inform the identification of oyster reef restoration projects with maximum ecological, social and economic benefits. The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas. The Oyster Restoration Dashboard is organized by state and permits users to easily visualize locations most appropriate for oyster restoration investment using a suite of ecological, social and economic criteria. The suitability criteria vary somewhat between states due to differences in data availability, however all states include basic ecological measures such as depth, salinity and historic oyster distribution.</purpose>
+    </descript>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-98.059801</westbc>
+        <eastbc>-80.117799</eastbc>
+        <northbc>31.319007</northbc>
+        <southbc>24.544701</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Gulf of Mexico, Oyster Restoration</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Gulf of Mexico, Florida, Mississippi, Alabama, Louisiana, Texas</placekey>
+      </place>
+    </keywords>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>1917 1st Ave</address>
+          <city>Seattle</city>
+          <state>WA</state>
+          <postal>98101</postal>
+          <country>U.S.</country>
+        </cntaddr>
+        <cntvoice>206-343-4345</cntvoice>
+        <cntemail>zferdana@tnc.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>Gulf Restoration Decision Support project</browsen>
+    </browse>
+    <datacred>TNC created the scored raster layers for inclusion in the Oyster Restoration Dashboard. For more information about TNC's Gulf Restoration Decision Support project go to http://coastalresilience.org. For more information on NOAAs Spatial Trends in Coastal Socioeconomics go to http://coastalsocioeconomics.noaa.gov/.</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>9918</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-3024110010000-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GM_coastal_ctys</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREAKEY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STFID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ST_ABBR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CNTYNAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>YEAR</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_popul</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_below</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_mlfor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_flfor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_tlfor</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_occu8</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_poccu8</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_indu1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>c_pindu1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Coast_cty</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SoVI_DATA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111226</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+        </cntaddr>
+        <cntemail>zferdana@tnc.org</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

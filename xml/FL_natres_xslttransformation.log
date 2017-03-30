@@ -1,0 +1,6 @@
+[ERROR] - ESRITranslator - Error [InvalidForOne]: fragment[MD_GridSpatialRepresentation] clause:  for-one clause: em:numberOfDimensions(v:Subject, v:String) <numDims>
+
+[ERROR] - ESRITranslator - Error [InvalidForOne]: fragment[MD_GridSpatialRepresentation] clause:  for-one clause: em:cellGeometry(v:Subject, v:Code), v:CodeList = gmxRes:MD_CellGeometryCode CallTemplateNode:56723629
+
+[ERROR] - ESRITranslator - Error [InvalidForOne]: fragment[MD_GridSpatialRepresentation] clause:  for-one clause: em:transformationParameterAvailability(v:Subject, v:Bool) <tranParaAv>
+

@@ -1,0 +1,160 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title>Mississippi Oyster Restoration Dashboard Study Area</title>
+				<edition>Version 1</edition>
+				<geoform>vector digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This layer depicts the Gulf of Mexico Decision Support project Mississippi study area. State waters of Mississippi up to the 3 nautical mile boundary were mapped and used as the study area to generate the oyster restoration dashboard layers for Mississippi.</abstract>
+			<purpose>In response to the Deepwater Horizon oil spill in April 2010, The Nature Conservancy in collaboration with multiple partners including NOAA, the University of Southern Mississippi, Stanford University, and ESRI, has developed an online web mapping application and robust Gulf of Mexico spatial database to help facilitate restoration and recovery decisions. Primarily targeted to help our state programs and the state agencies and partners they work with, the Gulf Restoration Decision Support project is being advanced to inform the identification of oyster reef restoration projects with maximum ecological, social and economic benefits. The Oyster Restoration Dashboard allows users to explore this database to identify potential restoration investments within each of the Gulf states of Florida, Alabama, Mississippi, Louisiana and Texas. The Oyster Restoration Dashboard is organized by state and permits users to easily visualize locations most appropriate for oyster restoration investment using a suite of ecological, social and economic criteria. The suitability criteria vary somewhat between states due to differences in data availability, however all states include basic ecological measures such as depth, salinity and historic oyster distribution.</purpose>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-89.600220</westbc>
+				<eastbc>-88.384461</eastbc>
+				<northbc>30.433496</northbc>
+				<southbc>30.146117</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Gulf of Mexico, Oyster Restoration</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Gulf of Mexico, Florida, Mississippi, Alabama, Louisiana, Texas</placekey>
+			</place>
+		</keywords>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Zach Ferdana</cntper>
+				</cntorgp>
+				<cntpos>Senior Marine Conservation Planner</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>1917 1st Ave</address>
+					<city>Seattle</city>
+					<state>WA</state>
+					<postal>98101</postal>
+					<country>U.S.</country>
+				</cntaddr>
+				<cntvoice>206-343-4345</cntvoice>
+				<cntemail>zferdana@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>Gulf Restoration Decision Support project</browsen>
+		</browse>
+		<datacred>TNC created this study area to generate scored raster layers for inclusion in the Oyster Restoration Dashboard. For more information about TNC's Gulf Restoration Decision Support project go to http://coastalresilience.org/.</datacred>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>1</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+				<ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>0.0</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>MS_Study_area</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Value</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<metainfo>
+		<metd>20111113</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Zach Ferdana</cntper>
+				</cntorgp>
+				<cntpos>Senior Marine Conservation Planner</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+				</cntaddr>
+				<cntemail>zferdana@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_Study_area.xml</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\projected\MS_Study_area.xml" dest="\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_Study_area.xml" date="20111113" time="08261600"></copy></copyHistory></DataProperties></Esri></metadata>

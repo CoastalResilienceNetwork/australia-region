@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>ARCADIS USA, Inc. </origin>
+				<title>Predicted Overland Storm Surge Map for Galveston Bay in 2100 using Hurricane Ike (2008) Conditions with 1m of Sea Level Rise and Predicted Landcover in 2100 Derived from SLAMM </title>
+				<geoform>raster digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The map shows the predicted storm surge for Galveston Bay and southern Jefferson county, Texas in 2050 under hurricane Ike (2008) conditions and 1m of Sea Level Rise. The storm surge model used 1m of SLR and calculated the bottom friction resistance (Manning's n) and wind roughness (Z0) parameters from a predicted 2100 SLAMM landcover map, which showed how marshes are predicted to migrate inland in the study area due to the 1m of sea level rise by 2100 scenario. The image was created from the original storm surge model point file by isolating all points that had positive elevation (land areas) and values other than -99999 (no data) for storm surge height. Once the points for storm surge height for land areas were selected, the difference between the maximum storm surge height from the NAVD88 mean sea level (0ft) was subtracted from each point’s elevation value to calculate the height of the storm surge above the ground surface. The resulting values for overland storm surge height for were then averaged together using a spatial join to a vector polygon grid with a resolution of 300m, which was based on the maximum spacing between points in the original file for the study area. The vector grid was then converted to a raster image with the same resolution, which represented the maximum predicted storm surge height over land areas for the study area.</abstract>
+			<purpose>This modeling effort was motivated by the need to provide a series of technical tools to the members of the Governor’s Gulf of Mexico Alliance to better understand the effects of sea level rise (SLR) and storm surge in key coastal areas.  The implementation of the ADvanced CIRCulation (ADCIRC) model for SLR analysis complements the information produced by previous studies conducted by The Nature Conservancy (TNC).  The products provided as part of this effort will help coastal managers, scientist and the conservation community in identifying the additional threat posed by storm surge given one meter of SLR by 2100 in the study area.  This project has been funded through grants from the Gulf of Mexico Foundation and the Mississippi Department of Marine Resources who have been supported by the Gulf of Mexico Alliance. 
+In 2011, TNC and Warren Pinnacle Consulting, Inc. applied the Sea-Level Affecting Marshes Model (SLAMM) to analyze the potential effects of SLR on Galveston Bay and the Jefferson County area in Texas (Warren Pinnacle Consulting 2011a, 2011b). The SLAMM analyses provided forecasts of future Galveston Bay area and Southern Jefferson County marsh landscapes under various potential SLR scenarios through the year 2100. 
+The intent of this project is to utilize the SLAMM data to analyze the effects of future landscapes and SLR on storm surge.  Future landscapes include changes in land cover type and coastal subsidence.  The land cover changes are implemented by utilizing the available SLAMM output information.  Subsidence is accounted for by applying a region wide value assumed in the SLAMM analyses (Warren Pinnacle Consulting 2011a, 2011b).  A SLR rate of one meter by 2100 is analyzed for this study for 2050 and 2100 conditions.   
+Three scenarios of SLR were analyzed using the ADCIRC hydrodynamic model; the model evaluated the initial conditions in 2004 and future 2050 and 2100 scenarios.  ADCIRC is a physics based, unstructured mesh finite element model, solving the shallow water equations for time dependent, free surface circulation problems (Luettich et al. 2004). ADCIRC is commonly applied for tidal studies, including hurricane storm surge and flooding applications by state and federal agencies throughout the United States. 
+Hurricane Ike is the storm selected for analysis in this study area due to its relatively recent landfall in the study area.  Because of the recent nature of the storm, 
+Hurricane Ike is well documented and critical data necessary to hindcast a hurricane, such as highly accurate wind and pressures fields, are readily available.  Hurricane Ike made landfall as a strong Category 2 hurricane at Galveston, Texas on September 13, 2008 at approximately 8:00 AM UTC.  Winds reached over 145 miles per hour (mph) in the Gulf of Mexico, while the Texas coast incurred sustained winds of over 110 mph rendering storm surge of over 20 feet in some locations.  Hurricane Ike greatly impacted Texas communities, causing widespread flooding, immense economic damage and considerable loss of life.  All maps and coordinates in this report are referenced to the NAD83 horizontal datum and NAVD88 vertical datum. </purpose>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-95.658600</westbc>
+				<eastbc>-94.006598</eastbc>
+				<northbc>30.043186</northbc>
+				<southbc>28.761318</southbc>
+			</bounding>
+		</spdom>
+		<keywords/>
+		<accconst>None</accconst>
+		<useconst>The user accepts all responsibility for use of these data</useconst>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Pixel</rasttype>
+			<rowcount>546</rowcount>
+			<colcount>613</colcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<metainfo>
+		<metd>20111214</metd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><CreaDate>20111222</CreaDate><CreaTime>14452900</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\inetpub\wwwroot\xml\texas_ss_2100</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Texas\SLR_Project_Data\all_metadata\texas_ss_2100" dest="\\MAPS21\C$\inetpub\wwwroot\xml\texas_ss_2100" date="20111222" time="14452900"></copy></copyHistory></DataProperties></Esri></metadata>

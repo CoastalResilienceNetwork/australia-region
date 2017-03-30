@@ -1,0 +1,434 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA ESI Managed Areas</title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains boundaries for managed lands in coastal Louisiana. Feature-specific contact, type, and source information are stored in relational data tables (described below) designed to be used in conjunction with this spatial data layer. This data set comprises a portion of the Gulf-Wide Information System (G-WIS) database for the entire coastal zone of Louisiana. The G-WIS data include three main components: shoreline habitats, sensitive biological resources, and human-use resources.</abstract>
+      <purpose>The G-WIS data are created to support environmental assessments associated with oil and gas exploration, production, and transportation activities in the Gulf of Mexico.  The G-WIS data structure is closely related to the Environmental Sensitivity Index (ESI) data structure used by NOAA, USCG, and other agencies for oil spill planning and response purposes. These data therefore support the requirements of the Clean Water Act, with amendments by the Oil Pollution Act of 1990, in the development of response plans for immediate and effective protection of sensitive resources.  G-WIS and ESI data are also appropriate for other natural resource management and environmental assessment purposes.</purpose>
+    </descript>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>The G-WIS database was developed to provide summary information on sensitive natural and human-use resources for the purposes of oil spill planning, environmental assessment, and natural resource management. Although the G-WIS database should be a valuable planning and resource management tool, it should not be used to the exclusion of other pertinent data or information held by state or federal agencies or other organizations. Likewise, information contained in the database cannot be used in place of consultations with environmental, natural resource, and cultural resource agencies, or in place of field surveys. Also, this database and related map products should not be used for navigation.  Recognize that the information contained in the G-WIS database represents known concentration areas or occurrences of natural, cultural, and human-use resources, but does not necessarily represent the full distribution or range of each species or resource. This is particularly important to recognize when considering potential impacts to protected resources, such as endangered species, wetlands, etc. For more information or guidance on proper and improper uses of these data, please contact the Louisiana Department of Wildlife and Fisheries (LDWF) and Research Planning, Inc.  Acknowledgement of the originators, publishers, contributors, and sources listed in this document would be appreciated in products derived from or utilizing these data.</useconst>
+    <datacred>This project was supported by the Minerals Management Service (MMS) 1201 Elmwood Park Blvd., MS-5220, New Orleans, LA 70123-2394.  Norman Froomer with MMS coordinated the larger G-WIS project and was particularly supportive during the Louisiana portion of the project.  This project was coordinated by Louisiana State University (LSU), Center for Coastal, Energy and Environmental Resources (CCEER) and the Department of Geography and Anthropology, 302 Howe-Russell, Baton Rouge, LA 70803.  DeWitt Braud, Dina Sa, Hampton Peele, and Lynda Wayne were key contributors to the project.  The majority of natural resources data used to develop the larger LA G-WIS data set were provided by the LDWF.  Jim Hanifen coordinated the LDWF effort.  The following LDWF personnel (listed alphabetically) were major contributors to the LA G-WIS project: Jan Bowman, Heather Warner Finley, Robert Helm, Noel Kinler, Gary Lester, Greg Linscombe, Mike Olinde, Gary Tilyou, and Bill Vermillion.  At Research Planning, Inc. (RPI), Scott Zengel was the Project Manager.  Colin Plank and Miles Hayes performed the shoreline classification.  Zach Nixon was the GIS Coordinator, Jon Whitlock, and Jennifer Rainman performed data processing, and Kristi Suggs prepared the final metadata.  Joanne Halls and William Holton contributed to the conceptual design of the project and participated in the LA G-WIS pilot project, which preceded this final data set.</datacred>
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>esi_mgt_LDWF_2001</enttypl>
+        <enttypd>The spatial data layer MGMT contains the vector polygons representing managed areas and Indian reservations.  Note that all attribute information is stored in a series of relational files, described below.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGT_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MGT_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>Identifies the feature type.  This attribute allows direct access to the type of feature instead of accessing the more detailed SOC_DAT table.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>SR</edomv>
+            <edomvd>Scenic River</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NC</edomv>
+            <edomvd>Nature Conservancy Preserve</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Park</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NP</edomv>
+            <edomvd>National Park</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WR</edomv>
+            <edomvd>Wildlife Refuge</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>IR</edomv>
+            <edomvd>Indian Reservation</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AUTHORITY</attrlabl>
+        <attrdef>Identifies regulatory authority for each managed land</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>FEDERAL</edomv>
+            <edomvd>Federally controlled</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PRIVATE</edomv>
+            <edomvd>Privately owned</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>STATE</edomv>
+            <edomvd>State controlled</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HUNUM</attrlabl>
+        <attrdef>A numeric identifier that links vector polygons to the attribute records in the SOC_DAT data table.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>N</rdommin>
+            <rdommax>1</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SOC_DATA data table</enttypl>
+        <enttypd>The data table SOC_DATA contains both socio-economic attribute data and items necessary for linking the socio-economic spatial data layers to the SOURCES data table.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>HUNUM</attrlabl>
+        <attrdef>An identifier that links the SOC_DATA data table to vector objects in the socio-economic data layers.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Identifies the feature type</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>SCENIC RIVER</edomv>
+            <edomvd>Scenic River</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NATURE CONSERVANCY PRESERVE</edomv>
+            <edomvd>Nature Conservancy Preserve</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PARK</edomv>
+            <edomvd>State or Local Park</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NATIONAL PARK</edomv>
+            <edomvd>National Park</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>WILDLIFE REFUGE</edomv>
+            <edomvd>Wildlife Refuge</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>INDIAN</edomv>
+            <edomvd>Indian Reservation</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>The feature name</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTACT</attrlabl>
+        <attrdef>Contact person or entity</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PHONE</attrlabl>
+        <attrdef>Contact telephone number</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_SOURCE</attrlabl>
+        <attrdef>Geographic source integer identifier that links records in the SOC_DATA data table to records in the SOURCES data table.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>A_SOURCE</attrlabl>
+        <attrdef>Attribute source integer identifier that links records in the SOC_DATA data table to records in the SOURCES data table.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SOURCES data table</enttypl>
+        <enttypd>The data table SOURCES contains the primary sources used to create the G-WIS data set.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SOURCE_ID</attrlabl>
+        <attrdef>Source identifier that links records in the SOURCES data table to the items G_SOURCE, S_SOURCE, and A_SOURCE in the BIORES and SOC_DATA tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORIGINATOR</attrlabl>
+        <attrdef>Author or developer of source material or data set</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE_PUB</attrlabl>
+        <attrdef>Date of source material, publication, or date of personal communication with expert source</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Numeric</edomv>
+            <edomvd>mmyyyy</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TITLE</attrlabl>
+        <attrdef>Title of source material or data</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATA_FORMAT</attrlabl>
+        <attrdef>The format of the source material</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PUBLICATION</attrlabl>
+        <attrdef>Additional citation information</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCALE</attrlabl>
+        <attrdef>Scale denominator of the source</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>integer</edomv>
+            <edomvd>Any integer</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIME_PERIOD</attrlabl>
+        <attrdef>Date(s) of data collection source material is based upon.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Numeric</edomv>
+            <edomvd>yyyy</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Sampling type</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Survey</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Inferred (Typically, all expert knowledge sources are inferred.)</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not applicable</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMP_PLAT</attrlabl>
+        <attrdef>Sampling platform</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMP_METH</attrlabl>
+        <attrdef>Sampling method</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPAT_REF_METH</attrlabl>
+        <attrdef>Spatial reference method</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110831</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

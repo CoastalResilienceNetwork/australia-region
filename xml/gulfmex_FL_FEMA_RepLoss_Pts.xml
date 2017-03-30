@@ -1,0 +1,204 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Repetitive Loss Claims</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>In this dataset, a Repetitive Loss Property (RLP) is an insured property in Florida that filed two or more insurance claims of more than $1,000 within 10 years of each other with the National Flood Insurance Program (NFIP). Data provided by the Federal Emergency Management Agency (FEMA) in December of 2011.Each point on the map represents one or more RLPs.</abstract>
+      <purpose>The purpose of this layer is to illustrate the number of Repetitive Loss Properties (RLP) in the state of Florida. 
+</purpose>
+      <supplinf>The source data provided by FEMA does not contain sufficient information to uniquely identify the location of a specific parcel, parcel owners or value of claims. Additionally, in order to respect property owner’s privacy, FEMA provides data with Latitude and Longitude information truncated at the 3rd decimal place, resulting in an accuracy of less than 400 feet. Since the objective of this study is not to identify specific properties, but rather to identify areas of flood risk, this accuracy level proved to be adequate.</supplinf>
+    </descript>
+    <status>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.516000</westbc>
+        <eastbc>-80.034000</eastbc>
+        <northbc>30.948000</northbc>
+        <southbc>24.547000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>FEMA</themekey>
+        <themekey>Federal Emergency Management Agency</themekey>
+        <themekey>RLP</themekey>
+        <themekey>Repetitive Loss Properties</themekey>
+        <themekey>NFIP</themekey>
+        <themekey>National Flood Insurance Program</themekey>
+        <themekey>HMGP</themekey>
+        <themekey>Hazard Mitigation Grant Program</themekey>
+        <themekey>Florida</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</useconst>
+    <datacred>This dataset was authored by Juliano Calil for The Nature Conservancy</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>15274</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator</mapprojn>
+          <mercator>
+            <stdparll>0.0</stdparll>
+            <longcm>0.0</longcm>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </mercator>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+        <ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>0.0</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>sde.sde.gulfmex_FL_FEMA_RepLoss_Pts</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>objectid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>count</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LatLong</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>statename</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>city</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Manual_Upd</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>city1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>County</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>state</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>zip10</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>zip5</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>zip4</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>dtloss01</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss02</attrlabl>
+        <attrdef>Date of loss </attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss03</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss04</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss05</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss06</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss07</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss08</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>dtloss09</attrlabl>
+        <attrdef>Date of loss</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>nbrloss</attrlabl>
+        <attrdef>Number of claims</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>as_of_date</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>longitude</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>latitude</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20130221</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Kathy Freeman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

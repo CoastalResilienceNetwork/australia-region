@@ -1,0 +1,152 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA Floodzones FEMA 1999</title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Q3 Flood Data are derived from the Flood Insurance Rate Maps (FIRMS) published by the Federal Emergency Management Agency (FEMA). The file is georeferenced to earth's surface using geographic projection and decimal degree coordinate system. The specifications for the horizontal control of Q3 Flood Data files are consistent with those required for mapping at a scale of 1:24000. The user is encouraged to refer to the 'Q3 FLOOD DATA SPECIFICATIONS' manual and the 'Q3 FLOOD DATA USERS GUIDE' for complete information on the technical details of the Q3 data, its attributes, its uses, and limitations.</abstract>
+      <purpose>The FIRM is the basis for floodplain management, mitigation, and
+insurance activities for the National Flood Insurance Program (NFIP).
+Insurance applications include enforcement of the mandatory purchase
+requirement of the Flood Disaster Protection Act which "... requires
+the purchase of flood insurance by property owners who are being
+assisted by Federal programs or by Federally supervised, regulated or
+insured agencies or institutions in the acquisition or improvement of
+land facilities located or to be located in identified areas having
+special flood hazards" (Section 2 (b) (4) of the 1973 Flood Disaster
+Protection Act).  In addition to the identification of Special Flood
+Hazard Areas, the risk zones shown on the FIRMs are the basis for the
+establishment of premium rates for flood coverage offered through the
+NFIP.
+
+Q3 Flood Data files are intended to convey certain key features
+from the existing hard copy FIRM to provide users with automated flood
+risk data.  Edge-matching errors, overlaps and deficiencies in
+coverage, and similar problems are not corrected during digitizing or
+post-processing.  These data may be used to locate Special Flood Hazard
+Areas (SFHAs).  More detailed information may be obtained from the
+paper FIRM.</purpose>
+    </descript>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>none</useconst>
+    <datacred>LOSCO gratefully acknowledges FEMA for providing the source data for
+production of this data set and LSU (Louisiana State University) for
+projecting these data to NAD83 coordinates. The Purpose,
+Logical_Consistency_Report and Completeness_Report part of these
+metadata came from metadata supplied with FEMA Q3 source data.</datacred>
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>floodzones_cameron_FEMA_1999</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMMUNITY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA_AC</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIRM_PANEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QUAD</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FLOODWAY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COBRA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SFHA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SYMBOL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PANEL_TYP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CO_FIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PCOMM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PANEL</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LAT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QUAD_UNIT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIM_M</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREA_SQM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>ZONE_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONG_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+These data sets contain all the attributes of the Q3 Flood Zone Data
+source dataset.  All of those attributes and the codes that appear in them
+are defined in the source listed for Entity_and_Attribute_Detail_Citation.
+As part of LSU data processing three additional attributes were added:
+area_sqm (area of polygon in square meters), perim_m (perimeter of
+polygon in meters), and area_ac (area of polygon in acres).
+</eaover>
+      <eadetcit>
+Q3 FLOOD DATA SPECIFICATIONS, Draft 1996, Federal Emergency Management
+Agency, Washington, D.C. &lt;URL:fema-spec.doc&gt;
+</eadetcit>
+    </overview>
+  </eainfo>
+  <metainfo>
+    <metd>20110831</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,127 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>hightide_line_NWRC_1995</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\HERBIVORY\K\LOSCO 2007 DVD\Volume 1\data\geophysical\hightide_line_NWRC_1995.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The astronomical high tide line was compiled from National Wetlands Inventory (NWI) 1:24,000-scale habitat maps that were photo-interpreted from color-infrared aerial photography acquired between November 1988 and March 1989 at a scale of 1:65,000. Inland extent of tidal influence was then determined from the 1988 Chabreck and Linscombe marsh vegetation maps, photo-interpretation, field review, and information gathered from discussions with regional and local experts. Only semi-diurnal and diurnal gravity tides are considered in the NWI classification because of the general lack of information on wind-influenced tidal fluctuations and ranges. All saltwater wetlands (saline, brackish, and intermediate) in coastal Louisiana were considered to be tidal unless impounded, and tidally influenced freshwater wetlands were included in the tidal zone as well. In general, the division between salt water and fresh water is considered to be the limit of gravitation tidal influence for coastal Louisiana. Arcs that close delineate isolated areas above the astronomical high tide line, but are not built into topological polygons.</abstract>
+      <purpose>The purpose is to provide the Astronomical High Tide Line for Louisiana Oil
+Spill Contingency Plan Map.  The Louisiana Oil Spill Contingency Plan Map was
+published to fulfill the requirements of the Oil Spill Prevention and Response
+Act under the authority of R.S. 30:2459(D)</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.884956</westbc>
+        <eastbc>-89.033981</eastbc>
+        <northbc>30.443657</northbc>
+        <southbc>28.933764</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>Acknowledgement of the National Wetlands Research Center as a data source
+would be appreciated in products developed from these data, and such
+acknowledgment as is standard for citation and legal practices for data
+source is expected by users of this data.  Sharing new data layers developed
+directly from these data would also be appreciated by NWRC staff.  Users
+should be aware that comparison with other data sets for the same area from
+other time periods may be inaccurate due to inconsistencies resulting from
+changes in photo-interpretation and mapping conventions over time.  These
+data are not legal documents and are not to be used as such.  Persons
+intending to engage in activities involving modifications within or adjacent
+to wetland areas should seek the advice of appropriate Federal, State, or
+local agencies concerning specified agency regulatory programs and
+proprietary jurisdictions that may affect such activities.</useconst>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>4284</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degree</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>hightide_line_NWRC_1995</enttypl>
+        <enttypd>attributes of hightide_line_NWRC_1995 arcs</enttypd>
+        <enttypds>3001, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>length_m</attrlabl>
+        <attrdef>length of hightide_line_NWRC_1995 arc segment</attrdef>
+        <attrdefs>LSU Department of Geography and Anthropology</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8.577</rdommin>
+            <rdommax>8261.084</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LEGEND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_M</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110818</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

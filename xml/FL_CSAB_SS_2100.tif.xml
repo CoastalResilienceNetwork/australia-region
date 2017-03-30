@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?> 
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<pubdate>20111209</pubdate>
+				<title>Predicted Overland Storm Surge Map for Choctawhatchee and St. Andrews Bays, Florida in 2100 using Hurricane Ivan (2004) Conditions and 2100 Landcover Derived from the SLAMM Model</title>
+				<geoform>raster digital data</geoform>
+				<pubtime>Unknown</pubtime>
+				<origin>Prepared for the Nature Conservancy by ARCADIS USA, Inc.</origin>
+				<pubinfo>
+					<publish>The Nature Conservancy</publish>
+					<pubplace>Corpus Christi, TX</pubplace>
+				</pubinfo>
+				<serinfo>
+					<issue>Choctawhatchee and St. Andrews Bays, Florida</issue>
+					<sername>TNC Storm Surge Modeling (ARCADIS USA)</sername>
+				</serinfo>
+				<lworkcit>
+					<citeinfo>
+						<origin>The Nature Conservancy</origin>
+						<title>ADCIRC Based Storm Surge Analysis of Sea Level Rise in Saint Andrew and Choctawhatchee Bays</title>
+						<pubdate>20111209</pubdate>
+						<pubinfo>
+							<publish>Prepared for the Nature Conservancy by ARCADIS USA, Inc.</publish>
+							<pubplace>Highlands Ranch, CO</pubplace>
+						</pubinfo>
+						<serinfo>
+							<issue>Choctawhatchee and St. Andrews Bays, Florida</issue>
+							<sername>TNC Storm Surge Modeling (ARCADIS USA)</sername>
+						</serinfo>
+					</citeinfo>
+				</lworkcit>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>The map shows the predicted overland storm surge for Choctawhatchee and St. Andrews Bays, Florida under hurricane Ivan (2004) conditions. The storm surge simulation used the 2050 predicted landcover map derived from the Sea Level Rise Affecting Marsh Model (SLAMM) to calculate the bottom friction resistance (Manning's n) and wind roughness (Z0) parameters for the storm surge model. The image was created from the original storm surge model point file by isolating all points that had positive elevation (land areas) and values other than -99999 (no data) for storm surge height. Once all land areas that were inundated by storm surge in the model were selected, the elevation value of each of the selected points was subtracted from the maximum storm surge elevation height, which showed height above sea level (0ft NAVD88), to calculate the height of the storm surge above the ground surface. The resulting values for the storm surge height above the ground surface were then averaged together using a spatial join to a vector polygon grid with a resolution of 150m, where the resolution was based on the maximum spacing between points in the original file for the study area. The vector grid was then converted to a raster image with the same resolution, which represented the maximum predicted storm surge height in feet above the ground surface within the study area.</abstract>
+			<purpose>This modeling effort was motivated by the need to provide a series of technical tools to the members of the Governor&#8217;s Gulf of Mexico Alliance to better understand the effects of sea level rise (SLR) and storm surge in key coastal areas.  The implementation of the ADvanced CIRCulation (ADCIRC) model for SLR analysis complements the information produced by previous studies conducted by The Nature Conservancy (TNC).  The products provided as part of this effort will help coastal managers, scientist and the conservation community in identifying the additional threat posed by storm surge given one meter of SLR by 2100 in the study area.  This project has been funded through grants from the Mississippi Department of Marine Resources who have been supported by the Gulf of Mexico Alliance. In 2011, TNC and Warren Pinnacle Consulting, Inc. applied the Sea-Level Affecting Marshes Model (SLAMM) to analyze the potential effects of SLR on Saint Andrew Bay and Choctawhatchee Bay area in Florida (Warren Pinnacle Consulting 2011). The SLAMM analyses provided forecasts of future Saint Andrew Bay and Choctawhatchee Bay area marsh landscapes under various potential SLR scenarios through the year 2100. The intent of this project is to utilize the SLAMM model output to analyze the effects of future landscapes and SLR on storm surge.  Future scenarios include changes in land cover type in the area.  The land cover changes are implemented by utilizing the available SLAMM output information.  A SLR rate of one meter by 2100 is analyzed for this study for 2050 and 2100 conditions. Three scenarios of SLR were analyzed using the ADCIRC hydrodynamic model; the model evaluated the initial conditions in 2004 and future 2050 and 2100 scenarios.  ADCIRC is a physics based, unstructured mesh finite element model, solving the shallow water equations for time dependent, free surface circulation problems (Luettich et al. 2004). ADCIRC is commonly applied for tidal studies, including hurricane storm surge and flooding applications by state and federal agencies throughout the United States. Hurricane Ivan is the storm selected for analysis in this study area due to its relatively recent landfall in the study area.  Because of the recent nature of the storm, Hurricane Ivan is well documented and critical data necessary to hindcast a hurricane, such as highly accurate wind and pressures fields, are readily available.  Hurricane Ivan made landfall as a Category 3 hurricane near Gulf Shores, Alabama on September 16, 2004 at approximately 8:00 AM UTC.  Winds reached over 160 miles per hour (mph) near Aruba, while the Florida coast incurred sustained winds of over 120 mph rendering storm surge of over 14 feet in some locations in Alabama.  Hurricane Ivan greatly impacted Alabama and Florida communities, causing widespread flooding, immense economic damage and loss of life.  A location map of the study area is shown if Figure 1.  The path of Hurricane Ivan and the extents of the SLAMM models are also included.  All maps and coordinates in this report are referenced to the NAD83 horizontal datum and NAVD88 vertical datum.
+			</purpose>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>None Planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-86.804504</westbc>
+				<eastbc>-85.193001</eastbc>
+				<northbc>30.532709</northbc>
+				<southbc>29.864130</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Storm Surge</themekey>
+				<themekey>ADCIRC</themekey>
+				<themekey>SLAMM</themekey>
+				<themekey>Sea Level Rise</themekey>
+				<themekey>SLR</themekey>
+				<themekey>Ivan</themekey>
+			</theme>
+			<place>
+				<placekt>Location</placekt>
+				<placekey>Saint Andrews Bay</placekey>
+				<placekey>Choctawhatchee Bay</placekey>
+				<placekey>Florida</placekey>
+				<placekey>United States</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2004</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data. If using solely the public portion of this dataset the following license applies: http://creativecommons.org/licenses/by-nc-sa/3.0/us/</useconst>
+		<timeperd>
+			<current>Publication date</current>
+			<timeinfo>
+				<sngdate>
+					<caldate>20111209</caldate>
+				</sngdate>
+			</timeinfo>
+		</timeperd>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+		<datacred>The Nature Conservancy</datacred>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and Physical address</addrtype>
+					<address>205 N. Carrizo Street</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</ptcontac>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Data were collected using methods that have unknown accuracy</attraccr>
+		</attracc>
+		<logic>Tests for integrity have not been performed</logic>
+		<complete>Features represented have not been tested for completeness</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Data were collected using methods that have unknown accuracy</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<procstep>
+				<procdate>20111209</procdate>
+				<procdesc>Storm surge analysis created from SLAMM and ADCIRC modeling outputs</procdesc>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo>
+			<rasttype>Grid Cell</rasttype>
+			<rowcount>485</rowcount>
+			<colcount>1030</colcount>
+			<vrtcount>1</vrtcount>
+		</rastinfo>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true1021003857</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu />
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<distinfo>
+		<resdesc>Downloadable Data</resdesc>
+		<distliab>See access and use constraints information</distliab>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+				</cntorgp>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<country>USA</country>
+					<state>TX</state>
+					<city>Corpus Christi</city>
+					<postal>78401</postal>
+					<address>205 N. Carrizo St</address>
+				</cntaddr>
+			</cntinfo>
+		</distrib>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>20111209</caldate>
+					<time>Unknown</time>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20111209</metd>
+		<metrd>20121220</metrd>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metac>None</metac>
+		<metuc>None</metuc>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>The Nature Conservancy</cntorg>
+					<cntper>Michael Thompson</cntper>
+				</cntorgp>
+				<cntpos>Coastal and Marine GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical</addrtype>
+					<address>205 N. Carrizo St</address>
+					<city>Corpus Christi</city>
+					<state>TX</state>
+					<postal>78401</postal>
+				</cntaddr>
+				<cntvoice>361-882-3584</cntvoice>
+				<cntemail>michael_thompson@tnc.org</cntemail>
+			</cntinfo>
+		</metc>
+	</metainfo>
+</metadata>

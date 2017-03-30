@@ -1,0 +1,176 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<title>MS_national_park</title>
+				<geoform>vector digital data</geoform>
+				<onlink>file://\\server2\data\GIS\GIS_DATA\CONSERVATION_LANDS\NATIONAL_PARK\SE_national_parks_utm83_albers.shp</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This dataset was extracted from a file that contains 84 National Park System unit boundaries. It was clipped to the Gulf Island National Sanctuary. Under the jurisdiction of the National Park Service (NPS), these park units are located throughout the United States (U.S.) and its territories. Almost all the parks are located north of the equator in the western hemisphere; although a couple parks are south of the equator or in the eastern hemisphere. The dataset was compiled (and edited) from a variety sources: park-based GIS databases; .S. Geological Survey 7.5' 1:24,000 quadrangles; NPS Park Land Status Maps; legal descriptions; etc.). The boundaries are georeferenced to the Latitude-Longitude (NAD27-Clarke 1866) coordinate system. The ID field contains the unique 4 character park code identifying each park. The NAME field contains the full park name. The NAME2 field contains information about the source, scale, and date of the boundary. The boundaries are generally the designated boundary. Inholdings may or may not be shown depending on the park. This dataset was originally created in Environmental System's Research Institute's ATLAS*GIS software and is currently maintained in this software. This dataset was created using ATLAS*GIS' Ver. 4.0 Export to ShapeFile command. To obtain the most accurate, current boundary, users should contact the specific park.</abstract>
+			<purpose>These digital park unit boundaries should not  be  used for any legal boundary disputes.  They are intended solely  for  use  only  in identifying the general  locations  of national  park  units  throughout  the  U.S.   This  dataset  was compiled   to   assist  the  NPS  Water  Resources  Division   in determining  the  proximity of certain hydrographic  eatures  to national park units and whether national park units are contained in other management units.</purpose>
+		</descript>
+		<spdom>
+			<bounding>
+				<westbc>-88.989804</westbc>
+				<eastbc>-86.515651</eastbc>
+				<northbc>30.412064</northbc>
+				<southbc>30.183071</southbc>
+			</bounding>
+		</spdom>
+		<keywords/>
+		<accconst>None</accconst>
+		<useconst>These  digital  national  park  unit
+boundaries  should  not be used for any legal boundary  disputes.
+To  obtain  the  most  accurate, current boundary,  users  should
+contact  the specific park.  The National Park Service shall  not
+be held liable for improper or incorrect use of the park boundary
+data described and/or contained herein.  These data are not legal
+documents  and  are  not  intended  to  be  used  as  such.   The
+information  contained in these data is dynamic  and  may  change
+over time.  The data are no better than the original sources from
+which  they  were  derived.  In fact, the data  are  likely  less
+accurate than the original sources as no attempt has been made to
+thoroughly error-check the data.  It is the responsibility of the
+data user to use the data appropriately and consistent within the
+limitations  of  geospatial data in general  and  these  data  in
+particular.   The  National  Park  Service  gives  no   warranty,
+expressed  or  implied,  as  to  the  accuracy,  reliability,  or
+completeness  of  these  data.  It is strongly  recommended  that
+these  data  are  directly acquired from an NPS  server  and  not
+indirectly through other sources which may have changed the  data
+in   some   way.    Although  these  data  have  been   processed
+successfully  on a computer system at the National Park  Service,
+no warranty expressed or implied is made regarding the utility of
+the data on another system or for general or scientific purposes,
+nor  shall  the act of distribution constitute any such warranty.
+This  disclaimer applies both to individual use of the  data  and
+aggregate use with other data.  Acknowledgement of the NPS  Water
+Resources Division would be appreciated in products derived  from
+these data.</useconst>
+		<datacred>National Park Service, Water Resources Divsion</datacred>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>1</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+				<ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>0.0</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>MS_national_park</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>NAME2</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>AREA</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>PERIMETER</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>ACRES</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>TYPE</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>
+Three basic attributes
+are  assigned to each park boundary: (1) a unique four  character
+code;  (2) a full park name; and (3) boundary source information.
+The  four character code is generally a combination of the  first
+two letters of the first two words in a park's name (or the first
+four  letters  if  the park has a one word name).   For  example,
+Yosemite National Park is YOSE while Rocky Mountain National Park
+is  ROMO.  The park's full name is the actual given name  of  the
+park.   The boundary source information provides the date, scale,
+and originator of the particular park boundary.
+</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distliab>See access and use constraints information.</distliab>
+	</distinfo>
+	<metainfo>
+		<metd>20111113</metd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_national_park.xml</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\projected\MS_national_park.xml" dest="\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_national_park.xml" date="20111113" time="08240000"></copy></copyHistory></DataProperties></Esri></metadata>

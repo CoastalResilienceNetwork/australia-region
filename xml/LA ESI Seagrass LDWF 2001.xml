@@ -1,0 +1,61 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA ESI Seagrass LDWF 2001</title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains Environmental Sensitivity Index (ESI) seagrass data of coastal Louisiana. The ESI is a classification and ranking system, which characterizes the relative sensitivity and ease of cleanup of shoreline habitats exposed to spilled oil. This data set comprises a portion of the Gulf-Wide Information System (G-WIS) database for the entire coastal zone of Louisiana. The G-WIS data include three main components: shoreline habitats, sensitive biological resources, and human-use resources.</abstract>
+      <purpose>The G-WIS data are created to support environmental assessments associated with oil and gas exploration, production, and transportation activities in the Gulf of Mexico.  The G-WIS data structure is closely related to the Environmental Sensitivity Index (ESI) data structure used by NOAA, USCG, and other agencies for oil spill planning and response purposes. These data therefore support the requirements of the Clean Water Act, with amendments by the Oil Pollution Act of 1990, in the development of response plans for immediate and effective protection of sensitive resources.  G-WIS and ESI data are also appropriate for other natural resource management and environmental assessment purposes.  See also the HABITAT and ESI data layers, part of the larger Louisiana G-WIS database, for additional habitat and ESI information.</purpose>
+    </descript>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>The G-WIS database was developed to provide summary information on sensitive natural and human-use resources for the purposes of oil spill planning, environmental assessment, and natural resource management. Although the G-WIS database should be a valuable planning and resource management tool, it should not be used to the exclusion of other pertinent data or information held by state or federal agencies or other organizations. Likewise, information contained in the database cannot be used in place of consultations with environmental, natural resource, and cultural resource agencies, or in place of field surveys. Also, this database and related map products should not be used for navigation.  Recognize that the information contained in the G-WIS database represents known concentration areas or occurrences of natural, cultural, and human-use resources, but does not necessarily represent the full distribution or range of each species or resource. This is particularly important to recognize when considering potential impacts to protected resources, such as endangered species, wetlands, etc. For more information or guidance on proper and improper uses of these data, please contact the Louisiana Department of Wildlife and Fisheries (LDWF) and Research Planning, Inc.  Acknowledgement of the originators, publishers, contributors, and sources listed in this document would be appreciated in products derived from or utilizing these data.</useconst>
+    <datacred>This project was supported by the Minerals Management Service (MMS) 1201 Elmwood Park Blvd., MS-5220, New Orleans, LA 70123-2394.  Norman Froomer with MMS coordinated the larger G-WIS project and was particularly supportive during the Louisiana portion of the project.  This project was coordinated by Louisiana State University (LSU), Center for Coastal, Energy and Environmental Resources (CCEER) and the Department of Geography and Anthropology, 302 Howe-Russell, Baton Rouge, LA 70803.  DeWitt Braud, Dina Sa, Hampton Peele, and Lynda Wayne were key contributors to the project.  The majority of natural resources data used to develop the larger LA G-WIS data set were provided by the LDWF.  Jim Hanifen coordinated the LDWF effort.  The following LDWF personnel (listed alphabetically) were major contributors to the LA G-WIS project: Jan Bowman, Heather Warner Finley, Robert Helm, Noel Kinler, Gary Lester, Greg Linscombe, Mike Olinde, Gary Tilyou, and Bill Vermillion.  At Research Planning, Inc. (RPI), Scott Zengel was the Project Manager.  Colin Plank and Miles Hayes performed the shoreline classification.  Zach Nixon was the GIS Coordinator, Jon Whitlock, and Jennifer Rainman performed data processing, and Kristi Suggs prepared the final metadata.  Joanne Halls and William Holton contributed to the conceptual design of the project and participated in the LA G-WIS pilot project, which preceded this final data set.</datacred>
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>esi_seagrass_LDWF_2001</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HABITATS_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HABITATS_I</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RARNUM</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110901</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,89 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>PEN_1m_2100_WebMerc</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a GIS output of the Sea Level Affecting Marshes Model (SLAMM) for the year 2100. It is the result of a sea level rise simulation from an initial condition representing year 2006 to the year 2100. The cell values are SLAMM 6.0.1 beta vegetation categories:SLAMM6CODESLAMM NAME1DevDryland2UndDryland3Swamp4CypressSwamp5InlandFreshMarsh6TidalFreshMarsh7ScrubShrub8RegFloodMarsh9Mangrove10EstuarineBeach11TidalFlat12OceanBeach13OceanFlat14RockyIntertidal15InlandOpenWater16RiverineTidal17EstuarineWater18TidalCreek19OpenOcean20IrregFloodMarsh21NotUsed22InlandShore23TidalSwamp24Blank25VegTidalFlat26BackShore</abstract>
+      <purpose>This sea level rise simulation was performed by The Nature Conservancy for a study area that encompassed Pensacola Bay, FL, under a contract granted by the US Environmental Protection Agency, Project Number: MX-95463410-0, "Modeling and Abating the Impacts of Sea Level Rise on Five Significant Estuarine Systems in the Gulf of Mexico".
+</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-87.538327</westbc>
+        <eastbc>-86.787111</eastbc>
+        <northbc>30.732404</northbc>
+        <southbc>30.272769</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>The Nature Conservancy shall not be held liable for improper or incorrect use of the data described and/or contained herein. Any sale, distribution, loan, or offering for use of these digital data, in whole or in part, is prohibited without the approval of the Nature Conservancy. The use of these data to produce other GIS products and services with the intent to sell for a profit is prohibited without the written consent of the Nature Conservancy. All parties receiving these data must be informed of these restrictions. The Nature Conservancy shall be acknowledged as data contributors to any reports or other products derived from these data.&lt;/</useconst>
+    <datacred>The Nature Conservancy </datacred>
+    <native>Microsoft Windows Server 2008 Version 6.0 (Build 6002) Service Pack 2; ESRI ArcGIS 10.0.0.2414</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>3280</rowcount>
+      <colcount>4720</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.92838538-10000010000-100000100000.0010.0010.001true3857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>VAT_PEN_1m_2100_WebMerc</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111110</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

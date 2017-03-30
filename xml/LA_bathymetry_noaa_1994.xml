@@ -1,0 +1,416 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Louisiana Oil Spill Coordinator's Office (LOSCO)</origin>
+				<pubdate>1999</pubdate>
+				<title>Bathymetry for Louisiana, Geographic NAD83, LOSCO (1994) [bathymetry_NOAA_1994]</title>
+				<geoform>vector digital data</geoform>
+				<onlink>http://lagic.lsu.edu/data/losco/bathymetry_NOAA_1994.zip</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+This is a line data depicting the offshore bathymetry_NOAA_1994 for Louisiana.  The contour
+interval is 2 meters.  These data were derived from point depths depicted on
+NOAA Navigation charts.  The depths on the NOAA charts are typically relative
+to 'mean low Gulf' levels, so these depths are conservative.
+</abstract>
+			<purpose>
+A precursor to this dataset was developed as a surface for numerical wave
+modeling.  This data set was developed in order that the 10 meter depth
+line could be extracted for other uses.  The 10 meter depth line forms a regulatory
+boundary for dispersant use and in-situ burn pre-approval areas.
+
+The user should be aware that meteorological events such as hurricanes
+may alter these depths or may have already have already altered the actual depths
+from those represented on the source NOAA charts.  Furthermore,
+geomorphological processes due to sediment load are causing landward
+migration of isocontours at a rate of about 25 meters per year in the
+Mississippi River Delta Plain area (east and west of where the Mississippi
+empties out into the Gulf).  Because these data are based on historical
+NOAA charts, the effects of this migration have not been captured.
+</purpose>
+			<supplinf>
+The metadata for this data set are encapsulated into several documents
+and graphics files.  The metadata are not complete if you did not
+receive the following files along in the data set:
+
+&gt;bathymetry_NOAA_1994.mtd - this metadata in mp (metadata parser) compatible ASCII text form
+&gt;bathymetry_NOAA_1994.html - this metadata in HTML form
+&gt;bathymetry_NOAA_1994_faq.html - this metadata presented as Questions and Answers
+&gt;bathymetry_NOAA_1994.sgml - this metadata in SGML form
+&gt;bathymetry_NOAA_1994_01.gif - thumbnail graphic of data set
+</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>19900400</begdate>
+					<enddate>19940600</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>Range of publication dates of NOAA charts from which depths were digitized.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-93.951630</westbc>
+				<eastbc>-88.821663</eastbc>
+				<northbc>30.369144</northbc>
+				<southbc>28.541408</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>navigation charts</themekey>
+				<themekey>bathymetric lines</themekey>
+				<themekey>wave modeling</themekey>
+				<themekey>NOAA</themekey>
+				<themekey>Elevation</themekey>
+			</theme>
+			<place>
+				<placekt>none</placekt>
+				<placekey>Louisiana</placekey>
+			</place>
+		</keywords>
+		<accconst>none</accconst>
+		<useconst>
+These unaltered data may not be redistributed without all of the elements
+of the metadata listed in the Supplemental_Information section of this
+metadata document.  It is recommended that third parties wishing to use
+these data obtain them from the Distributor listed in this metadata document.
+
+If these data are altered or incorporated into another dataset, they are not
+to be redistributed without also: altering the name of the dataset,
+including a Content Standards for Digital Geospatial Metadata
+(FGDC-STD-001-1998) compliant metadata file that describes the dataset and
+reflects the alteration steps that makes the new dataset different from this
+one, and citing this dataset in the metadata as a source for the altered
+dataset using the source citation specified below.
+
+If these digital data are used in the production of a report or in the compilation of a
+standalone printed map, then this dataset is to be cited in the report or on the map
+using the source citation specified below.
+
+The following source citation is to be used when citing this dataset:
+LOSCO Environmental Baseline Inventory Dataset 'Louisiana Offshore bathymetry_NOAA_1994,
+Geographic NAD83, LOSCO (1999) [bathymetry_NOAA_1994]'
+
+Users hereby agree to abide by the use and reproduction conditions specified above.
+By using the data described in these metadata, the user acknowledges that the terms
+and conditions of use have been read and that the user is bound by these criteria.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Louisiana Oil Spill Coordinator's Office</cntorg>
+					<cntper>David Gisclair</cntper>
+				</cntorgp>
+				<cntpos>Technical Assistance Program (TAP) Director</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>Louisiana Oil Spill Coordinator's Office</address>
+					<address>Office of the Governor</address>
+					<address>150 Third Street, Suite 405</address>
+					<city>Baton Rouge</city>
+					<state>LA</state>
+					<postal>70801</postal>
+				</cntaddr>
+				<cntvoice>(225) 219-5800</cntvoice>
+				<cntfax>(225) 219-5802</cntfax>
+				<cntemail>&lt;URL:mailto:david.gisclair@la.gov&gt;</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<browse>
+			<browsen>&lt;URL: bathymetry_NOAA_1994.gif&gt;</browsen>
+			<browset>GIF</browset>
+		</browse>
+		<datacred>
+LOSCO gratefully acknowledges the Coastal Morphology Lab, Coastal Studies
+Institute at LSU for providing the source data for production of this data set.
+</datacred>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.0.1324</native>
+	</idinfo>
+	<dataqual>
+		<logic>
+Original digitized points were checked with a proximity
+(anomaly) filter.  There are 17 intersection errors in the
+data set, primarily where neighboring contour lines
+make contact.
+</logic>
+		<complete>
+These data represent contours that are oceanward of the the first 2 meter
+depth line that runs the entire length of the Louisiana Coast.  All contours
+landward of this line have been deleted.  The data set has a
+gap in the region of the Chandeleur Islands.  At depths
+of 1000 meters and greater, the contour interval increases
+to 10 meters.
+</complete>
+		<lineage>
+			<procstep>
+				<procdesc>
+Bathymetric points were digitized from the NOAA (NOS) 1:80,000 navigation
+charts. Intergraph design files were produced for seven charts. Intergraph
+Terrain Analyst was used to produce a single file with 500 foot, interpolated
+grid points in ASCII format.
+</procdesc>
+				<procdate>1999</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Louisiana State University, Coastal Studies Institute</cntorg>
+							<cntper>Dr. Greg Stone</cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>Louisiana State University</address>
+							<city>Baton Rouge</city>
+							<state>LA</state>
+							<postal>70803</postal>
+						</cntaddr>
+						<cntvoice>(225) 578-4728</cntvoice>
+						<cntemail>GAGREG@lsu.edu</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+The ASCII formatted file was transformed into a 2 meter (contour interval)
+vector file using TerraModel. Design files were exported and converted into
+ArcView shapefiles.
+</procdesc>
+				<procdate>19990915</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>3001, Inc.</cntorg>
+							<cntper>Jeff Lower</cntper>
+						</cntorgp>
+						<cntaddr>
+							<addrtype>mailing and physical address</addrtype>
+							<address>3655 SW 2nd Avenue, Suite 3-C</address>
+							<city>Gainesville</city>
+							<state>FL</state>
+							<postal>32607</postal>
+						</cntaddr>
+						<cntvoice>(352) 379-3001</cntvoice>
+						<cntemail>jlower@gnv.3001data.com</cntemail>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>
+The shapefile in UTM zone 15, NAD83 coordinates was edited to remove all
+contours landward of the first 2 meter depth contour that was continuous
+along the entire coast of Louisiana.  The shapefile was converted to a
+line Arc/Info coverage, then projected to geographic coordinates NAD83.
+The arc intersect errors that were readily resolved (about half) were corrected.
+The resultant cover was converted to a shape and the arcs of the shape
+were merged on the depth value.
+</procdesc>
+				<procdate>19991027</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>String</sdtstype>
+				<ptvctcnt>518</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>0.000000</latres>
+				<longres>0.000000</longres>
+				<geogunit>Decimal degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>bathymetry_NOAA_1994</enttypl>
+				<enttypd>point attribute table for bathymetry_NOAA_1994</enttypd>
+				<enttypds>3001, Inc.</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>LEGEND</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>depth_m</attrlabl>
+				<attrdef>depth that contour delineates</attrdef>
+				<attrdefs>3001, Inc.</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>-1180.00</rdommin>
+						<rdommax>-2.00</rdommax>
+						<attrunit>meters</attrunit>
+					</rdom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>DEPTH_M</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>FIRST_CONT</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>FID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Louisiana Oil Spill Coordinator's Office</cntorg>
+					<cntper>David Gisclair</cntper>
+				</cntorgp>
+				<cntpos>Technical Assistance Program (TAP) Director</cntpos>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>Louisiana Oil Spill Coordinator's Office</address>
+					<address>Office of the Governor</address>
+					<address>150 Third Street, Suite 405</address>
+					<city>Baton Rouge</city>
+					<state>LA</state>
+					<postal>70801</postal>
+				</cntaddr>
+				<cntvoice>(225) 219-5800</cntvoice>
+				<cntfax>(225) 219-5802</cntfax>
+				<cntemail>&lt;URL:mailto:david.gisclair@la.gov&gt;</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>bathymetry_NOAA_1994</resdesc>
+		<distliab>
+The data herein, including but not limited to geographic
+data, tabular data, analytical data, electronic data
+structures or files, are provided "as is" without warranty of
+any kind, either expressed or implied, or statutory,
+including, but not limited to, the implied warranties or
+merchantability and fitness for a particular purpose.  The
+entire risk as to the quality and performance of the data is
+assumed by the user.  No guarantee of accuracy is
+granted, nor is any responsibility for reliance thereon
+assumed.  In no event shall the Louisiana Oil Spill
+Coordinator's Office (LOSCO) be liable for direct, indirect,
+incidental, consequential or special damages of any kind,
+including, but not limited to, loss of anticipated profits or
+benefits arising out of use of or reliance on the data. The
+LOSCO does not accept liability for any damages or
+misrepresentation caused by inaccuracies in the data or as
+a result of changes to the data caused by system transfers
+or other transformations or conversions, nor is there
+responsibility assumed to maintain the data in any manner
+or form.
+
+These data have been developed from the best available
+sources.  Although efforts have been made to ensure that
+the data are accurate and reliable, errors and variable
+conditions originating from physical sources used to
+develop the data may be reflected in the data supplied.
+Users must be aware of these conditions and bear
+responsibility for the appropriate use of the information with
+respect to possible errors, scale, resolution, rectification,
+positional accuracy, development methodology, time
+period, environmental and climatic conditions and other
+circumstances specific to these data.  The user is
+responsible for understanding the accuracy limitations of
+the data provided herein.  The burden for determining
+fitness for use lies entirely with the user.  The user should
+refer to the accompanying metadata notes for a description
+of the data and data development procedures.
+
+Although these data have been processed successfully on
+computers at the LOSCO, no guarantee, expressed or
+implied, is made by LOSCO regarding the use of these data
+on any other system, nor does the act of distribution
+constitute or imply any such warranty.  Distribution of these
+data is intended for information purposes and should not be
+considered authoritative for navigational, engineering, legal
+and other site-specific uses.
+</distliab>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<formname>SHP and MDB</formname>
+					<formspec>ESRI Shapefile and Geodatabase (9.1)</formspec>
+					<transize>10.717</transize>
+				</digtinfo>
+				<digtopt>
+					<onlinopt>
+						<computer>
+							<networka>
+								<networkr>http://lagic.lsu.edu/data/losco/bathymetry_NOAA_1994.zip</networkr>
+							</networka>
+						</computer>
+					</onlinopt>
+					<offoptn>
+						<offmedia>DVD-ROM</offmedia>
+					</offoptn>
+				</digtopt>
+			</digform>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20070821</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>3001, Inc.</cntorg>
+					<cntper>Mendi Johnson</cntper>
+				</cntorgp>
+				<cntpos>GIS Analyst</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>3655 SW 2nd Ave., Suite 3C</address>
+					<city>Gainesville</city>
+					<state>FL</state>
+					<postal>32607</postal>
+				</cntaddr>
+				<cntvoice>(352) 379-3001</cntvoice>
+				<cntfax>(352) 377-4234</cntfax>
+				<cntemail>mjohnson@gnv.3001data.com</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+	</metainfo>
+	<Esri><CreaDate>20110818</CreaDate><CreaTime>15032500</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\AR201-MJENKS\I$\DSS\LA_Suitablility_Rasters\Web_Mercator_PRJ\100m_cells\XML_Metadata\Supplemental\LA_bathymetry_noaa_1994</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="I:\DSS\For_Gulf_DSS\LA\bathymetry_NOAA_1994\LA_bathymetry_noaa_1994" dest="\\AR201-MJENKS\I$\DSS\LA_Suitablility_Rasters\Web_Mercator_PRJ\100m_cells\XML_Metadata\Supplemental\LA_bathymetry_noaa_1994" date="20110818" time="15032500"></copy></copyHistory></DataProperties></Esri></metadata>

@@ -1,0 +1,134 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Oyster Reefs in Copano Bay (Side Scan Sonar)</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>Project Name: Oyster Reef and Seabed Mapping in Copano Bay
+GLO Contract No.: 08-008 (TAMUG 424137)
+This is the final report of our CMP Cycle 12 project to identify and delineate oyster reefs
+and other bottom features in Copano Bay. This project was conducted during two
+successive CMP Cycles, Cycles 11 &amp; 12. During the Cycle 11 we conducted the bulk of
+the field component of the geophysical mapping. During Cycle 12 will processed the
+geophysical data and generate maps and prepare the final report and conducted followup
+field work, including field verification of the areas identified as reef. This project is a
+cooperative effort between Department of Oceanography, Texas A&amp;M University
+(TAMU), Department of Marine Sciences Texas A&amp;M University at Galveston
+(TAMUG); the Institute for Coastal Studies at Texas A&amp;M University at Corpus Christi
+(TAMUCC), and the Texas Parks and Wildlife Department (TPWD).</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-97.211603</westbc>
+        <eastbc>-97.012142</eastbc>
+        <northbc>28.189682</northbc>
+        <southbc>28.056038</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <datacred>Dr. Timothy M. Dellapenna (TAMUG), Erin Weaver (TAMUG), Dr. James Simons (TPWD), Dr. Alex Simms, (OSU), Taylor Traviani (OSU)</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>131</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>USA Contiguous Albers Equal Area Conic</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>37.5</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TX_Copano_Bay_OysterReef</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Id</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AreaM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Hectares</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20111223</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

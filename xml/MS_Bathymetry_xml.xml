@@ -1,0 +1,88 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<pubdate>19980606</pubdate>
+				<title>Mississippi Sound, MS/LA/AL (G170)  Bathymetric Digital Elevation Model (30 meter resolution) Derived From Source Hydrographic Survey Soundings Collected by NOAA</title>
+				<geoform>raster digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Bathymetry for Mississippi Sound was derived from thirty-three surveys containing 371,210 soundings. Five overlapping, older, less accurate surveys were omitted before tinning. The average distance between soundings was 89 meters. The thirty-three surveys used dated from 1960 to 1979. The range of soundings for the surveys used was 0.8 meters to -17.6 meters at mean low water. A mean high water value of 0.5 meters was assigned to the shoreline. Twenty-five points were found that were not consistent with the surrounding points. These were removed prior to tinning. DEM grid values outside the shoreline (on land) were assigned null values (-32676).Mississippi Sound has forty-four 7.5 minute DEMs and three one degree DEMs. The 1 degree DEMs were generated from the higher resolution 7.5 minute DEMs which covered the estuary. A Digital Elevation Model (DEM) contains a series of elevations ordered from south to north with the order of the columns from west to east. The DEM is formatted as one ASCII header record (A- record), followed by a series of profile records (B- records) each of which include a short B-record header followed by a series of ASCII integer elevations (typically in units of 1 centimeter) per each profile. The last physical record of the DEM is an accuracy record (C-record).The 7.5-minute DEM (30- by 30-m data spacing) is cast on the Universal Transverse Mercator (UTM) projection. It provides coverage in 7.5- by 7.5-minute blocks. Each product provides the same coverage as a standard USGS 7.5-minute quadrangle but the DEM contains over edge data. Coverage is available for many estuaries of the contiguous United States but is not complete.Purpose: Bathymetric DEM's can be used as layers in Geographic Information Systems (GIS) for earth science analysis. DEM's can also serve as tools for volumetric analysis, for site location of structures, or for drainage basin delineation. The source soundings are collected by the NOS Office of Coast Survey (OCS).</abstract>
+			<purpose>Bathymetry for Mississippi Sound was derived from thirty-three surveys containing 371,210 soundings. Five overlapping, older, less accurate surveys were omitted before tinning. The average distance between soundings was 89 meters. The thirty-three surveys used dated from 1960 to 1979. The range of soundings for the surveys used was 0.8 meters to -17.6 meters at mean low water. A mean high water value of 0.5 meters was assigned to the shoreline. Twenty-five points were found that were not consistent with the surrounding points. These were removed prior to tinning. DEM grid values outside the shoreline (on land) were assigned null values (-32676). Full metadata can be found at http://estuarinebathymetry.noaa.gov/documentation/30m_bathy.html.</purpose>
+			<supplinf>The datum for these bathymetric DEMs is not the same as that used by the United States Geological Survey (USGS) for land based DEMs which results in a discontinuity if the two datasets are merged together. Moreover, the shoreline for the USGS DEMs is indeterminate and not the same as that used for the Bathymetric DEMs. Because of these differences, extreme care should be used in merging NOAA and USGS DEM data. 7.5-minute DEMs have rows and columns which vary in length and are staggered. The UTM bounding coordinates form a quadrilateral (no two sides are parallel to each other), rather than a rectangle. The user will need to pad out the uneven rows and columns with blanks or flagged data values, if a rectangle is required for the user's application. Some software vendors have incorporated this function into their software for input of standard formatted USGS DEMs. The data within the bathymetry file is floating point. When using the data within a GIS care must be taken to ensure that the data are being read as floating point and not integer data.</supplinf>
+		</descript>
+		<status>
+			<update>Irregular</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-89.875189</westbc>
+				<eastbc>-88.072270</eastbc>
+				<northbc>30.509607</northbc>
+				<southbc>29.847985</southbc>
+			</bounding>
+		</spdom>
+		<keywords/>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Special Projects (SP)</cntorg>
+				</cntorgp>
+				<cntpos>Chief, Integrated Planning and Technical Services</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>1305 East West Highway N/MB7</address>
+					<city>Silver Spring</city>
+					<state>MD</state>
+					<postal>20910</postal>
+				</cntaddr>
+				<cntvoice>301-713-3000</cntvoice>
+				<cntfax>301-713-4384</cntfax>
+				<cntemail>robert.wilson@noaa.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Special Projects (SP). Full metadata can be found at http://estuarinebathymetry.noaa.gov/documentation/30m_bathy.html.</datacred>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Raster</direct>
+		<rastinfo/>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.000000006714873101998366</absres>
+						<ordres>0.000000006714873101998366</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+				<ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>0.0</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<metainfo>
+		<metd>20111113</metd>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<metac>Restriction Code: other restrictions; Other Constraints: Access constraints: None</metac>
+	</metainfo>
+	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_Bathymetry_xml</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\projected\MS_Bathymetry_xml" dest="\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_Bathymetry_xml" date="20111113" time="08224100"></copy></copyHistory></DataProperties></Esri></metadata>

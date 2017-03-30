@@ -1,0 +1,341 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>AL_Blkgrp_SoVI_BETA_web</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://</onlink>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-88.473227</westbc>
+        <eastbc>-84.888967</eastbc>
+        <northbc>35.007882</northbc>
+        <southbc>30.194045</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>3328</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator</mapprojn>
+          <mercator>
+            <stdparll>0.0</stdparll>
+            <longcm>0.0</longcm>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </mercator>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+        <ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>0.0</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>AL_Blkgrp_SoVI_BETA_web</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>FID is an automated ESRI code.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry automated by ESRI.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPSSTCO</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>TRACT</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GROUP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>STFID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GISJOIN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GISJOIN2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>OID_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>Unique identifier for each block group.</attrdef>
+        <attrdefs>Federal Information Processing Standard</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>KEY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>P001001</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>H001001</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FID_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>stfips</attrlabl>
+        <attrdef>Unique identifier for the state.</attrdef>
+        <attrdefs>Federal Informaiton Processing Standard</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>stcofips</attrlabl>
+        <attrdef>Unique identifer for the county.</attrdef>
+        <attrdefs>Federal Information Processing Standard</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>name</attrlabl>
+        <attrdef>Block group name.</attrdef>
+        <attrdefs>US Census, 2000.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>name_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>QBLACK</attrlabl>
+        <attrdef>Percent African American.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QINDIAN</attrlabl>
+        <attrdef>Percent Native American.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QASIAN</attrlabl>
+        <attrdef>Percent Asian and Hawaiian Islander.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QSPANISH</attrlabl>
+        <attrdef>Percent Hispanic.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QKIDS</attrlabl>
+        <attrdef>Percent of population under 5 years of age.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QPOP65O</attrlabl>
+        <attrdef>Percent of population age 65 and over.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MEDAGE</attrlabl>
+        <attrdef>Median age.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QFEMALE</attrlabl>
+        <attrdef>Percent female population.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PPUNIT</attrlabl>
+        <attrdef>Average number of people per household.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QRENTER</attrlabl>
+        <attrdef>Percent renter occupied units.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QFHH</attrlabl>
+        <attrdef>Percent female headed households, no spouse present.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>NRRESPC</attrlabl>
+        <attrdef>Nursing home residents per capita.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QCVLUN</attrlabl>
+        <attrdef>Percent civilian unemployment.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PERCAP</attrlabl>
+        <attrdef>Per capita Income (2000 dollars).</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QRICH</attrlabl>
+        <attrdef>Percentage of households earning 100,000 or more.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QPOVTY</attrlabl>
+        <attrdef>Percent living below the poverty level.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MEAN_HSEVA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>MC_RENT</attrlabl>
+        <attrdef>Mean contract rent for renter occupied housing units.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PHYSICN</attrlabl>
+        <attrdef>Number persons per 100,000 population employed as healthcare practitioners and technical occupations.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QRFRM</attrlabl>
+        <attrdef>Percent rural farm population.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QMOHO</attrlabl>
+        <attrdef>Percent of housing units that are mobile homes.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QED12LES</attrlabl>
+        <attrdef>Percent of population 25 years or older with no high school diploma.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QCVLBR</attrlabl>
+        <attrdef>Percent of population participating in the labor force.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QFEMLBR</attrlabl>
+        <attrdef>Percent females participating in the labor force.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QAGRI</attrlabl>
+        <attrdef>Percent employment in farming, fishing, and forestry occupations.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QTRAN</attrlabl>
+        <attrdef>Percent employed in transportation, communications, and other public utilities.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QSERV</attrlabl>
+        <attrdef>Percent Employed in service industry.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QSSBEN</attrlabl>
+        <attrdef>Percent of population collecting social security benefits.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QMIGRA</attrlabl>
+        <attrdef>Percent Foreign Born Citizens Immigrating between 1990 and 2000.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QURBAN</attrlabl>
+        <attrdef>Percent urban population.</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HODENSTY</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>stfid_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>COMP1</attrlabl>
+        <attrdef>SoVI Component 1: Wealth (-); Refer to Read Me file for driving variables</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMP2</attrlabl>
+        <attrdef>SoVI Component 2: Urban / Rural Divide (||); Refer to Read Me file for driving variables</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMP3</attrlabl>
+        <attrdef>SoVI Component 3: Elderly (+); Refer to Read Me file for driving variables</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMP4</attrlabl>
+        <attrdef>SoVI Component 4: Race &amp; Class (Poverty) (+); Refer to Read Me file for driving variables</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMP5</attrlabl>
+        <attrdef>SoVI Component 5: Gender (+); Refer to Read Me file for driving variables</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMP6</attrlabl>
+        <attrdef>SoVI Component 6: Renters (+); Refer to Read Me file for driving variables</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>COMP7</attrlabl>
+        <attrdef>SoVI Component 7: Hispanic / Migrants (+); Refer to Read Me file for driving variables</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SoVI</attrlabl>
+        <attrdef>Aggregate SoVI Score</attrdef>
+        <attrdefs>Hazards and Vulnerability Research Institute</attrdefs>
+      </attr>
+    </detailed>
+    <overview />
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110810</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

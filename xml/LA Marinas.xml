@@ -1,0 +1,1585 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA_Marinas_LOSCO_2004</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\RIVERBOAT\D\LOSCO 2007 DVD\DVDPROJECT\data\collections\marinas_LOSCO_2004\marinas_LOSCO_2004.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The dataset defines the location and supplemental information for marinas and boat launches in southern Louisiana. The boat launch database includes public and semi-private launches. Additional information includes details about the facility including location, description, comments, launch type (ramp, lift, etc.), launch depth, available power lighting, conveniences (stores, restrooms, restaurants, etc.) and more.</abstract>
+      <purpose>The purpose of the Marina and Boat Launch Locator is to provide oil spill response organizations (OSROs) with a comprehensive geospatial database of public and semi-private marina and boat launch facilities within southern Louisiana.  Oil spill response organizations responding to oil spills will be able to efficiently locate launch facilitates in close proximity of an oil spill by geography.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.892310</westbc>
+        <eastbc>-89.360600</eastbc>
+        <northbc>31.004260</northbc>
+        <southbc>29.115090</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>None.</useconst>
+    <datacred>Louisiana Oil Spill Coordinator's Office, McNeese University, and Nichols State University</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>400</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degree</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>marinas_LOSCO_2004</enttypl>
+        <enttypd>Louisiana Marinas and Boat Launches ArcView Shapefile.</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY</attrlabl>
+        <attrdef>Unique identifier of the site based upon the date, contractor number and sequence on that day</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Unique facility identifier</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE</attrlabl>
+        <attrdef>Indicates the date of the data collection in FGDC format</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Collection Date</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTRACTOR</attrlabl>
+        <attrdef>Indicates the contractor responsible for collecting the information.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Nicholls State University</edomv>
+          </edom>
+          <edom>
+            <edomv>McNeese State University</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIME</attrlabl>
+        <attrdef>24 hour time clock</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Collection time</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CREW</attrlabl>
+        <attrdef>Indicates the name of the crew that collected the information.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Bender/Smathers</edomv>
+            <edomvd>Crew members Bender and Smathers</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Bender/O'Rourke</edomv>
+            <edomvd>Crew members Bender and O'Rourke</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Schultz/Berger</edomv>
+            <edomvd>Crew members Schultz and Berger</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Schultz/Picard</edomv>
+            <edomvd>Crew members Schultz and Picard</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Schultz/Chauvin</edomv>
+            <edomvd>Crew members Schultz and Chauvin</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gus Stacy</edomv>
+            <edomvd>Crew leader Gus Stacy</edomvd>
+            <edomvds>McNeese University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gregory Hartman</edomv>
+            <edomvd>Crew leader Gregory Hartman</edomvd>
+            <edomvds>McNeese University</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ZONE</attrlabl>
+        <attrdef>East or West</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>east</edomv>
+          </edom>
+          <edom>
+            <edomv>west</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PARISH</attrlabl>
+        <attrdef>Indicates the Parish (county) in which the facility is located.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Parish Name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QUAD_24K</attrlabl>
+        <attrdef>Indicates the 1:24,000 USGS Quadrangle in which the facility can be located.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USGS 7.5 minute Quadrangle</codesetn>
+            <codesets>United States Geological Survey (USGS)</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WATERWAY</attrlabl>
+        <attrdef>Indicates the text name of the water body provided by the researcher</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Name of the waterway or water body in which the launch/lift is adjacent.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GNISNAME</attrlabl>
+        <attrdef>Geographic Names Information System (GNIS) name for waterway</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>GNIS Name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LIGHTING</attrlabl>
+        <attrdef>Indicates the availability of public lighting.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>None Available</edomv>
+            <edomvd>No lighting is available.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Public Lighting</edomv>
+            <edomvd>Light is available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>USETYPE</attrlabl>
+        <attrdef>Facility availability</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Public</edomv>
+            <edomvd>Full public access</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Semi-private</edomv>
+            <edomvd>Conditional public access (requires permission)</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPTIO</attrlabl>
+        <attrdef>Description of the location in which the facility is located.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Description and information about the facility.</udom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Description and information about the facility.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMMENT</attrlabl>
+        <attrdef>Comments made by the crew about the facility. Ancillary information not covered in the description</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>General comments regarding the facility. Ancillary information not provided in the description</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAT_DEC83</attrlabl>
+        <attrdef>latitude, decimal degrees, geogrphic, NAD 83, root coordinate</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Latitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONG_DEC83</attrlabl>
+        <attrdef>longitude, decimal degrees, geographic NAD 83, root coordinate</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Longitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAT_DEC27</attrlabl>
+        <attrdef>latitude, decimal degrees, geographic NAD 27 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Latitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONG_DEC27</attrlabl>
+        <attrdef>longitude, decimal degrees, geographic NAD 27 (corpscom dedrived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Longitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_X27Z15</attrlabl>
+        <attrdef>universal transverse mercator X coordinate, NAD 27, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X coordinate, NAD 27</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Y27Z15</attrlabl>
+        <attrdef>universal transverse mercator Y coordinate, NAD 27, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y coordinate, NAD 27</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_X83Z15</attrlabl>
+        <attrdef>Universal Transverse Mercator X coordinate, NAD 83, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X coordinate, NAD 83</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Y83Z15</attrlabl>
+        <attrdef>Universal Transverse Mercator Y coordinate, NAD 83, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y coordinate, NAD 83</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_X27Z16</attrlabl>
+        <attrdef>Universal Transverse Mercator X coordinate, NAD 27, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X coordinate, NAD 27, zone 16</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Y27Z16</attrlabl>
+        <attrdef>Universal Transverse Mercator Y coordinate, NAD 83, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y  coordinate, NAD 27, zone 16</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_X83Z16</attrlabl>
+        <attrdef>Universal Transverse Mercator X coordinate, NAD 83, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X  coordinate, NAD 83, zone 16</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UTM_Y83Z16</attrlabl>
+        <attrdef>Universal Transverse Mercator Y coordinate, NAD 83, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y  coordinate, NAD 83, zone 16</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ramps.dbf</enttypl>
+        <enttypd>Information about boat ramps at facility.</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ramptype</attrlabl>
+        <attrdef>Indicates the material in which the ramp is constructed.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>None Available.</edomv>
+            <edomvd>No ramp is present.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Asphalt</edomv>
+            <edomvd>Ramp is constructed of Asphalt.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Concrete</edomv>
+            <edomvd>Ramp is constructed of Concrete.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Dirt</edomv>
+            <edomvd>Ramp is constructed of Dirt.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gravel</edomv>
+            <edomvd>Ramp is constructed of Gravel.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Shell</edomv>
+            <edomvd>Ramp is constructed of Shell.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Board</edomv>
+            <edomvd>Ramp is constructed of wood.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Steel</edomv>
+            <edomvd>Ramp is constructed of Steel.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>width_ft</attrlabl>
+        <attrdef>Indicates the width (feet) of the ramp.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>width in US survey feet (decimal real number).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>length_ft</attrlabl>
+        <attrdef>Indicates the measured slope length (feet) of the ramp.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>length in US survey feet (decimal real number).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>waterlevel</attrlabl>
+        <attrdef>Three water level classes based upon the "barnicle rule"</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>low</edomv>
+            <edomvd>barnicles exposed</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>high</edomv>
+            <edomvd>barnicles covered</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>normal</edomv>
+            <edomvd>water level with barnicles</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>depth_00ft</attrlabl>
+        <attrdef>Indicates the depth (feet) at the submerged end of ramp.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>The water level in US survey feet (decimal real number).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>depth_10ft</attrlabl>
+        <attrdef>Indicates the depth (feet) at 10 feet from the submerged end of ramp on horizontal axis</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>The water level in US survey feet (decimal real number).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>depth_20ft</attrlabl>
+        <attrdef>Indicates the depth (feet) at 20 feet from the submerged end of ramp on horizontal axis</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>The water level in US survey feet (decimal real number).</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>slope_dd</attrlabl>
+        <attrdef>Slope of ramp in degrees below horizontal</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>The angle in decimal degrees below the horizontal.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>lifts.dbf</enttypl>
+        <enttypd>Information concerning the availiblity of lifts at the facility.</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lifttype</attrlabl>
+        <attrdef>Indicates the type of lift.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>None Available</edomv>
+            <edomvd>No lift is present.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Electric Lift</edomv>
+            <edomvd>The lift is electrically powered.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Hydraulic Lift</edomv>
+            <edomvd>The lift is hydraulically powered.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>width_ft</attrlabl>
+        <attrdef>Indicates the maximum width (feet) the lift can accommodate.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>length_ft</attrlabl>
+        <attrdef>Indicates the maximum length (feet) the lift can accommodate.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>weight_lb</attrlabl>
+        <attrdef>Indicates the maximum weight (lb) the lift can support.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>parking.dbf</enttypl>
+        <enttypd>Information concerning vehicle parking at facility.</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>parktype</attrlabl>
+        <attrdef>Indicates the type of parking available at the facility.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>None Available</edomv>
+            <edomvd>Parking is not available at the facility.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Vehicles</edomv>
+            <edomvd>Cars and trucks have available parking.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Trailer Stalls</edomv>
+            <edomvd>Parking spaces are available for boats on trailers.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Launched Stalls</edomv>
+            <edomvd>Docking spaces are available for boats in the water (vessel mooring stalls).</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>count</attrlabl>
+        <attrdef>Represents the estimated number of spaces available for a particular parking type at the facility.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Estimated number of available parking, stalls, or moorings.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>length_ft</attrlabl>
+        <attrdef>Indicates the length (feet) of the available spaces.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Length in feet of available space.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>width_ft</attrlabl>
+        <attrdef>Indicates the width (feet) of the available spaces.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Width in feet of available space.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>truck_18w</attrlabl>
+        <attrdef>Parking for one or more 18 wheel tractor trailers is possible</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>true</edomv>
+            <edomvd>parking is possible</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>false</edomv>
+            <edomvd>parking is not possible</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>product.dbf</enttypl>
+        <enttypd>Information concerning the availability of products at the facility.</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>product</attrlabl>
+        <attrdef>List of products avilable at store</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>none available</edomv>
+            <edomvd>no products available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>groceries</edomv>
+            <edomvd>groceries available</edomvd>
+            <edomvds>groceries</edomvds>
+          </edom>
+          <edom>
+            <edomv>tackle</edomv>
+            <edomvd>tackle available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>restaurant</edomv>
+            <edomvd>restaraunt available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>lubricants</edomv>
+            <edomvd>lubricants available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>navigational charts</edomv>
+            <edomvd>navigation charts avilable</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>marine hardware</edomv>
+            <edomvd>marine hardware available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>store_name</attrlabl>
+        <attrdef>Name of store for  product purchase</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_address1</attrlabl>
+        <attrdef>Primary store address</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_address2</attrlabl>
+        <attrdef>Second store address</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_city</attrlabl>
+        <attrdef>City where store is located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_state</attrlabl>
+        <attrdef>State where store is located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_zipcode</attrlabl>
+        <attrdef>Postal zipcode</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_phone1</attrlabl>
+        <attrdef>Primary store phone number</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_phone2</attrlabl>
+        <attrdef>Second store phone number</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_fax</attrlabl>
+        <attrdef>Fax phone number for store</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_email</attrlabl>
+        <attrdef>Internet email address for store</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>s_web</attrlabl>
+        <attrdef>Internet web address for store</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>fuel.dbf</enttypl>
+        <enttypd>Information concerning fuel availability at the facility.</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>fueltype</attrlabl>
+        <attrdef>Fuel type availability at facility.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>none available</edomv>
+            <edomvd>fuel not available at facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>gas</edomv>
+            <edomvd>gasoline available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>diesel</edomv>
+            <edomvd>diesel fuel available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>kerosene</edomv>
+            <edomvd>kerosene fuel avilable</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>aviation fuel</edomv>
+            <edomvd>aviation fuel available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>volume_gal</attrlabl>
+        <attrdef>Maximum storage capacity (gallons).</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vehicles</attrlabl>
+        <attrdef>Availability of vehicle fuel.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>true</edomv>
+            <edomvd>fuel available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>false</edomv>
+            <edomvd>no fuel available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>trailers</attrlabl>
+        <attrdef>Ability to fuel a vessel on trailer.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>true</edomv>
+            <edomvd>can fuel a vessel on a trailer</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>false</edomv>
+            <edomvd>can not fuel a vessel on a trailer</edomvd>
+            <edomvds>fuel available for trailered vessels</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>vessels</attrlabl>
+        <attrdef>Availabilty of fuel at dock for vessels in the water</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>true</edomv>
+            <edomvd>fuel available at dock</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>false</edomv>
+            <edomvd>fuel not available at dock</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>water.dbf</enttypl>
+        <enttypd>Information concerning potable water facilities</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>watertype</attrlabl>
+        <attrdef>Availability of potable water</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>none available</edomv>
+            <edomvd>potable water not available at facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>potable</edomv>
+            <edomvd>potable water available at facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>photos.dbf</enttypl>
+        <enttypd>Information concerning photos taken of the facilty</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>photofmt</attrlabl>
+        <attrdef>Electronic image format</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>not-applicable</edomv>
+            <edomvd>not-applicable</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>jpeg</edomv>
+            <edomvd>jpeg format</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>tif</edomv>
+            <edomvd>tif format</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>phototype</attrlabl>
+        <attrdef>Feature photographed</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>none available</edomv>
+            <edomvd>no photo available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>facility</edomv>
+            <edomvd>general view of the facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>fuel</edomv>
+            <edomvd>photo of fueling facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>lift</edomv>
+            <edomvd>photo of lift facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>light</edomv>
+            <edomvd>photo of lighting facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>park</edomv>
+            <edomvd>photos of parking facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>power</edomv>
+            <edomvd>photos of power facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>ramp</edomv>
+            <edomvd>photos of ramp facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>store</edomv>
+            <edomvd>photos of store</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>water</edomv>
+            <edomvd>phots of water facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>miscellaneous</edomv>
+            <edomvd>photos of other features of interest at the facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>name</attrlabl>
+        <attrdef>Electronic (physical) file name</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>File name</udom>
+        </attrdomv>
+      </attr>
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+      <attr />
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>power.dbf</enttypl>
+        <enttypd>Information concerning the availability electrical power at the facility</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>powertype</attrlabl>
+        <attrdef>Indicates the type of electrical power available.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>None Available</edomv>
+            <edomvd>no power available at facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Utility 110 VAC</edomv>
+            <edomvd>110 Volts AC available from public utility.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Utility 220 VAC</edomv>
+            <edomvd>220 Volts AC available from public utility.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Generator 110 VAC</edomv>
+            <edomvd>110 Volts AC available from generator.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Generator 220 VAC</edomv>
+            <edomvd>220 Volts AC available from generator.</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>maxamps</attrlabl>
+        <attrdef>Indicates maximum available power (amperes).</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Number of amps available.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>contacts.dbf</enttypl>
+        <enttypd>People to contact at or about the facility</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facility</attrlabl>
+        <attrdef>Links to the facility attribute in the marinas_LOSCO_2004.dbf</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_fname</attrlabl>
+        <attrdef>First name</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_lname</attrlabl>
+        <attrdef>Last name</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_address1</attrlabl>
+        <attrdef>First address</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_address2</attrlabl>
+        <attrdef>Second address</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_city</attrlabl>
+        <attrdef>City where contact is located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_state</attrlabl>
+        <attrdef>State where contact is located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_zipcode</attrlabl>
+        <attrdef>Zipcode where contact is located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_phone1</attrlabl>
+        <attrdef>First phone contact number</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_phone2</attrlabl>
+        <attrdef>Second phone contact number</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_fax</attrlabl>
+        <attrdef>Fax phone number of contact</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_email</attrlabl>
+        <attrdef>Internet email address of contact</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>c_web</attrlabl>
+        <attrdef>Internet web address of contact</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>marinas_LOSCO_2004_photos</enttypl>
+        <enttypd>Table used for hot-linking the marinas_LOSCO_2004.shp file with the PHOTOS.DBF database file</enttypd>
+        <enttypds>Louisiana Oil Spill Coordinator's Office (LOSCO)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>facilities</attrlabl>
+        <attrdef>Unique identifier of the site based upon the date, contractor number and sequence</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>date</attrlabl>
+        <attrdef>Indicates the date of the data collection in FGDC format</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>contractor</attrlabl>
+        <attrdef>Indicates the contractor responsible for collecting the information</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>McNeese State University</edomv>
+          </edom>
+          <edom>
+            <edomv>Nicholls State University</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>time</attrlabl>
+        <attrdef>24 hour time clock</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Collection time</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>crew</attrlabl>
+        <attrdef>Indicates the name of the crew that collected the information</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Bender/Smathers</edomv>
+            <edomvd>Crew members Bender and Smathers</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Bender/O'Rourke</edomv>
+            <edomvd>Crew members Bender and O'Rourke</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Schultz/Berger</edomv>
+            <edomvd>Crew members Schultz and Berger</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Schultz/Picard</edomv>
+            <edomvd>Crew members Schultz and Picard</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Schultz/Chauvin</edomv>
+            <edomvd>Crew members Schultz and Chauvin</edomvd>
+            <edomvds>Nicholls State University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gus Stacy</edomv>
+            <edomvd>Crew leader Gus Stacy</edomvd>
+            <edomvds>McNeese University</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gregory Hartman</edomv>
+            <edomvd>Crew leader Gregory Hartman</edomvd>
+            <edomvds>McNeese University</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>zone</attrlabl>
+        <attrdef>East or West</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>east</edomv>
+          </edom>
+          <edom>
+            <edomv>west</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>parish</attrlabl>
+        <attrdef>Indicates the Parish (county) in which the facility is located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Parish name</udom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Parish name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>quad_24k</attrlabl>
+        <attrdef>Indicates the 1:24,000 USGS Quadrangle in which the facility can be located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>USGS 7.5 minute Quadrangle</codesetn>
+            <codesets>United States Geological Survey (USGS)</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>waterway</attrlabl>
+        <attrdef>Indicates the text name of the water body provided by the researcher</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Name of the waterway or water body in which the launch/lift is adjacent</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>gnisname</attrlabl>
+        <attrdef>Geographic Names Information System (GNIS) name for waterway</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>GNIS Name</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lighting</attrlabl>
+        <attrdef>Indicates the availability of public lighting</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>None Available</edomv>
+            <edomvd>No lighting is available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Public Lighting</edomv>
+            <edomvd>Light is available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>usetype</attrlabl>
+        <attrdef>Facility availability</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Public</edomv>
+            <edomvd>Full public access</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Semi-private</edomv>
+            <edomvd>Conditional public access (requires permission)</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>descriptio</attrlabl>
+        <attrdef>Description of the location in which the facility is located</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Description and information about the facility</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>comment</attrlabl>
+        <attrdef>Comments made by the crew about the facility. Ancillary information not covered in the description</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>General comments regarding the facility. Ancillary information not provided in the description</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat_dec83</attrlabl>
+        <attrdef>latitude, decimal degrees, geogrphic, NAD 83, root coordinate</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Latitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>long_dec83</attrlabl>
+        <attrdef>longitude, decimal degrees, geographic NAD 83, root coordinate</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Longitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat_dec27</attrlabl>
+        <attrdef>latitude, decimal degrees, geographic NAD 27 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Latitude coordinate</udom>
+        </attrdomv>
+        <attrdomv>
+          <udom>Latitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>long_dec27</attrlabl>
+        <attrdef>longitude, decimal degrees, geographic NAD 27 (corpscom dedrived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>Longitude coordinate</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_x27z15</attrlabl>
+        <attrdef>transverse mercator X coordinate, NAD 27, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X coordinate, NAD 27</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_y27z15</attrlabl>
+        <attrdef>universal transverse mercator Y coordinate, NAD 27, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y coordinate, NAD 27</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_x83z15</attrlabl>
+        <attrdef>Universal Transverse Mercator X coordinate, NAD 83, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X coordinate, NAD 83</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_y83z15</attrlabl>
+        <attrdef>Universal Transverse Mercator Y coordinate, NAD 83, zone 15 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y coordinate, NAD 83</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_x27z16</attrlabl>
+        <attrdef>Universal Transverse Mercator X coordinate, NAD 27, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X coordinate, NAD 27, zone 16</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_y27z16</attrlabl>
+        <attrdef>Universal Transverse Mercator Y coordinate, NAD 83, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y coordinate, NAD 27, zone 16</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_x83z16</attrlabl>
+        <attrdef>Universal Transverse Mercator X coordinate, NAD 83, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM X coordinate, NAD 83, zone 16</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>utm_y83z16</attrlabl>
+        <attrdef>Universal Transverse Mercator Y coordinate, NAD 83, zone 16 (corpscom derived)</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>UTM Y coordinate, NAD 83, zone 16</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>phototype</attrlabl>
+        <attrdef>Feature photographed</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>none available</edomv>
+            <edomvd>no photo available</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>facility</edomv>
+            <edomvd>general view of the facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>fuel</edomv>
+            <edomvd>photo of fueling facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>lift</edomv>
+            <edomvd>photo of lift facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>light</edomv>
+            <edomvd>photo of lighting facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>park</edomv>
+            <edomvd>photos of parking facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>power</edomv>
+            <edomvd>photos of power facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>ramp</edomv>
+            <edomvd>photos of ramp facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>store</edomv>
+            <edomvd>photos of store</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>water</edomv>
+            <edomvd>photos of water facilities</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>miscellaneous</edomv>
+            <edomvd>photos of other features of interest at the facility</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>photofmt</attrlabl>
+        <attrdef>Electronic image format</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>not-applicable</edomv>
+            <edomvd>not-applicable</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>jpeg</edomv>
+            <edomvd>jpeg format</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+          <edom>
+            <edomv>tif</edomv>
+            <edomvd>tif format</edomvd>
+            <edomvds>Louisiana Oil Spill Coordinator's Office (LOSCO)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>photoname</attrlabl>
+        <attrdef>Electronic (physical) file name</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>photopath</attrlabl>
+        <attrdef>Electronic (physical) directory path to the file.</attrdef>
+        <attrdefs>Louisiana Oil Spill Coordinator's Office (LOSCO)</attrdefs>
+        <attrdomv>
+          <udom>unique</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110819</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

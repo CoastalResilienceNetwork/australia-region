@@ -1,0 +1,168 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Oyster Reef Restoration Suitability Scenaio</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://coastalresilience.org/gulf-of-mexico</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Gulf Restoration Decision Support project is being advanced to inform the identification of restoration projects with maximum socio-economic and ecological benefits. A coalition of partners including The Nature Conservancy, NOAA, ESRI, the University of Southern Mississippi, the Natural Capital Project, and others is providing decision support by developing an interactive web-based mapping application (http://GulfRestorationDS.org)to consolidate information about the ecological and socio-economic characteristics of the Gulf Coast and to help in defining the best restoration needs and opportunities. This process involves four key steps: 1) identifying ecological criteria that define where restoration can be successful, 2) identifying socio-economic criteria that determine when restoration is most feasible and beneficial 3) collecting, processing and analyzing spatial data that represent those criteria, and 4) delivering that information across the Web in a user-friendly mapping application. Gulf Restoration Decision Support will help decision makers to explore alternative restoration scenarios that account for these social, economic, and ecological benefits. We are also including scenarios to help understand likely future conditions from climate change and sea level rise around the Gulf of Mexico. When a user interacts with the Oyster Reef Restoration dashboard for a particular state they have the ability to assign a number of weights to various parameters. These weights are assigned through the interface by sliding a slider bar to assign a value between 0 and 10. When the user assigns a value in this manner the predefined values in each parameter are then multiplied by the weight assigned to it. These are then combined to produce an overall score of restoration suitability. When the user exports a scenario the weights displayed on the web mapping application will be captured in the attirbutes of the dataset.</abstract>
+      <purpose>The purpose of this dataset is to provide coastal managers and planners with user-driven oyster reef restoration suitability scenarios for examination in the Gulf of Mexico. These are dervied from a combination of social, economic and ecological parameters that influence the restoration of oyster reefs in each of the five Gulf states. </purpose>
+    </descript>
+    <status>
+      <update>Continually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.547186</westbc>
+        <eastbc>-80.854737</eastbc>
+        <northbc>30.603428</northbc>
+        <southbc>25.053791</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>The exported scenarios are for examination purposes only. They are intended to guide coastal managers and planners to consider oyster reef restoration in particularly geographies within the Gulf of Mexico. Through a peer and expert review process the suitability scores for soical, economic and ecological parameters were carefully assigned. However, we recognize there are other methods for determining oyster reef restoration suitability and therefore these output should be considered tentative pending a more thorough examination of on-the-ground site conditions.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+        </cntaddr>
+        <cntemail>zferdana@tnc.org</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>The development of the Oyster Reef Restoration dashboards was done through a collaboration between The Nature Conservancy and the University of Southern Mississippi. For more information about TNC's Gulf Restoration Decision Support project go to http://coastalresilience.org/gulf-of-mexico.</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>142</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator</mapprojn>
+          <mercator>
+            <stdparll>0.0</stdparll>
+            <longcm>0.0</longcm>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </mercator>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+        <ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>0.0</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>output</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Depth_Scor</attrlabl>
+        <attrdef>The Depth_Score field is the the product of the weight and the predefined depth score value. The predefined depth score values were defined to limit the depth of placement to a maximum of 9 feet. All areas 9ft deep or less were scored 1 with remaining areas scored 0.  The scored raster was resampled to a 1km, 1km grid.  Original data source: Florida bathymetry generated by Duke University Marine Geospatial Ecology Laboratory, Resolution: 30m grid cell.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Salinity_S</attrlabl>
+        <attrdef>The Salinity_Score field is the the product of the weight and the predefined salinity score value. The predefined salinity score values were defined to identify areas within optimal salinity zones (generally 5-25ppt). These areas were scored as most suitable for oyster restoration while areas of extreme low and high salinities were scored as least suitable. .  For the panhandle region, polygons representing optimal salinities between 5-25 ppt were scored 1 with remaining areas scored 0. For the peninsula region, the salinity range was adjusted to better reflect the relationship between measured salinities and oyster distribution. Polygons representing salinities over 5ppt were scored 1 with remaining areas scored 0. The scored polygons were converted to a 1km, 1km grid. Original data source: Salinity Zones in Estuaries along the Gulf of Mexico- NOAA/NCDDC (polygon), Resolution: 1:24,000.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Historic_R</attrlabl>
+        <attrdef>The Historic_Reefs_Score field is the the product of the weight and the predefined historic reef score value. The predefined historic reef score values were defined to identify areas where oysters have been or are currently found. Areas with reef were scored 1 and all remaining areas were scored a 0. The scored polygons were converted to a 1km, 1km grid.Original data source: Alabama Dept of Conservation, Marine Resources Division (1968, 1995), General chart of the coast (1882) (polygon), Resolution: varies from 1:24,000 to 1:200,000. </attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Natural_Re</attrlabl>
+        <attrdef>The Natural_Resources_Job_Dependence_Score field is the the product of the weight and the predefined natural resources job dependence score value. The predefined natural resources job dependence score values were defined to identify areas where oyster restoration projects can provide social and economic benefits to those communities whose livelihoods depend most upon the health of coastal natural resources. To identify coastal communities with high levels of natural resource job dependence, we used census data to map the percentage of the workforce employed in agriculture, forestry, and fishing per census block group. Nearshore areas (within 2km of shore) adjacent to block groups with high concentrations of workers employed in natural resource dependent sectors were scored 1 while areas adjacent to medium concentrations received a score of 0.5. All remaining areas were scored 0. Scored polygons were converted to a 1km, 1km grid. Original data source: 2000 US Census (polygon), Resolution: 1:100,000</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Project_Pe</attrlabl>
+        <attrdef>The Project_Permit_Feasibility_Score field is the the product of the weight and the predefined project permit feasibility score value. The predefined project permit feasibility score values were defined to identify areas where permitting for oyster restoration is viewed as more feasible. Permitting for oyster restoration is typically viewed as more feasible outside of Florida Aquatic Preserves. Nearshore areas (within 2km of shore) outside of aquatic preserves were scored 1 and areas within Florida Aquatic Preserves received a score of 0. Scored polygons were converted to a 1km, 1km grid. Original data source: Florida Fish and Wildlife Conservation Commission-Fish and Wildlife Research Institute (polygon), Resolution: 1:24,000.   </attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shoreline_</attrlabl>
+        <attrdef>The Shoreline_Erosion_Score field is the the product of the weight and the predefined shoreline erosion score value. The predefined shoreline erosions score values were defined to identify areas where oyster reefs can be placed adjacent to eroding shorelines to help attenuate waves and stabilize shorelines. To identify portions of the shoreline that are currently vulnerable to erosion, we used a portion of the USGS Coastal Vulnerability Index. We extracted shoreline erosion rates for Florida and reclassified the values into quartiles with scores of .25, .5, .75, and 1. A score of 1 indicates areas with the highest erosion rates and a score of .25 indicates areas of low erosion or accretion. The scores were then allocated to the nearshore areas (within 2km of shore) adjacent to the shoreline. All remaining areas were scored 0. Scored polygons were converted to a 1km, 1km grid. Original data source: USGS Coastal Vulnerability Index (Used erosion raw values, polyline), Resolution: 3 arc-minute grid cell.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Score</attrlabl>
+        <attrdef>The score is the raw sum of the user-defined weighted parameters.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Dash_Score</attrlabl>
+        <attrdef>The Dash_Score is what is displayed to the user on the map, however the raw score cannot be displayed directly because the cartography depends on the scores always maintaining a constant range. In this case the values are rescaled to a range of 0 – 100. Values in the range from 0 – 20 are assigned “Low”, 40 – 60 “Medium, 80 – 100 “High” and then assigned a color for display. Values from 20 – 40 are assigned a color between the Low and Medium classes, and values from 60 – 80 a color between the Medium and High classes. The “others” class has no meaning here as no regions will ever fall into this range.</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110812</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Zach Ferdana</cntper>
+        </cntorgp>
+        <cntpos>Senior Marine Conservation Planner</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+        </cntaddr>
+        <cntemail>zferdana@tnc.og</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>The exported scenarios are for examination purposes only. They are intended to guide coastal managers and planners to consider oyster reef restoration in particularly geographies within the Gulf of Mexico. Through a peer and expert review process the suitability scores for soical, economic and ecological parameters were carefully assigned. However, we recognize there are other methods for determining oyster reef restoration suitability and therefore these output should be considered tentative pending a more thorough examination of on-the-ground site conditions.</metuc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,125 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA Navigated Waterways</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\AR201-MJENKS\I$\DSS\Louisiana\navigated_waterways_LOSCO_1999\navigated_waterways_LOSCO_1999.shp</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This is a line dataset of navigated waterways fitting the LOSCO definition: it has been traveled by vessels transporting 10,000 gallons of oil or fuel as determined by extensive research conducted by LSU Department of Geography &amp; Anthropology. All waterways south of the Gulf Intracoastal Waterway are assumed to be navigated as are all waterways within the Atchafalaya Basin so they were not digitized, and they are not part of this dataset. The line strings of this data set were created by heads-up digitizing following center lines of channels on the LOSCO Thematic Mapper mosaic. The lines are attributed with the length of stream segments and names. The names of the navigated waterways were researched from maps and local knowledge.</abstract>
+      <purpose>This dataset is a guide to waterways with opportunity for major oil spill due to shipping traffic.  These data are not suited to define the actual centerline of waterways for navigation. 
+
+This data set in Geographic coordinates, NAD83 is a reference data set for the Louisiana Oil Spill Coordinator's Office (LOSCO).</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-93.738075</westbc>
+        <eastbc>-89.414314</eastbc>
+        <northbc>33.008198</northbc>
+        <southbc>29.534592</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>These unaltered data may not be redistributed without all of the elements of the metadata listed in the  Supplemental_Information section of this metadata document.  It is recommended that third parties wishing to use these data obtain them from the Distributor listed in this metadata document. 
+
+If these data are altered or incorporated into another dataset, they are not to be redistributed without also: altering the name of the dataset, including a Content Standards for Digital Geospatial Metadata (FGDC-STD-001-1998) compliant metadata file that describes the dataset and reflects the alteration steps that makes the new dataset different from this one, and citing this dataset in the metadata as a source for the altered dataset using the source citation specified below.
+
+If these digital data are used in the production of a report or in the compilation of a standalone printed map, then this dataset is to be cited in the report or on the map using the source citation specified below.
+
+The following source citation is to be used when citing this dataset: LOSCO Environmental Baseline Inventory Dataset 'Navigated Waterways of Louisiana, Geographic NAD83, LOSCO (1999) [navigated_waterways_LOSCO_1999]' Users hereby agree to abide by the use and reproduction conditions specified above.  By using the data described in these metadata, the user acknowledges that the terms and conditions of use have been read and that the user is bound by these criteria.</useconst>
+    <datacred>Researchers: Brett Territo, Don Davis, Hampton Peele, Rob Cunningham</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>168</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degree</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>navigated_waterways_LOSCO_1999</enttypl>
+        <enttypd>attributes of arcs</enttypd>
+        <enttypds>3001, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>LEGEND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>name</attrlabl>
+        <attrdef>name of navigated waterway or levee</attrdef>
+        <attrdefs>LSU</attrdefs>
+        <attrdomv>
+          <udom>names are unique</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NAME2</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH_M</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>LINETYPE</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20110901</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

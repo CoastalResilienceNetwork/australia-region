@@ -1,0 +1,237 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Mississippi Department of Marine Resources (MDMR, DMR)</origin>
+				<title>Mississippi Commercially Viable Natural and Enhanced Oyster Reefs</title>
+				<geoform>vector digital data</geoform>
+				<othercit>The Online Linkage resource refers to the location of the MDMR Interactive Coastal Mapper Access</othercit>
+				<onlink>http://www.dmr.state.ms.us/ims/ims-disclaimer.htm</onlink>
+				<onlink>N/A</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data set is a polygon shapefile showing the locations of commercially viable natural and enhanced (via cultch plant) oyster reefs.</abstract>
+			<purpose>This data set is useful for depicting the general location of natural, historically viable oyster reefs (existing before 1999) as well as reef areas enhanced via cultch plants throughout the noted time period.</purpose>
+			<supplinf>This information remains relevant as of September 2010 and until new clutch plant materials may be placed outside the indicated reef areas.</supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2010</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>ground condition</current>
+		</timeperd>
+		<spdom>
+			<bounding>
+				<westbc>-89.420883</westbc>
+				<eastbc>-89.153750</eastbc>
+				<northbc>30.336175</northbc>
+				<southbc>30.177422</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>none</themekt>
+				<themekey>oyster</themekey>
+				<themekey>reefs</themekey>
+				<themekey>clutch plant</themekey>
+			</theme>
+			<place>
+				<placekt>CIESIN</placekt>
+				<placekey>Miss.</placekey>
+				<placekey>United States</placekey>
+				<placekey>Mississippi Sound</placekey>
+				<placekey>northern Gulf of Mexico</placekey>
+				<placekey>Jackson County</placekey>
+				<placekey>Mississippi</placekey>
+				<placekey>MS</placekey>
+				<placekey>Harrison County</placekey>
+				<placekey>North America</placekey>
+				<placekey>Hancock County</placekey>
+			</place>
+		</keywords>
+		<accconst>Restriction Code: other restrictions; Other Constraints: Access constraints: none</accconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Mississippi Department of Marine Resources, Office of Coastal Management and Planning</cntorg>
+					<cntper>Grant Larsen</cntper>
+				</cntorgp>
+				<cntpos>Marine Administrator</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>1141 Bayview Avenue</address>
+					<city>Biloxi</city>
+					<state>MS</state>
+					<postal>39530</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>Toll free (800) 374-3449</cntvoice>
+				<cntvoice>(228) 523-4121</cntvoice>
+				<cntvoice>(228) 374-5000</cntvoice>
+				<cntfax>(228) 523-4179</cntfax>
+				<cntemail>Grant.Larsen@dmr.ms.gov</cntemail>
+				<hours>8:00 am - 5:00 pm, Mon. - Fri.</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Mississippi Department of Marine Resources</datacred>
+		<native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+	</idinfo>
+	<dataqual>
+		<logic>The reef sites depicted in the oyster related shapefiles are boundaries derived by MDMR personnel determining historically commercially viable reef locations. Upon deployment of actual clutch plant material, the locations/boundaries were determined by onsite electronics and plotting via nautical charts.</logic>
+		<complete>The reef sites depicted in the oyster related shapefiles are boundaries derived by MDMR personnel determining historically commercially viable reef locations. Upon deployment of actual clutch plant material, the locations/boundaries were determined by onsite electronics and plotting via nautical charts.</complete>
+		<lineage>
+			<procstep>
+				<procdesc>Metadata imported.</procdesc>
+				<procdate>20100901</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>57</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator</mapprojn>
+					<mercator>
+						<stdparll>0.0</stdparll>
+						<longcm>0.0</longcm>
+						<feast>0.0</feast>
+						<fnorth>0.0</fnorth>
+					</mercator>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>Meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984 Major Auxiliary Sphere</horizdn>
+				<ellips>WGS 1984 Major Auxiliary Sphere</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>0.0</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>MS_oyster_related</enttypl>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>ID</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>NAME</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Leng</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Value</attrlabl>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Mississippi Department of Marine Resources, Office of Coastal Management and Planning</cntorg>
+					<cntper>Grant Larsen</cntper>
+				</cntorgp>
+				<cntpos>Marine Administrator</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>1141 Bayview Avenue</address>
+					<city>Biloxi</city>
+					<state>MS</state>
+					<postal>39530</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>(228) 374-5000</cntvoice>
+				<cntvoice>Toll free (800) 374-3449</cntvoice>
+				<cntvoice>(228) 523-4121</cntvoice>
+				<cntfax>(228) 523-4179</cntfax>
+				<cntemail>Grant.Larsen@dmr.ms.gov</cntemail>
+				<hours>8:00 am - 5:00 pm, Mon. - Fri.</hours>
+			</cntinfo>
+		</distrib>
+		<distliab>See access and use constraints information.</distliab>
+		<stdorder>
+			<fees>none</fees>
+		</stdorder>
+	</distinfo>
+	<metainfo>
+		<metd>20111113</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>University of Southern Mississippi, Gulf Coast Geospatial Center</cntorg>
+					<cntper>Alan Criss</cntper>
+				</cntorgp>
+				<cntpos>GIS/Remote Sensing Analyst</cntpos>
+				<cntaddr>
+					<addrtype>Unknown</addrtype>
+					<address>1203 Broad Avenue, Suite 1A</address>
+					<city>Gulfport</city>
+					<state>MS</state>
+					<postal>39501</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>(228) 276-1723</cntvoice>
+				<cntfax>(228) 276-1721</cntfax>
+				<cntemail>alan.criss@usm.edu</cntemail>
+				<hours>8:00 am - 5:00 pm, Mon. - Fri.</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+	</metainfo>
+	<Esri><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_oyster_related.xml</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Mississippi\projected\MS_oyster_related.xml" dest="\\MAPS21\C$\arcgisserver\data\Gulf of Mexico\Mississippi\projected\Metadata\MS_oyster_related.xml" date="20111113" time="08242700"></copy></copyHistory></DataProperties></Esri></metadata>

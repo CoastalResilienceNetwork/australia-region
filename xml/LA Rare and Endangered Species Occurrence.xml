@@ -1,0 +1,1505 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Rare and Endangered Species from National Heritage Program Database, Geographic NAD83, LDWF (2001) [esi_nhp_LDWF_2001]</title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains sensitive biological resource data developed from the Louisiana National Heritage Program (NHP) database for coastal Louisiana. Vector polygons represent occurrences for rare and endangered species and ecological communities obtained from the element occurrence database maintained by the Louisiana National Heritage Program. Species-specific abundance, seasonality, status, life history, and source information are stored in relational data tables (described below) designed to be used in conjunction with this spatial data layer. This data set comprises a portion of the Gulf-Wide Information System (G-WIS) database for the entire coastal zone of Louisiana. The G-WIS data include three main components: shoreline habitats, sensitive biological resources, and human-use resources. See also the NESTS, SH_BIRD, FR_FISH, and BEAR data layers, part of the larger Louisiana G-WIS database, for additional information on rare and endangered species.</abstract>
+      <purpose>The G-WIS data are created to support environmental assessments associated with oil and gas exploration, production, and transportation activities in the Gulf of Mexico.  The G-WIS data structure is closely related to the Environmental Sensitivity Index (ESI) data structure used by NOAA, USCG, and other agencies for oil spill planning and response purposes. These data therefore support the requirements of the Clean Water Act, with amendments by the Oil Pollution Act of 1990, in the development of response plans for immediate and effective protection of sensitive resources.  G-WIS and ESI data are also appropriate for other natural resource management and environmental assessment purposes.</purpose>
+    </descript>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>The G-WIS database was developed to provide summary information on sensitive natural and human-use resources for the purposes of oil spill planning, environmental assessment, and natural resource management. Although the G-WIS database should be a valuable planning and resource management tool, it should not be used to the exclusion of other pertinent data or information held by state or federal agencies or other organizations. Likewise, information contained in the database cannot be used in place of consultations with environmental, natural resource, and cultural resource agencies, or in place of field surveys. Also, this database and related map products should not be used for navigation.  Recognize that the information contained in the G-WIS database represents known concentration areas or occurrences of natural, cultural, and human-use resources, but does not necessarily represent the full distribution or range of each species or resource. This is particularly important to recognize when considering potential impacts to protected resources, such as endangered species, wetlands, etc. For more information or guidance on proper and improper uses of these data, please contact the Louisiana Department of Wildlife and Fisheries (LDWF) and Research Planning, Inc.  Acknowledgement of the originators, publishers, contributors, and sources listed in this document would be appreciated in products derived from or utilizing these data.</useconst>
+    <datacred>This project was supported by the Minerals Management Service (MMS) 1201 Elmwood Park Blvd., MS-5220, New Orleans, LA 70123-2394.  Norman Froomer with MMS coordinated the larger G-WIS project and was particularly supportive during the Louisiana portion of the project.  This project was coordinated by Louisiana State University (LSU), Center for Coastal, Energy and Environmental Resources (CCEER) and the Department of Geography and Anthropology, 302 Howe-Russell, Baton Rouge, LA 70803.  DeWitt Braud, Dina Sa, Hampton Peele, and Lynda Wayne were key contributors to the project.  The majority of natural resources data used to develop the larger LA G-WIS data set were provided by the LDWF.  Jim Hanifen coordinated the LDWF effort.  The following LDWF personnel (listed alphabetically) were major contributors to the LA G-WIS project: Jan Bowman, Heather Warner Finley, Robert Helm, Noel Kinler, Gary Lester, Greg Linscombe, Mike Olinde, Gary Tilyou, and Bill Vermillion.  At Research Planning, Inc. (RPI), Scott Zengel was the Project Manager.  Colin Plank and Miles Hayes performed the shoreline classification.  Zach Nixon was the GIS Coordinator, Jon Whitlock, and Jennifer Rainman performed data processing, and Kristi Suggs prepared the final metadata.  Joanne Halls and William Holton contributed to the conceptual design of the project and participated in the LA G-WIS pilot project, which preceded this final data set.</datacred>
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>esi_nhp_LDWF_2001</enttypl>
+        <enttypd>The spatial data layer esi_nhp_LDWF_2001 contains polygons representing occurrences for rare and endangered species and ecological communities obtained from the LNHP EOR database.  Note that all attribute information is stored in a series of relational files, described below.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NHP_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>NHP_ID</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>RARNUM</attrlabl>
+        <attrdef>An identifier that links vector objects in the biology data layers to records in the BIORES data table.  The value for RARNUM is determined for each unique combination of SPECIES_ID, CONC, SEASON_ID, G_SOURCE, S_SOURCE, and ELEMENT for single species records, or for groups of species co-occurring at a location.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>BIORES data table</enttypl>
+        <enttypd>The data table BIORES contains both biological attribute data and items necessary for linking the biological spatial data layers to other associated data tables.  See the browse graphic for this data set for an entity-relationship diagram describing relationships between attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RARNUM</attrlabl>
+        <attrdef>An identifier that links records in the BIORES data table to vector objects in the biology data layers.  The value for RARNUM is determined for each unique combination of SPECIES_ID, CONC, SEASON_ID, G_SOURCE, S_SOURCE, and ELEMENT for single species records, or for groups of species co-occurring at a location.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPECIES_ID</attrlabl>
+        <attrdef>Numeric identifier for each species that is unique within each element and refers to a nationwide master ESI species list maintained at RPI and NOAA.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONC</attrlabl>
+        <attrdef>The field CONC refers to "concentration", abundance, or density values.  Although the G-WIS data structure provides for these types of data, this field is not used when describing species derived from the LNHP EOR database.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEASON_ID</attrlabl>
+        <attrdef>Numeric identifier for the unique monthly presence and life history characteristics of each species at a given location.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>G_SOURCE</attrlabl>
+        <attrdef>Geographic source identifier that links records in the BIORES data table to records in the SOURCES data table.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S_SOURCE</attrlabl>
+        <attrdef>Seasonality source integer identifier that links records in the BIORES data table to records in the SOURCES data table.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ELEMENT</attrlabl>
+        <attrdef>Major categories of biological data</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>BIRD</edomv>
+            <edomvd>Birds</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FISH</edomv>
+            <edomvd>Fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HABITAT</edomv>
+            <edomvd>Habitats and plants</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>INVERT</edomv>
+            <edomvd>Invertebrates</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M_MAMMAL</edomv>
+            <edomvd>Marine mammals</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>REPTILE</edomv>
+            <edomvd>Reptiles and Amphibians</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>T_MAMMAL</edomv>
+            <edomvd>Terrestrial mammals</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EL_SPE</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT and SPECIES_ID.  This item links records in the BIORES data table to records in the SPECIES and STATUS data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#####</edomv>
+            <edomvd>Where E is the first character of ELEMENT and the next five characters are SPECIES_ID (eg. ELEMENT = 'BIRD' and SPECIES_ID = 1; EL_SPE = 'B00001').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EL_SPE_SEA</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT, SPECIES_ID, and SEASON_ID.  This item links records in the BIORES data table to records in the SEASONAL, BREED, and ACTIVITY data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#######</edomv>
+            <edomvd>Where E is the first character of ELEMENT, the next five characters are SPECIES_ID, and the last two characters are SEASON_ID (eg. ELEMENT = 'BIRD', SPECIES_ID = 1 and SEASON_ID = 1; EL_SPE_SEA = 'B0000101').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SPECIES data table</enttypl>
+        <enttypd>The data table SPECIES identifies all species in the G-WIS data set.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SPECIES_ID</attrlabl>
+        <attrdef>Numeric identifier for each species that is unique within each element and refers to a nationwide master ESI species list maintained at RPI and NOAA.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Species common name</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GEN_SPEC</attrlabl>
+        <attrdef>Species scientific name</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ELEMENT</attrlabl>
+        <attrdef>Major categories of biological data</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>BIRD</edomv>
+            <edomvd>Birds</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FISH</edomv>
+            <edomvd>Fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HABITAT</edomv>
+            <edomvd>Habitats and plants</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>INVERT</edomv>
+            <edomvd>Invertebrates</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M_MAMMAL</edomv>
+            <edomvd>Marine Mammals</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>REPTILE</edomv>
+            <edomvd>Reptiles and Amphibians</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>T_MAMMAL</edomv>
+            <edomvd>Terrestrial Mammals</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUBELEMENT</attrlabl>
+        <attrdef>Species subgroup pertaining to elements occurring in this data layer.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>amphibian</edomv>
+            <edomvd>Amphibian</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>bat</edomv>
+            <edomvd>Bat</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>bear</edomv>
+            <edomvd>Bear</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>bird</edomv>
+            <edomvd>Generic bird species</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>bivalve</edomv>
+            <edomvd>Bivalve</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>crayfish</edomv>
+            <edomvd>Crayfish, crawfish, etc.</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>diadromous</edomv>
+            <edomvd>Diadromous fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>e_nursery</edomv>
+            <edomvd>Estuarine nursery fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>e_resident</edomv>
+            <edomvd>Estuarine resident fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>fish</edomv>
+            <edomvd>Generic fish species</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>freshwater</edomv>
+            <edomvd>Freshwater fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>insect</edomv>
+            <edomvd>Insect</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>lizard</edomv>
+            <edomvd>Lizard</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>m_pelagic</edomv>
+            <edomvd>Marine pelagic fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>manatee</edomv>
+            <edomvd>Manatee</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>passerine</edomv>
+            <edomvd>Passerine, or passerine-like bird</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>plant</edomv>
+            <edomvd>Plant</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>raptor</edomv>
+            <edomvd>Raptor</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sav</edomv>
+            <edomvd>Submersed aquatic vegetation</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>shorebird</edomv>
+            <edomvd>Shorebird</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>sm_mammal</edomv>
+            <edomvd>Small mammals</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>snake</edomv>
+            <edomvd>Snake</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>turtle</edomv>
+            <edomvd>Turtle</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>upland</edomv>
+            <edomvd>Upland habitat, plant community, or plant species</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>wading</edomv>
+            <edomvd>Wading bird</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>waterfowl</edomv>
+            <edomvd>Waterfowl</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>wetland</edomv>
+            <edomvd>Wetland habitat, plant community, or plant species</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>esi_nhp_LDWF_2001</attrlabl>
+        <attrdef>Natural Heritage Program global conservation status rank, if used</attrdef>
+        <attrdefs>Network of Natural Heritage Programs</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>Natural Heritage Program Global Conservation Status Rank</codesetn>
+            <codesets>Natural Heritage Program</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>esi_nhp_LDWF_2001_DATE</attrlabl>
+        <attrdef>Publication date of source material used to determine NHP Global Conservation Status Ranks for each species, if used.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not used</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Numeric</edomv>
+            <edomvd>mmyyyy</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EL_SPE</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT and SPECIES_ID.  This item links records in the SPECIES data table to records in the BIORES, SEASONAL, and STATUS data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#####</edomv>
+            <edomvd>Where E is the first character of ELEMENT and the next five characters are SPECIES_ID (eg. ELEMENT = 'BIRD' and SPECIES_ID = 1; EL_SPE = 'B00001').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SEASONAL data table</enttypl>
+        <enttypd>The data table SEASONAL contains information on the seasonal presence of each species associated with each spatial vector object.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ELEMENT</attrlabl>
+        <attrdef>Major categories of biological data</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>BIRD</edomv>
+            <edomvd>Birds</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FISH</edomv>
+            <edomvd>Fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HABITAT</edomv>
+            <edomvd>Habitats and plants</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>INVERT</edomv>
+            <edomvd>Invertebrates</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M_MAMMAL</edomv>
+            <edomvd>Marine Mammal</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>REPTILE</edomv>
+            <edomvd>Reptiles and Amphibians</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>T_MAMMAL</edomv>
+            <edomvd>Terrestrial Mammals</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPECIES_ID</attrlabl>
+        <attrdef>Numeric identifier for each species that is unique within each element and refers to a nationwide ESI species list maintained at RPI and NOAA.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEASON_ID</attrlabl>
+        <attrdef>Numeric identifier for the unique monthly presence and life history characteristics of each species at a given location.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>JAN</attrlabl>
+        <attrdef>Present in January</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in January</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FEB</attrlabl>
+        <attrdef>Present in February</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in February</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAR</attrlabl>
+        <attrdef>Present in March</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in March</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>APR</attrlabl>
+        <attrdef>Present in April</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in April</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAY</attrlabl>
+        <attrdef>Present in May</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in May</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>JUN</attrlabl>
+        <attrdef>Present in June</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in June</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>JUL</attrlabl>
+        <attrdef>Present in July</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in July</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AUG</attrlabl>
+        <attrdef>Present in August</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in August</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SEP</attrlabl>
+        <attrdef>Present in September</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in September</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OCT</attrlabl>
+        <attrdef>Present in October</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in October</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NOV</attrlabl>
+        <attrdef>Present in November</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in November</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DEC</attrlabl>
+        <attrdef>Present in December</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Present in December</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EL_SPE</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT and SPECIES_ID.  This item links records in the SEASONAL data table to records in the SPECIES and STATUS data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#####</edomv>
+            <edomvd>Where E is the first character of ELEMENT and the next five characters are SPECIES_ID (eg. ELEMENT = 'BIRD' and SPECIES_ID = 1; EL_SPE = 'B00001').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EL_SPE_SEA</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT, SPECIES_ID, and SEASON_ID.  This item links records in the SEASONAL data table to records in the ACTIVITY, BIORES, and BREED data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#######</edomv>
+            <edomvd>Where E is the first character of ELEMENT, the next five characters are SPECIES_ID, and the last two characters are SEASON_ID (eg. ELEMENT = 'BIRD', SPECIES_ID = 1 and SEASON_ID = 1; EL_SPE_SEA = 'B0000101').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>BREED data table</enttypl>
+        <enttypd>The data table BREED identifies the monthly presence of certain life-history stages or activities for each species at a given location.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>EL_SPE_SEA</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT, SPECIES_ID, and SEASON_ID.  This item links records in the BREED data table to records in the BIORES, SEASONAL, and ACTIVITY data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#######</edomv>
+            <edomvd>Where E is the first character of ELEMENT, the next five characters are SPECIES_ID, and the last two characters are SEASON_ID (eg. ELEMENT = 'BIRD', SPECIES_ID = 1 and SEASON_ID = 1; EL_SPE_SEA = 'B0000101').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MONTH</attrlabl>
+        <attrdef>Two-digit calendar month.  Each life history stage or activity type for a particular species can have up to 12 records to account for each month of the year.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BREED1</attrlabl>
+        <attrdef>Life history stage or activity type, where: if ELEMENT is "BIRD" then BREED1 = nesting; if ELEMENT is "FISH" then BREED1 = spawning; if ELEMENT is "INVERT" then BREED1 = spawning/mating; if ELEMENT is "REPTILE" then BREED1 = nesting; if ELEMENT is "M_MAMMAL" then BREED1 = mating. This attribute is not used for HABITAT or T_MAMMAL elements.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Life-history stage or activity present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Life-history stage or activity not present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>-</edomv>
+            <edomvd>Breed category not used for element</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BREED2</attrlabl>
+        <attrdef>Life history stage or activity type, where: if ELEMENT is "BIRD" then BREED2 = laying; if ELEMENT is "FISH" then BREED2 = eggs; if ELEMENT is "INVERT" then BREED2 = eggs; if ELEMENT is "REPTILE" then BREED2 = hatching; if ELEMENT is "M_MAMMAL" then BREED2 = calving. This attribute is not used for HABITAT or T_MAMMAL elements</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Life-history stage or activity present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Life-history stage or activity not present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomvd>Breed category not used for element</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BREED3</attrlabl>
+        <attrdef>Life history stage or activity type, where: if ELEMENT is "BIRD" then BREED3 = hatching; if ELEMENT is "FISH" then BREED3 = larvae; if ELEMENT is "INVERT" then BREED3 = larvae; if ELEMENT is "REPTILE" then BREED3 = internesting; if ELEMENT is "M_MAMMAL" then BREED3 = pupping. This attribute is not used for HABITAT or T_MAMMAL elements</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Life-history stage or activity present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Life-history stage or activity not present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomvd>Breed category not used for element</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BREED4</attrlabl>
+        <attrdef>Life history stage or activity type, where: if ELEMENT is "BIRD" then BREED4 = fledging; if ELEMENT is "FISH" then BREED4 = juvenile; if ELEMENT is "INVERT" then BREED4 = juvenile; if ELEMENT is "REPTILE" then BREED4 = juvenile; if ELEMENT is "M_MAMMAL" then BREED4 = molting.  This attribute is not used for HABITAT or T_MAMMAL elements.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Life-history stage or activity present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Life-history stage or activity not present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>-</edomv>
+            <edomvd>Breed category not used for element</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BREED5</attrlabl>
+        <attrdef>Life history stage or activity type, where: if ELEMENT is "FISH" then BREED5 = adults; if ELEMENT is "INVERT" then BREED5 = adults; if ELEMENT is "REPTILE" then BREED5 = adults.  This attribute is not used for BIRD, M_MAMMAL, HABITAT or T_MAMMAL elements.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>Life-history stage or activity present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Life-history stage or activity not present</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomvd>Breed category not used for element</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ACTIVITY data table</enttypl>
+        <enttypd>The data table ACTIVITY contains a record for each month and each life-history stage or activity for all species except habitat types and terrestrial mammal species, which do not possess this information.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>EL_SPE_SEA</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT, SPECIES_ID, and SEASON_ID.  This item links records in the ACTIVITY data table to records in the BIORES, BREED, and SEASONAL data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#######</edomv>
+            <edomvd>Where E is the first character of ELEMENT, the next five characters are SPECIES_ID, and the last two characters are SEASON_ID (eg. ELEMENT = 'BIRD', SPECIES_ID = 1 and SEASON_ID = 1; EL_SPE_SEA = 'B0000101').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MONTH</attrlabl>
+        <attrdef>Two-digit calendar month.  Each life history stage or activity type for a particular species can have up to 12 records to account for each month of the year.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>12</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACTIVITY_CODE</attrlabl>
+        <attrdef>Code identifying the type of life-history stage or activity. NOTE: In the BREED data table, the BIRD element does not have an item for adults, but in this data table adults are identified.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Adults</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Calving</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Fledging</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Hatching</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Internesting</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Juvenile</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Larvae</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Laying</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Mating</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Molting</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>11</edomv>
+            <edomvd>Nesting</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>12</edomv>
+            <edomvd>Outmigration</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>13</edomv>
+            <edomvd>Pupping</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>14</edomv>
+            <edomvd>Spawning</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>15</edomv>
+            <edomvd>Eggs</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No life-history stage or activity used or present for this species in this location</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACTIVITY_DESC</attrlabl>
+        <attrdef>Text description of the life-history stage or activity</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ADULTS</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>CALVING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FLEDGING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HATCHING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>INTERNESTING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>JUVENILE</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LARVAE</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>LAYING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MATING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>MOLTING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NESTING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>OUTMIGRATION</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>PUPPING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>SPAWNING</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>EGGS</edomv>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Blank</edomv>
+            <edomvd>No life-history stage or activity used or present for this species in this location</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ABUNDANCE</attrlabl>
+        <attrdef>Monthly abundances for species.  Although the G-WIS data structure provides for monthly abundances, this field is not used when describing species derived from the LNHP EOR database.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>SOURCES data table</enttypl>
+        <enttypd>The data table SOURCES contains the primary sources used to create the G-WIS data set.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SOURCE_ID</attrlabl>
+        <attrdef>Source identifier that links records in the SOURCES data table to the items G_SOURCE, S_SOURCE, and A_SOURCE in the BIORES and SOC_DATA tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ORIGINATOR</attrlabl>
+        <attrdef>Author or developer of source material or data set</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE_PUB</attrlabl>
+        <attrdef>Date of source material, publication, or date of personal communication with expert source</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Numeric</edomv>
+            <edomvd>mmyyyy</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TITLE</attrlabl>
+        <attrdef>Title of source material or data</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATA_FORMAT</attrlabl>
+        <attrdef>The format of the source material</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PUBLICATION</attrlabl>
+        <attrdef>Additional citation information</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SCALE</attrlabl>
+        <attrdef>Scale denominator of the source</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>integer</edomv>
+            <edomvd>Any integer</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIME_PERIOD</attrlabl>
+        <attrdef>Date(s) of data collection source material is based upon.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Numeric</edomv>
+            <edomvd>yyyy</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>Sampling type</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Survey</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Inferred (Typically, all expert knowledge sources are inferred.)</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Not applicable</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMP_PLAT</attrlabl>
+        <attrdef>Sampling platform</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SAMP_METH</attrlabl>
+        <attrdef>Sampling method</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPAT_REF_METH</attrlabl>
+        <attrdef>Spatial reference method</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>STATUS data table</enttypl>
+        <enttypd>The data table STATUS identifies the species that are listed as either threatened or endangered by a state or federal authority.  See the browse graphic for this data set for an entity-relationship diagram describing the way this table relates to other attribute tables in the G-WIS data structure.</enttypd>
+        <enttypds>Research Planning, Inc.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ELEMENT</attrlabl>
+        <attrdef>Major categories of biological data</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>BIRD</edomv>
+            <edomvd>Birds</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>FISH</edomv>
+            <edomvd>Fish</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>HABITAT</edomv>
+            <edomvd>Habitats</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>INVERT</edomv>
+            <edomvd>Invertebrates</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>M_MAMMAL</edomv>
+            <edomvd>Marine Mammal</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>REPTILE</edomv>
+            <edomvd>Reptiles and Amphibians</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>T_MAMMAL</edomv>
+            <edomvd>Terrestrial Mammals</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPECIES_ID</attrlabl>
+        <attrdef>Numeric identifier for each species that is unique within each element and refers to a nationwide master ESI species list maintained at RPI and NOAA</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>N</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>Two letter state abbreviation</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Any character</edomv>
+            <edomvd>Free text</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>S_F</attrlabl>
+        <attrdef>State and Federal status.  Although, the G-WIS data structure provides for both federal and state listings, there are no state listings in Louisiana.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Federally listed</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>T_E</attrlabl>
+        <attrdef>Threatened and endangered status.  Although, the G-WIS data structure provides for both federal and state listings, there are no state listings in Louisiana.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E</edomv>
+            <edomvd>Endangered on state or federal list</edomvd>
+            <edomvds>U.S. Fish and Wildlife Service</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>Threatened on state of federal list</edomvd>
+            <edomvds>U.S. Fish and Wildlife Service</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE_PUB</attrlabl>
+        <attrdef>Publication date of source material used to assign threatened and endangered status values for each species, if used.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Numeric</edomv>
+            <edomvd>mmyyyy</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EL_SPE</attrlabl>
+        <attrdef>Concatenation of the first character of the ELEMENT and SPECIES_ID.  This item links the STATUS data table to the BIORES, SPECIES, and SEASONAL data tables.</attrdef>
+        <attrdefs>Research Planning, Inc.</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>E#####</edomv>
+            <edomvd>Where E is the first character of ELEMENT and the next five characters are SPECIES_ID (eg. ELEMENT = 'BIRD' and SPECIES_ID = 1; EL_SPE = 'B00001').</edomvd>
+            <edomvds>Research Planning, Inc.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110819</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

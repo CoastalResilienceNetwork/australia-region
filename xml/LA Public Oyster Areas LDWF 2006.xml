@@ -1,0 +1,81 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA Public Oyster Areas in Louisiana, Geographic NAD83, LDWF (2006) [public_oyster_areas_LDWF_2006]</title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Public Oyster Areas</abstract>
+      <purpose>Public Oyster Areas</purpose>
+    </descript>
+    <keywords />
+  </idinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>public_oyster_areas_LDWF_2006</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>key_</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Perimeter</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Area</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Acres</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Hectares</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>prod_stat</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110819</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

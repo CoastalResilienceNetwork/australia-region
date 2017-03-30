@@ -1,0 +1,685 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>
+          Department of Commerce (DOC), National Oceanic and Atmospheric Administration (NOAA), National Ocean Service (NOS), Coastal Services Center (CSC)
+        </origin>
+				<pubdate>
+          20071031
+        </pubdate>
+				<title>
+          NOAA Coastal Change Analysis Program (CCAP) 2006 Era Land Cover Data of the Southern United States
+        </title>
+				<geoform>
+          Remote Sensing Image
+        </geoform>
+				<pubinfo>
+					<pubplace>
+            Charleston, SC
+          </pubplace>
+					<publish>
+            NOAA's Ocean Service, Coastal Services Center (CSC)
+          </publish>
+				</pubinfo>
+				<onlink>
+          http://www.csc.noaa.gov/landcover
+        </onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>
+        The NOAA Coastal Change Analysis Program (C-CAP) products are part of the Multi-Resolution Land Characteristics program, a nationally standardized database of land cover and change information, for the coastal regions of the U.S.  C-CAP products inventory coastal intertidal areas, wetlands, and adjacent uplands with the goal of monitoring changes in these habitats, on a one-to-five year repeat cycle.  The timeframe for the metadata is reported as 1996-Era, 2001-Era, or 2006-Era, but the actual dates of the landsat imagery used to create the land cover may have been acquired a few years before or after each era.  These maps are developed utilizing Landsat Thematic Mapper imagery, and can be used to track changes in the landscape through time.  This trend information gives important feedback to managers on the success or failure of management policies and programs and aid in developing a scientific understanding of the Earth system and its response to natural and human-induced changes. This understanding allows for the prediction of impacts due to these changes and the assessment of their cumulative effects, helping coastal resource managers make more informed regional decisions.  This is a parent metadata record for this region.  More detailed metadata is available at the dataset level.
+      </abstract>
+			<purpose>
+        C-CAP is dedicated to the development, distribution, and application of land cover and change data for the coastal regions of the U.S. This effort is being conducted in close coordination with state coastal management agencies, the interagency Multi-Resolution Land Characteristics (MRLC) consortium, and the National Land Cover Database (NLCD) 2001 effort.
+      </purpose>
+			<supplinf>
+        Attributes for this product are as follows:0 Background1 Unclassified (Cloud, Shadow, etc)2 High Intensity Developed3 Medium Intensity Developed4 Low Intensity Developed5 Developed Open Space6 Cultivated Land7 Pasture/Hay8 Grassland9 Deciduous Forest10 Evergreen Forest11 Mixed Forest12 Scrub/Shrub13 Palustrine Forested Wetland14 Palustrine Scrub/Shrub Wetland15 Palustrine Emergent Wetland16 Estuarine Forested Wetland17 Estuarine Scrub/Shrub Wetland18 Estuarine Emergent Wetland19 Unconsolidated Shore20 Bare Land21 Open Water22 Palustrine Aquatic Bed23 Estuarine Aquatic Bed24 Tundra25 Snow/Ice
+      </supplinf>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>
+            20041105
+          </begdate>
+					<enddate>
+            20050815
+          </enddate>
+				</rngdates>
+			</timeinfo>
+			<current>
+        Date of Landsat Scenes
+      </current>
+		</timeperd>
+		<status>
+			<progress>
+        In Work
+      </progress>
+			<update>
+        5 years, or as needed
+      </update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
+          -101.077
+        </westbc>
+				<eastbc>
+          -79.805
+        </eastbc>
+				<northbc>
+          32.833
+        </northbc>
+				<southbc>
+          24.226
+        </southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>
+          None
+        </themekt>
+				<themekey>
+          Land Cover Analysis
+        </themekey>
+				<themekey>
+          CCAP
+        </themekey>
+				<themekey>
+          Coastal Change Analysis Program
+        </themekey>
+				<themekey>
+          Remotely Sensed Imagery/Photos
+        </themekey>
+			</theme>
+			<theme>
+				<themekt>
+          ISO 19115 Topic Category
+        </themekt>
+				<themekey>
+          ImageryBaseMapsEarthCover
+        </themekey>
+				<themekey>
+          010
+        </themekey>
+			</theme>
+			<theme>
+				<themekt>
+          CoRIS Discovery Thesaurus
+        </themekt>
+				<themekey>
+          Geographic Information &gt; Habitats
+        </themekey>
+			</theme>
+			<theme>
+				<themekt>
+          CoRIS Theme Thesaurus
+        </themekt>
+				<themekey>
+          EARTH SCIENCE &gt; Biosphere &gt; Aquatic Habitat &gt; Coastal Habitat
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Solid Earth &gt; Geomorphology &gt; Coastal Landforms/Processes
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Biosphere &gt; Aquatic Habitat &gt; Estuarine Habitat
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef Monitoring and Assessment &gt; Mapping
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef Monitoring and Assessment &gt; Mapping &gt; Geomorphology Mapping
+        </themekey>
+				<themekey>
+          EARTH SCIENCE &gt; Biosphere &gt; Zoology &gt; Corals &gt; Reef Monitoring and Assessment &gt; Remote Sensing
+        </themekey>
+			</theme>
+			<place>
+				<placekt>
+          None
+        </placekt>
+				<placekey>
+          U.S.
+        </placekey>
+				<placekey>
+          Florida
+        </placekey>
+				<placekey>
+          Alabama
+        </placekey>
+				<placekey>
+          Mississippi
+        </placekey>
+				<placekey>
+          Louisiana
+        </placekey>
+				<placekey>
+          Texas
+        </placekey>
+				<placekey>
+          U.S. Coastal Zone
+        </placekey>
+			</place>
+			<place>
+				<placekt>
+          CoRIS Place Thesaurus
+        </placekt>
+				<placekey>
+          COUNTRY/TERRITORY &gt; United States of America &gt; Florida
+        </placekey>
+				<placekey>
+          OCEAN BASIN &gt; Atlantic Ocean &gt; Gulf of Mexico &gt; Florida
+        </placekey>
+			</place>
+		</keywords>
+		<accconst>
+      None
+    </accconst>
+		<useconst>
+      Data set is not for use in litigation. While efforts have been made to ensure that these data are accurate and reliable, NOAA, cannot assume liability for any damages, or misrepresentations, caused by any inaccuracies in the data. NOAA makes no warranty, expressed or implied, nor does the fact of distribution constitute such a warranty.
+    </useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>
+            NOAA Coastal Services Center
+          </cntorg>
+				</cntorgp>
+				<cntpos>
+          Clearinghouse Manager
+        </cntpos>
+				<cntaddr>
+					<addrtype>
+            mailing and physical address
+          </addrtype>
+					<address>
+            2234 South Hobson Ave
+          </address>
+					<city>
+            Charleston
+          </city>
+					<state>
+            South Carolina
+          </state>
+					<postal>
+            29405-2413
+          </postal>
+					<country>
+            USA
+          </country>
+				</cntaddr>
+				<cntvoice>
+          (843)740-1200
+        </cntvoice>
+				<cntfax>
+          (843) 740-1224
+        </cntfax>
+				<cntemail>
+          clearinghouse@csc.noaa.gov
+        </cntemail>
+				<hours>
+          Monday-Friday, 8am-5pm, Eastern Standard Time
+        </hours>
+			</cntinfo>
+		</ptcontac>
+		<native>
+      Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2: ESRI ArcCatalog 9.1.0.780
+    </native>
+	</idinfo>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>
+          Western United States
+        </enttypl>
+				<enttypd>
+          Western United States zones 1,2,3,4 and 5 as delineated by NOAA using scene boundaries, hydrological units, and county boundaries
+        </enttypd>
+				<enttypds>
+          unknown
+        </enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>
+          Landcover Classification
+        </attrlabl>
+				<attrdef>
+          Landcover Classification as determined by NOAA Coastal Change Analysis Program (C- CAP): Guidance for Regional Implementation
+        </attrdef>
+				<attrdefs>
+          Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS (National Marine Fisheries Service) 123, U.S. Department of Commerce, April 1995
+        </attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>
+              1 Unclassified
+            </edomv>
+						<edomvd>
+              This class contains no data due to cloud conditions or data voids.
+            </edomvd>
+						<edomvds>
+              N/A
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              2 High Intensity Developed
+            </edomv>
+						<edomvd>
+              Contains little or no vegetation. This subclass includes heavily built-up urban centers as well as large constructed surfaces in suburban and rural areas.  Large buildings (such as multiple family housing, hangars, and large barns), interstate highways, and runways typically fall into this subclass.  Impervious surfaces account for 80-100 percent of the total cover.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              3 Medium Intensity Developed
+            </edomv>
+						<edomvd>
+              Contains substantial amounts of constructed surface mixed with substantial amounts of vegetated surface. Small buildings (such as single family housing, farm outbuildings, and large sheds), typically fall into this subclass. Impervious surfaces account for 50-79 percent of the total cover.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              4 Low Intensity Developed
+            </edomv>
+						<edomvd>
+              Contains constructed surface mixed with vegetated surface. This class includes features seen class 3, with the addition of streets and roads with associated trees and grasses. Impervious surfaces account for 21-49 percent of the total cover.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              5 Developed Open Space
+            </edomv>
+						<edomvd>
+              Includes areas with a mixture of some constructed materials, but mostly vegetation in the form of lawn grasses. This subclass includes parks, lawns, athletic fields, golf courses, and natural grasses occurring around airports and industrial sites. Impervious surfaces account for less than 20 percent of total cover.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              6 Cultivated Land
+            </edomv>
+						<edomvd>
+              Includes herbaceous (cropland) and woody (e.g., orchards, nurseries, and vineyards) cultivated lands.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              7 Pasture/Hay
+            </edomv>
+						<edomvd>
+              Characterized by grasses, legumes or grass-legume mixtures planted for livestock grazing or the production of seed or hay crops.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              8 Grassland
+            </edomv>
+						<edomvd>
+              Dominated by naturally occurring grasses and non-grasses (forbs) that are not fertilized, cut, tilled, or planted regularly.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              9 Deciduous Forest
+            </edomv>
+						<edomvd>
+              Includes areas dominated by single stemmed, woody vegetation unbranched 0.6 to 1 meter above the ground and having a height greater than 5 meters and cover more than 20% of land area. More than 75 percent of the tree species shed foliage simultaneous in response to seasonal change.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              10 Evergreen Forest
+            </edomv>
+						<edomvd>
+              Includes areas in which more than 67 percent of the trees remain green throughout the year. Both coniferous and broad-leaved evergreens are included in this category.  Trees must be taller than 5 meters and more than 20% of the land cover.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              11 Mixed Forest
+            </edomv>
+						<edomvd>
+              Contains all forested areas in which both evergreen and deciduous trees are growing and neither predominate. Trees must be taller than 5 meters and more than 20% of the land cover.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              12 Scrub/Shrub
+            </edomv>
+						<edomvd>
+              Areas dominated by woody vegetation less than 5 meters in height. This class includes true shrubs,young trees, and trees or shrubs that are small or stunted because of environmental conditions. Includes both evergreen and deciduous scrub.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              13 Palustrine Forested Wetland
+            </edomv>
+						<edomvd>
+              Includes all non-tidal wetlands dominated by woody vegetation greater than or equal to 5 meters in height, and all such wetlands that occur in tidal areas in which salinity due to ocean-derived salts is below 0.5 parts per thousand (ppt).
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              14 Palustrine Scrub/Shrub Wetland
+            </edomv>
+						<edomvd>
+              Includes all non-tidal wetlands dominated by woody vegetation less than or equal to 5 meters in height, and all such wetlands that occur in tidal areas in which salinity due to ocean-derived salts is below 0.5 ppt.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              15 Palustrine Emergent Wetland
+            </edomv>
+						<edomvd>
+              Includes all non-tidal wetlands dominated by persistent emergents, emergent mosses, or lichens, and all such wetlands that occur in tidal areas in which salinity due to ocean-derived salts is below 0.5 ppt.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              16 Estuarine Forest Wetland
+            </edomv>
+						<edomvd>
+              Includes all tidal wetlands dominated by woody vegetation greater than or equal to 5 meters in height, and all such wetlands that occur in tidal areas in which salinity due to ocean-derived salts is above 0.5 parts per thousand (ppt).
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              17 Estuarine Scrub/Shrub Wetland
+            </edomv>
+						<edomvd>
+              Includes all tidal wetlands dominated by woody vegetation less than or equal to 5 meters in height, and all such wetlands that occur in tidal areas in which salinity due to ocean-derived salts is above 0.5 ppt.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              18 Estuarine Emergent Wetland
+            </edomv>
+						<edomvd>
+              Characterized by erect, rooted, herbaceous hydrophytes (excluding mosses and lichens) that are present for most of the growing season in most years. Perennial plants usually dominate these wetlands. All water regimes are included except those that are subtidal and irregularly exposed.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              19 Unconsolidated Shore
+            </edomv>
+						<edomvd>
+              Characterized by substrates lacking vegetation except for pioneering plants that become established during brief periods when growing conditions are favorable. Erosion and deposition by waves and currents produce a number of landforms, such as beaches, bars, and flats, all of which are included in this class.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              20 Bare Land
+            </edomv>
+						<edomvd>
+              Composed of bare soil, rock, sand, silt, gravel, or other earthen material with little or no vegetation.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              21 Open Water
+            </edomv>
+						<edomvd>
+              Includes all areas of open water with less than 25 percent cover of vegetation or soil.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              22 Palustrine Aquatic Bed
+            </edomv>
+						<edomvd>
+              Includes wetlands and deepwater habitats dominated by plants that grow principally on or below the surface of the water for most of the growing season in most years. Salinity due to ocean-derived salts is below 0.5 ppt.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              23 Estuarine Aquatic Bed
+            </edomv>
+						<edomvd>
+              Includes widespread and diverse Algal Beds in the Marine and Estuarine Systems, where they occupy substrates characterized by a wide range of sediment depths and textures. They occur in both the Subtidal and Intertidal Subsystems and may grow to depths of 30 m (98 feet). This includes kelp forests. Salinity due to ocean-derived salts is equal to or above 0.5 ppt.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              24 Tundra
+            </edomv>
+						<edomvd>
+              Includes treeless cover beyond the latitudinal limit of the boreal forest in pole-ward regions and above the elevation range of the boreal forest in high mountains.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+					<edom>
+						<edomv>
+              25 Snow/Ice
+            </edomv>
+						<edomvd>
+              Includes persistent snow and ice that persist for greater portions of the year.
+            </edomvd>
+						<edomvds>
+              Dobson, J. et al, NOAA Coastal Change Analysis Program (C-CAP): Guidance for Regional Implementation, NOAA Technical Report NMFS 123, U.S. Department of Commerce, April 1995.
+            </edomvds>
+					</edom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>
+            NOAA Coastal Services Center
+          </cntorg>
+				</cntorgp>
+				<cntpos>
+          Clearinghouse Manager
+        </cntpos>
+				<cntaddr>
+					<addrtype>
+            mailing and physical address
+          </addrtype>
+					<address>
+            2234 South Hobson Ave
+          </address>
+					<city>
+            Charleston
+          </city>
+					<state>
+            South Carolina
+          </state>
+					<postal>
+            29405
+          </postal>
+					<country>
+            USA
+          </country>
+				</cntaddr>
+				<cntvoice>
+          (843)740-1200
+        </cntvoice>
+				<cntfax>
+          (843) 740-1224
+        </cntfax>
+				<cntemail>
+          clearinghouse@csc.noaa.gov
+        </cntemail>
+				<hours>
+          Monday-Friday, 8am-5pm, Eastern Standard Time
+        </hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>
+      Downloadable Data
+    </resdesc>
+		<distliab>
+      Users must assume responsibility to determine the appropriate use of these data. DATA SHOULD NOT BE USED FOR LEGALLY BINDING APPLICATIONS.
+    </distliab>
+	</distinfo>
+	<metainfo>
+		<metd>
+      20100119
+    </metd>
+		<metrd>
+      20081219
+    </metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>
+            NOAA Coastal Services Center
+          </cntorg>
+				</cntorgp>
+				<cntpos>
+          Metadata Specialist
+        </cntpos>
+				<cntaddr>
+					<addrtype>
+            mailing and physical address
+          </addrtype>
+					<address>
+            2234 South Hobson Avenue
+          </address>
+					<city>
+            Charleston
+          </city>
+					<state>
+            South Carolina
+          </state>
+					<postal>
+            29405
+          </postal>
+					<country>
+            USA
+          </country>
+				</cntaddr>
+				<cntvoice>
+          (843)740-1200
+        </cntvoice>
+				<cntfax>
+          (843)740-1224
+        </cntfax>
+				<cntemail>
+          csc@csc.noaa.gov
+        </cntemail>
+				<hours>
+          Monday-Friday, 8am-5pm, Eastern Standard Time
+        </hours>
+			</cntinfo>
+		</metc>
+		<metstdn>
+      FGDC CSDGM
+    </metstdn>
+		<metstdv>
+      FGDC-STD-001-1998
+    </metstdv>
+		<mettc>
+      Local Time
+    </mettc>
+		<metextns>
+			<onlink>
+        http://www.ncddc.noaa.gov/docs/ncddcmdprofile_v2.pdf
+      </onlink>
+			<metprof>
+        Content Specification for Metadata in the National Coastal Data Development Center's Data Catalog Version 2.0
+      </metprof>
+		</metextns>
+		<metextns>
+			<onlink>
+        http://www.esri.com/metadata/esriprof80.html
+      </onlink>
+			<metprof>
+        ESRI Metadata Profile
+      </metprof>
+		</metextns>
+	</metainfo>
+	<coris>
+		<corid>
+      20081219061138
+    </corid>
+		<corchild>
+      None
+    </corchild>
+		<corbegdt>
+      20041105
+    </corbegdt>
+		<corenddt>
+      20050815
+    </corenddt>
+		<cormdlk>
+      http://www.coris.noaa.gov/metadata/records/html/nos_ccap_southern_2006_parent.html
+    </cormdlk>
+		<cortrkid>
+      2475
+    </cortrkid>
+	</coris>
+	<Esri><CreaDate>20120203</CreaDate><CreaTime>11005600</CreaTime><ArcGISFormat>1.0</ArcGISFormat><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\MAPS21\C$\inetpub\wwwroot\xml\ccap_mosaic</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="C:\arcgisserver\data\Gulf of Mexico\Socioeconomic\Land_Use_CCAP\ccap_mosaic" dest="\\MAPS21\C$\inetpub\wwwroot\xml\ccap_mosaic" date="20120203" time="11005600"></copy></copyHistory></DataProperties></Esri></metadata>

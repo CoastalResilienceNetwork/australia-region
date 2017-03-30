@@ -1,0 +1,110 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <pubdate>20110317</pubdate>
+        <title>sde.sde.gulfmex_FL_APA_SLAMM_A1Bmax_2100</title>
+        <geoform>raster digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This raster data layer is the output of a simulation model named Sea Level Affecting Marshes Model (SLAMM) version 6.1 beta (www.warrenpinnacle.com). This is the simulated result of a Scenario_A1B_Maximum meter sea level rise by 2100 scenario with developed dry land protected (developed dry land remains unchanged). Each raster cell value represents a vegetation category specific to the SLAMM model. Vegetation categories are described in the SLAMM 6 beta Technical Documentation. Categories are listed below:CodeSLAMMNAME1DevDryland2UndDryland3Swamp4CypressSwamp5InlandFreshMarsh6TidalFreshMarsh7ScrubShrub8RegFloodMarsh9Mangrove10EstuarineBeach11TidalFlat12OceanBeach13OceanFlat14RockyIntertidal15InlandOpenWater16RiverineTidal17EstuarineWater18TidalCreek19OpenOcean20IrregFloodMarsh21NotUsed22InlandShore23TidalSwamp24Blank25VegTidalFlat26BackShore</abstract>
+      <purpose>This sea level rise simulation was performed by The Nature Conservancy under a contract granted by the Florida Department of Environmental Protection, DEP Agreement #: CM112, "Development of Coastal System Adaptation Strategies through Modeling of Sea Level Rise Impacts on Natural Systems at Apalachicola Bay"</purpose>
+    </descript>
+    <status>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-85.271243</westbc>
+        <eastbc>-84.681589</eastbc>
+        <northbc>30.019385</northbc>
+        <southbc>29.573169</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>SLAMM</themekey>
+        <themekey>sea level rise</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Apalachicola</placekey>
+      </place>
+    </keywords>
+    <accconst>Other Constraints: The Nature Conservancy reserves all rights in data provided. All data are provided as is. This is not a survey quality dataset. The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. It is strongly recommended that careful attention be paid to the contents of the metadata file associated with these data.</accconst>
+    <useconst>See access and use constraints information.</useconst>
+    <datacred>The Nature Conservancy</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.2.0.3348</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]-20037700-30241100148923141.9283853801010.0010.0010.001true1021003857</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000006714873101998366</absres>
+            <ordres>0.000000006714873101998366</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>sde.sde.SDE_VAT_723</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20130919</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>The Nature Conservancy</cntorg>
+          <cntper>Kathy Freeman</cntper>
+        </cntorgp>
+        <cntpos>GIS Specialist</cntpos>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

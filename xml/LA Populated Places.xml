@@ -1,0 +1,169 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>LA Populated Places</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The features depicted in this dataset include the 2004 edition of the TIGER/Line census places (points) for Louisiana. In order for others to use the information in the Census TIGER database in a geographic information system (GIS) or for other geographic applications, the Census Bureau releases to the public extracts of the database in the form of TIGER/Line files.</abstract>
+      <purpose>The fetures depicted in this dataset include the 2004 edition of the TIGER/Line Census Places (point) features for Louisiana. The features depicted in this dataset include the 2004 edition of the TIGER/Line Census Places (point) features for Louisiana. Also included are selected demographic estimates collected during the 2000 census. The 2004 First Edition TIGER/Line files are an extract of selected geographic and cartographic information from the Census TIGER database. The geographic coverage for a single TIGER/Line file is a county or statistical equivalent entity, with the coverage area based on the latest available governmental unit boundaries. The Census TIGER database represents a seamless national file with no overlaps or gaps between parts. However, each county-based TIGER/Line file is designed to stand alone as an independent data set or the files can be combined to cover the whole Nation. The 2004 First Edition TIGER/Line files consist of line segments representing physical features and governmental and statistical boundaries. The files contain information distributed over a series of record types for the spatial objects of a county. There are 19 record types, including the basic data record, the shape coordinate points, and geographic codes that can be used with appropriate software to prepare maps. Other geographic information contained in the files includes attributes such as feature identifiers/census feature class codes (CFCC) used to differentiate feature types, address ranges and ZIP Codes, codes for legal and statistical entities, latitude/longitude coordinates of linear and point features, landmark point features, area landmarks, and area boundaries.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-94.009102</westbc>
+        <eastbc>-89.249880</eastbc>
+        <northbc>33.009679</northbc>
+        <southbc>29.190015</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <accconst>None</accconst>
+    <useconst>TIGER, TIGER/Line, and Census TIGER are registered trademarks of the U.S. Census Bureau. ZCTA is a trademark of the U.S. Census Bureau. The boundary information in the TIGER/Line files are for statistical data collection and tabulation purposes only; their depiction and designation for statistical purposes does not constitute a determination of jurisdictional authority or rights of ownership or entitlement and are they are not legal land descriptions. The horizontal spatial accuracy information present in these files is provided for the purposes of statistical analysis and census operations only. No warranty, expressed or implied is made with regard to the accuracy of the spatial accuracy, and no liability is assumed by the U.S. Government in general or the U.S. Census Bureau, specifically as to the spatial or attribute accuracy of the data. The TIGER/Line files may not be suitable for high-precision measurement applications such as engineering problems, property transfers, or other uses that might require highly accurate measurements of the earth's surface. Coordinates in the TIGER/Line files have six implied decimal places, but the positional accuracy of these coordinates is not as great as the six decimal places suggest. If these data are altered or incorporated into another dataset, they are not to be redistributed without also: altering the name of the dataset, including a Content Standards for Digital Geospatial Metadata (FGDC-STD-001-1998) compliant metadata file that describes the dataset and reflects the alteration steps that makes the new dataset different from this one, and citing this dataset in the metadata as a source for the altered dataset using the source citation specified below. If these digital data are used in the production of a report or in the compilation of a standalone printed map, then this dataset is to be cited in the report or on the map using the source citation specified below. The following source citation is to be used when citing this dataset: 'TIGER/Line Places for Louisiana, Geographic NAD83, LOSCO (2004) </useconst>
+    <datacred>Acknowledgment of the U.S. Census Bureau would be appreciated for products derived from these files. </datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Composite object</sdtstype>
+        <ptvctcnt>398</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD 1983 UTM Zone 15N</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-93.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>500000.0</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000002220024164500956</absres>
+            <ordres>0.000000002220024164500956</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Populatedplaces</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLACE_FIPS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>PLACE_CODE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>FIPS55_NAM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>CENSUS_NAM</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_2000</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_WHITE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_BLACK</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_AIAN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_ASIAN</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_NHOPI</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_OTHER</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_HISP</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_18</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_MALE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>POP_FEMALE</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>HOUSEUNITS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREALAND</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>AREAWATR</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20110831</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Louisiana Oil Spill Coordinator's Office (LOSCO)</cntorg>
+          <cntper>David Gisclair</cntper>
+        </cntorgp>
+        <cntpos>Technical Assistance Program (TAP) Director</cntpos>
+        <cntaddr>
+          <addrtype>Unknown</addrtype>
+          <address>P.O. Box 94095</address>
+          <city>Baton Rouge</city>
+          <state>Louisiana</state>
+          <postal>70804</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(225) 219-5800</cntvoice>
+        <cntfax>(225) 219-5800</cntfax>
+        <cntemail>dgisclair@losco.state.la.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

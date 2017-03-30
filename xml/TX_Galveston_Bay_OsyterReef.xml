@@ -1,0 +1,150 @@
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Oyster Reefs in Galveston Bay, Texas 1995</title>
+        <geoform>vector digital data</geoform>
+        <onlink>file://\\FL416-1HL7SK1\C$\Documents and Settings\LGeselbracht\My Documents\Florida Ocean Issues\Gulf of Mexico\GOM oyster geospatial data\TNC Northern GOM Oyster.gdb</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <purpose>The oyster reefs of Galveston Bay were surveyed using a new acoustic technique which permitted conducting a detailed survey over a wide geographic area. The results of this survey were compared to a more limited survey conducted circa 1970 and to earlier, less detailed accounts. Our survey approximately doubles the known area of reef and unconsolidated shelly substrate in the bay system. Certain components of the Galveston Bay reef system have persisted throughout recorded time; others have exhibited substantial malleability, changing position and shape in response to natural and man-made changes in the bay system. Regional subsidence has resulted in an increase in water depth over the reefs, thus reducing the acreage intertidally and subaerially exposed, and areas of high subsidence have suffered reef attrition due to siltation. Channelization, dike construction, and the disappearance of major barrier reef have substantially changed bay circulation patterns. As a consequence, the equilibrium that once existed between the reefs and bay circulation has been modified, resulting in loss or attrition of a number of reefs in areas of lowered salinity and the accretion of reefs parallel to the new isohaline structure of the bay. Thus, some reefs are no longer optimally located for continued high productivity; many areas of low reef coverage would now support productive reef if substrate became available. In optimal areas, reefs more than doubled in size in 20 yr. No evidence was found to suggest that the oyster fishery had contributed to reef attrition, however leasing may have encouraged reef accretion. Artificial reefs did no worse or better than their natural nearby counterparts, indicating siting as the overriding concern for successful artificial reef emplacement. The Houston Ship Channel has extended the isohalines upestuary to the great benefit of oyster populations and the oyster fishery. Over 1000 hectares of reef have developed along this channel, a substantial fraction of which exists between the channel edge and the crest of the parallel-trending spoil banks. Both a channel and a spoil bank are required for development of reef along channels. Channels in which spoil was placed on only one side always have reef development predominately or exclusively on that side</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-95.222076</westbc>
+        <eastbc>-94.497156</eastbc>
+        <northbc>29.702845</northbc>
+        <southbc>29.016278</southbc>
+      </bounding>
+    </spdom>
+    <keywords />
+    <datacred>E.N. Powell et al. 1995. The status and long-term trends of oyster reefs in Galveston Bay, Texas. Journal of Shellfish. pp 439-457</datacred>
+    <native>Microsoft Windows Server 2008 R2 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.2.3200</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>3056</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>USA Contiguous Albers Equal Area Conic</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>37.5</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>TX_Galveston_Bay_Osyter_Reefs</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Z</attrlabl>
+        <attrdef>Descriptor for type of bottom encountered in Dr. Powell's study</attrdef>
+        <attrdefs>Dr. Eric Powell - Texas A&amp;M University - Department of Oceanography</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0.000</edomv>
+          </edom>
+          <edom>
+            <edomv>1.000</edomv>
+          </edom>
+          <edom>
+            <edomv>2.000</edomv>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Unknown</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Unknown</edomv>
+          </edom>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eadetcit>Not available.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20111223</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+</metadata>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Melissa Jenks - The Nature Conservancy</origin>
+<pubdate>June 22, 2010</pubdate>
+<pubtime>Unknown</pubtime>
+<title>Northern Gulf of Mexico Marshes and Associated Salinity - Updated June 2010</title>
+<geoform>vector digital data</geoform>
+<onlink>\\GISERVER\gis_pro_for_sde\Gulf_of_Mexico\Shapefiles\Biological\NGOM_Marsh_June_2010.shp</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>This shapefile is a conglomeration of data from the National Wetlands Inventory (1977 to present) and the Louisiana Department of Wildlife and Fisheries vegetation/salinity study (2001).</abstract>
+<purpose>This layer was created for the purpose of mapping viable marsh along the Northern Gulf of Mexico coast for conservation of the Saltmarsh Topminnow's (Fundulus Jenkinsi) preferred habitat.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<rngdates>
+<begdate>late 1970s</begdate>
+<begtime>unknown</begtime>
+<enddate>2001</enddate>
+<endtime>unknown</endtime>
+</rngdates>
+</timeinfo>
+<current>publication date</current>
+</timeperd>
+<status>
+<progress>In work</progress>
+<update>As needed</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-98.286083</westbc>
+<eastbc>
+-79.286614</eastbc>
+<northbc>
+31.689736</northbc>
+<southbc>
+24.298473</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>Bog, Estuary, Everglade, Fen, Mire, Morass, Moss, Quag, Quagmire, slough, swampland, wetland</themekt>
+<themekey>Marsh, Saltmarsh, Saltmarsh Topminnow, Fundulus Jenkinsi</themekey>
+</theme>
+<place>
+<placekey>Northern Gulf of Mexico</placekey>
+</place>
+</keywords>
+<accconst>This data may be accessed through the Coastal Resilience Assessment Tool as well as through The Nature Conservancy's Arkansas Field Office.</accconst>
+<useconst>Remember that the marsh dataset is a conglomeration of two sources so the time period of mapping ranges from the late 1970s to 2001.</useconst>
+<ptcontac>
+<cntinfo>
+<cntperp>
+<cntper>Melissa Jenks</cntper>
+<cntorg>The Nature Conservancy (Arkansas Field Office)</cntorg>
+</cntperp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>601 North University Avenue</address>
+<city>Little Rock</city>
+<state>AR</state>
+<postal>72205</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>(501) 614-5086</cntvoice>
+<cnttdd>(501) 663-6699</cnttdd>
+<cntfax>(501) 663-8332</cntfax>
+<cntemail>mjenks@tnc.org</cntemail>
+<hours>9:00 am - 5:00 pm  M-F</hours>
+<cntinst>Please call or email Melissa Jenks at The Nature Conservancy for permission to access and use this data.</cntinst>
+</cntinfo>
+</ptcontac>
+<datacred>U.S. Fish and Wildlife Service's National Wetlands Inventory Data, the 2001 Louisiana Department of Wildlife and Fisheries salinity/vegetation study, and U.S. Geological Survey's National Wetlands Research Center in Lafayette, LA.</datacred>
+<secinfo>
+<secclass>Unclassified</secclass>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.1850</native>
+<crossref>
+<citeinfo>
+<origin>U.S. Fish and Wildlife Service National Wetlands Inventory and the Louisiana Department of Wildlife and Fisheries 2001</origin>
+<pubdate>Unpublished Material</pubdate>
+<title>Marshes and Associated Salinity of the Northern Gulf of Mexico</title>
+<geoform>vector digital data</geoform>
+</citeinfo>
+</crossref>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>The source data was checked using standard review procedures. Attributes were checked by using visual inspection as well as automated verification routines. Quality of the attribute information varies with age and mapping protocols used when individual maps were prepared</attraccr>
+<qattracc>
+<attraccv>All polygons are attributed.</attraccv>
+</qattracc>
+</attracc>
+<logic>Polygon and chain-node topology are present. Every polygon has a label.</logic>
+<complete>From NWI Metadata:  "This data set represents the extent of wetlands and deepwater habitats that can be determined with the use of remotely sensed data and within the timeframe for which the maps were produced. Wetlands are shown in all of the conterminous 48 states and the District of Columbia. The accuracy of image interpretation depends on the quality of the imagery, the experience of the image analysts, the amount and quality of the collateral data, and the amount of ground truth verification work conducted." 
+There is a margin error inherent in the use of imagery, thus detailed on-the-ground inspection of any particular site, may result in revision of the wetland boundaries or classification, established through image analysis. 
+Wetlands or other mapped features may have changed since the date or the imagery and/or field work. There may be occasional differences in polygon boundaries or classifications between the information depicted on the map and the actual conditions on site.</complete>
+<lineage>
+<srcinfo>
+<srccite>
+<citeinfo>
+<origin>U.S. Fish and Wildlife Service</origin>
+<pubdate>January 22, 2010</pubdate>
+<title>National Wetlands Inventory</title>
+<geoform>vector digital data</geoform>
+<onlink>http://www.fws.gov/wetlands/data/metadata/conus_wet_poly_metadata.htm</onlink>
+</citeinfo>
+</srccite>
+<srcscale>1:24,000 and 1:25,000</srcscale>
+<typesrc>online</typesrc>
+<srctime>
+<timeinfo>
+<rngdates>
+<begdate>late 1970s</begdate>
+<begtime>unknown</begtime>
+<enddate>unknown</enddate>
+<endtime>January 2010</endtime>
+</rngdates>
+</timeinfo>
+<srccurr>ground condition</srccurr>
+</srctime>
+<srccontr>One of the main contributors to this dataset is the National Wetland Inventory data for the entire coast excluding Louisiana.  For Louisiana the 2001 Louisiana Department of Wildlife and Fisheries data was used.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>From NWI Metadata:  "Original stable base hard copy maps of wetland and deepwater habitats were created based on USGS state and quadrangle boundaries. These maps were converted to digital files using various software packages (WAMS, ARC and others). The digital files were stored as ESRI Import/Export files corresponding to a single 1:24,000 USGS quadrangle. These digital files were imported and converted to ESRI Coverage format and checked for topological and attribute errors. All coverages were converted from a UTM map projection to an Alber's Equal Area map projection and the horizontal datum was converted from NAD27 to NAD83 were necessary. Polygons attributed as "Uplands" were removed from the dataset and polygons were merged at quadrangle boundaries where the quadrangle line divided polygons with the same attribute. The data was loaded into a seamless SDE geodatabase for the conterminous United States. These steps were conducted using both Arc Macro Language (AML) and ArcMap editing tools. All point data from the original ESRI Coverages were buffered by 11.28 meters (1/10 of an acre) and incorporated into this polygon feature class. Linear features from the original ESRI Coverages were merged at quadrangle boundaries where the quadrangle line divided lines with the same attribute. Linear data is stored in a separate feature class." 
+Further data improvements included the conversion of all old wetland codes that contained 'OW' to the new code containing 'UB'. All polygons labeled as 'OUT', 'No Data' and 'NP' were removed from the database.
+
+From LDWF:  "This data set contains vector line information. The original data set was collected through visual field observation by Greg Linscombe of LDWF and Robert H. Chabreck of LSU Agricultural Center. The observations were made while flying over the study area (Louisiana Coastal Zone) in a Bell 206 Jet Ranger helicopter. Flight was along north/south transects spaced 1.87 miles apart from the Texas State line to the Mississippi State line. Vegetative data was obtained at pre-determined stations spaced at 0.5 miles along each transect. The stations were located using a Trimble Ag 122 Global Positioning System (GPS) and a computer running GPSView by Geowarehouse. This information was recorded manually into field tally sheets and later this information was entered into a Microsoft Access database. At this point, this information was brought into a GIS application by converting the file to a database format (dbf). The marsh type delineation lines were produced by freehanding contours through on-screen interpretation. The flight line data was used as a guide for drawing the lines. The new data set resulted in a line coverage delineating vegetative marsh types. Coverage is of the coastal region of the State of Louisiana."</procdesc>
+<procdate>NWI:  January 2004;  LDWF:</procdate>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>252236</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<geograph>
+<latres>0.000000</latres>
+<longres>0.000000</longres>
+<geogunit>Decimal degrees</geogunit>
+</geograph>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+NGOM_Marsh_June_2010</enttypl>
+</enttyp>
+<attr>
+<attrlabl>FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>Shape</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>CODE</attrlabl>
+<attrdef>CODE identifies the salinity range of each marsh type.  Four classes were derived including (Fresh (F), Intermediate (I), Brackish (B), Saline (S))</attrdef>
+<attrdefs>The LDFW 2001 marsh dataset was used as a model for CODE definitions.</attrdefs>
+</attr>
+<attr>
+<attrlabl>AREA_SQM</attrlabl>
+</attr>
+<attr>
+<attrlabl>PERIM_M</attrlabl>
+</attr>
+<attr>
+<attrlabl>AREA_AC</attrlabl>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<resdesc>Downloadable Data</resdesc>
+<distliab>Although these data have been processed successfully on a computer system at the The Nature Conservancy, no warranty expressed or implied is made by the The Nature Conservancy regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty. No responsibility is assumed by The Nature Conservancy in the use of these data.</distliab>
+<stdorder>
+<digform>
+<digtinfo>
+<transize>45.085</transize>
+</digtinfo>
+</digform>
+<fees>N/A</fees>
+<ordering>Please contact Melissa Jenks at The Nature Conservancy for access to the data.</ordering>
+</stdorder>
+</distinfo>
+<metainfo>
+<metd>20100707</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>The Nature Conservancy</cntorg>
+<cntper>Melissa Jenks</cntper>
+</cntorgp>
+<cntpos>GIS Analyst</cntpos>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>601 North University Avenue</address>
+<city>Little Rock</city>
+<state>AR</state>
+<postal>72205</postal>
+<country>United States</country>
+</cntaddr>
+<cntvoice>(501)614-5086</cntvoice>
+<cntfax>(501)663-8332</cntfax>
+<cntemail>mjenks@tnc.org</cntemail>
+<hours>9-5 M-F</hours>
+<cntinst>Please call, leave a voicemail, or email Melissa Jenks to obtain this dataset.</cntinst>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
