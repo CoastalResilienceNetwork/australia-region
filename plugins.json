@@ -1,8 +1,13 @@
 {
   "plugins": [
 	{
-      "repo": "regional-planning",
-      "name": "regional-planning"
-    }    
+      		"repo": "regional-planning",
+      		"name": "regional-planning"
+    	},
+	{
+		"repo": "restoration-explorer-aus",
+		"name": "restoration-explorer-aus"
+	}
+	  
   ]
 }
