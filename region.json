@@ -60,7 +60,7 @@
             "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities to visualize the risks imposed by sea-level rise and storm surge on the people, economy, and coastal habitats of the Eastern Shore and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
             "plugins": [
                 {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer",
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer - Beta",
                     "description": "Explore the suitability of nature-based techniques for reducing coastal erosion.",
                     "pluginName": "restoration-explorer-aus"
                 }
