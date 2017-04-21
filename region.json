@@ -61,7 +61,7 @@
             "plugins": [
                 {
                     "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer",
-                    "description": "Text needed",
+                    "description": "Explore the suitability of nature-based techniques for reducing coastal erosion.",
                     "pluginName": "restoration-explorer-aus"
                 }
             ],
