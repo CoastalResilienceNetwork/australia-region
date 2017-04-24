@@ -11,16 +11,18 @@
         },
         "includeLayers": [
             {
-                "name": "Above Ground Biomass",
-                "displayName": "Above-Ground Biomass",
-                "includeAllLayers": true,
-                "opacity": 1
+                "name": "Coastal Habitats",
+                "displayName": "Coastal Habitats"
             },
             {
-                "name": "Global Carbon Sequestration by Seagrass and Salt Marsh",
-                "displayName": "Carbon Sequestration",
-                "includeAllLayers": true,
-                "opacity": 1
+                "name": "Bathymetry",
+                "displayName": "Bathymetry",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Victorian Coastal Inundation Dataset",
+                "displayName": "Coastal Inundation",
+                "includeAllLayers": true
             }
         ]
     },
