@@ -21,9 +21,9 @@
             { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        160,
+        100,
         -45,
-        165,
+        120,
         -50
     ],
     "basemaps": [
