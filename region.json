@@ -1,39 +1,35 @@
 {
-    "googleAnalyticsPropertyId": "7401895-18",
-	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/global" },
-    "titleDetail": { "text": "Coastal Defenses Using Natural Solutions", "url": "http://www.snap.is/groups/coastal-defenses/" },
-	"headerLinks": [
-        { "text": "GET STARTED", "launchpadId": "get-started", "url": "" },
-		{ "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
-        { "text": "GO TO", "url": "#", "items": [
-                { "text": "California", "url": "http://maps.coastalresilience.org/california" },
-                { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
-                { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
-                { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-                { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-                { "text": "New York", "url": "http://maps.coastalresilience.org/newyork" },
-                { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
-                { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
-                { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
-                { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
-                { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
-            ]
-        },
+    "googleAnalyticsPropertyId": "7401895-16",
+    "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
+    "titleMain": { "text": "Coastal Resilience", "url": "" },
+    "titleDetail": { "text": "Australia", "url": "http://coastalresilience.org/virginia" },
+    "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Partners", "url": "partners.html", "popup": true },
-        { "text": "Legal Disclosure", "url": "http://www.nature.org/about-us/governance/terms-of-use.xml" }
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+    ],
+    "regionLinks": [
+            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
+            { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -130,
-        -50,
-        130,
-        55
+        140,
+        -40,
+        150,
+        -35
     ],
     "basemaps": [
-        { "name": "Basic"              , "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" },
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
+        { "name": "Basic"              , "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" },
         { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
         { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
@@ -42,107 +38,45 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-        "natural_defenses",
+        "restoration-explorer-aus",
         "regional-planning",
         "zoom_to",
         "measure",
         "legend_display",
-        "full_extent",
-        "subregion_toggle"
+        "full_extent"
     ],
     "print": {
         "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
-       "primary": "#26648E",
-       "secondary": "#26648E"
+        "primary": "#2F6384",
+    "secondary": "#5E94B6",
+    "tertiary": "#333333",
+    "active": "#0096D6"
     },
-    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
-    "subregions": {
-        "color": "#00C5CD",
-        "opacity": 0.2,
-        "clickToFocus": true,
-        "hideByDefault": true,
-        "areas": [
-            {
-                "id": "caribbean",
-                "display": "Caribbean",
-                "details": "MOW region",
-                "shape": [[-86.13631351769882, 14.69378359495471], [-86.13631351769882, 24.676706703547772], [-64.58074256241925, 24.676706703547772], [-64.58074256241925, 14.69378359495471], [-86.13631351769882, 14.69378359495471]],
-                "availablePlugins": ["layer_selector", "natural_defenses"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {
-                "id": "coral-triangle",
-                "display": "Coral Triangle",
-                "details": "MOW region",
-                "shape": [[92.05583899705736, -15.211733080635105], [92.05583899705736, 18.735582236496978], [165.69329813458438, 18.735582236496978], [165.69329813458438, -15.211733080635105], [92.05583899705736, -15.211733080635105]],
-                "availablePlugins": ["layer_selector"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {
-                "id": "gulf-of-california",
-                "display": "Gulf of California",
-                "details": "MOW region",
-                "shape": [[-115.03522701681075, 20.414187629710725], [-115.03522701681075, 31.9709333346525], [-105.18496660072324, 31.9709333346525], [-105.18496660072324, 20.414187629710725], [-115.03522701681075, 20.4141876297107]],
-                "availablePlugins": ["layer_selector", "natural_defenses"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {        
-                "id": "micronesia",
-                "display": "Micronesia",
-                "details": "MEOW region",
-                "shape": [[-179.97693275121057, -17.23401021075821], [-179.97693275121057, 8.021398283033099], [-151.60754022439147, 8.021398283033099], [-151.60754022439147, -17.23401021075821], [-179.97693275121057, -17.23401021075821]],
-                "availablePlugins": ["layer_selector", "flood_slr"],
-                "outlineColor": "#000",
-                "noFill": true
-            },
-            {             
-                "id": "cold-temperate-northwestern-atlantic",
-                "display": "Northwestern Atlantic Coast",
-                "details": "MEOW region",
-                "shape": [[-77.35871624037601, 34.55968453400416], [-77.35871624037601, 51.89649130485867], [-42.793020450897025, 51.89649130485867], [-42.793020450897025, 34.55968453400416], [-77.35871624037601, 34.55968453400416]],
-                "availablePlugins": ["layer_selector", "flood_slr"],
-                "outlineColor": "#000",
-                "noFill": true
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+    "launchpad": {
+            "title": "Australia",
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities and coastal managers to visualize the risks imposed by coastal hazards and sea level rise on the people, economy, and coastal habitats of Victoria and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
+            "plugins": [
+                {
+                    "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
+                    "description": "Text here for regional planning efforts",
+                    "pluginName": "regional-planning"
+                },
+                {
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer - Beta",
+                    "description": "Explore the suitability of nature-based techniques for reducing coastal erosion.",
+                    "pluginName": "restoration-explorer-aus"
+                }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/TNCLogoPrimary_RGB.png",
+                    "link": "http://nature.org",
+                    "title": "The Nature Conservancy"
             }
         ]
-    },
-     "launchpads": [
-        {
-            "id": "get-started",
-            "title": "Getting Started",
-            "description": "Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards",
-            "showSubRegions": true,
-            "showByDefault": true,
-            "categories": [
-              {
-                "name": "One-click Interactive Map",
-                "description": "Customized maps scenarios for adaptation, restoration and conservation planning.",
-                "issues": [
-                    {
-                      "name": "Coasts at Risk",
-                      "description": "Combined storm surge and sea level condition in the Florida Keys",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJtYXAwIjrEgGV4dGVudMSGxIB0eXBlxIYixInEi8SNIiwieG1pbsSGLTEzMDYxNTU5LjM5MzM2NzQ0NcSbecSexKA6LTXEsMSwMzUuMMSlMMSvNDc3xJvEnWF4xIbEo8SlxKfEqcSrxK3Er8SxxLPEtcSCxYs6NsSpMjMyxL8yNzgwNzDFhTLEm3NwYXRpYWxSZWZlcsSMY8SUxIcid2tpZMWMMDIxxYHEm2zFq2VzdFfFu8W9OjM4NTd9xJtfxapydHPEhlvEiMSKxIzEjsW4xJHEk8SVxJfGnMSaxJzEt8ShxY3EpsSoxKrErMSuxLDEssS0IsS2xJ/EocS7N8S9xL/FgTbFgzbFhcWHxqXFisWMxKTGqcWQxqzFk8avxZbHgMWZxZvFncWfxaHFo8WlN8WnIsWpxavFrcWvxbHFs8W1xbfEgMW6xbzFvsaAxoIixoTEi8aHxonHnsaMxo7GkMaRImZyYW1lSWTGlzpbMF19x7jFqGVsZWPEi2RCYXNlxIJwSW5kxInEhjDHq8WqbmXEhcW4yI9lTnVtYsWzyIzFqHTGhU9mUGx1Z8Sfx7TEgMiEx73Hv2VkyKHIo8azOm51bGzEm3DIosikbsimIsi2yK7IuS/GhHnFs1/IqMe+dG9yxI8icm9vdC9HbG9ixa4gRGlzyIPEi3IgQce9xpUgYciJIEPJjHJkxJ/HlW9uIFN5xofIhS9nZGFjc8mdxbPGlkHHv2l2ZUJHyYlvxapjacSRyIwuxrBjaMe+a8irxIZmxa7IhMeryYvJjS/JpMmZyZTFsHNpbGnHmiAoyZDJksWuKcmPyZHJk2zKgcqDyoV5yofGvsqKyozKjjrKkGzKkn3Kt8q3",
-                      "faIcon": "fa fa-life-bouy",
-                      "faSize": 32
-                    },
-                    {
-                      "name": "Natural Defenses",
-                      "description": "Combined storm surge and sea level condition in the Florida Keys",
-                      "saveCode": "e34df34rd3....3434",
-                      "saveCode": "eyJzY3JlZW4iOsSAc3BsaXRTxIPEhcSHOmZhbHNlLMSBeW5jTWFwc8SIxJXEl2V9xJptxKAwxIjEgGV4dMSGdMSsInR5cGXEiCLErsSwbsSyxJp4bWnEky05NTA5OTg5LjMxxY4yNTk2xJp5xYHFgzM5MDU4NDEuOTM0N8WQxYkzxL/EqXjEiDE1NMWbNjI0LjYwMDPFisWgNcWUxajEiDg4NcWwxavFjDMwNMWaxZI0xJrEi2F0acSWUmVmZcSExJ3EuMSJIndraWTFqjAyMcW0xKciX3BhcnTEojpbxK3Er8SxxLPEtcS3xLnEu8atxafFgsSIxYTFhsWIxYrFjMWOMcWkxZMixZXGtTotxZjFmsWcxZ7FoMWixaQ4xaYixYBhxak6xavFrTjFr8WxxbPFtcW3M8W5x4DFuzrFvcW/xZ01xoLGhMaGNsaIxIHGpMaMxo7GkMaSxIZjxpXEgMaYxprGnMaexqDGoWZyYW1lSWTGqFswXX3Ig8aJZWxlY8SwZEJhxJjEqXBJbmTErsSIMMahxqRuZcSrxpbImWVOdW1ixpLIlsaJdMaLZU9mUGx1Z8WCxqjEisiHyInIi8isyK7HgiLEjMi3bnMvbsaLdce6bF/IlMaRyLxlxKLEmsi6yK/IvMSzyYvIsMi+yYDJgsmEx63Jh8ixImdsb2LEllTEu8S5IsSoZXRob8e/xLnJj8i8yZF0yYHElsmUyYbEmMi9T27EjciaX0TGi2HJnMSYX03Jo8mlx78ucGRmyaHIuXJvasi0RMmIY8S5aHR0cDovL3fKly5zyL9wLmnIvWfKiHXEoS9jb8iOyKdsLcmFxIbJsS/KhsmBbMqPypHKk8qVyJR2ypnGknZpx7BzMi7KpcqnxJbEhHNpxI3Hr2Uub3JnL8alY8ivyL3Lg3QvxJhyyrrKvC9HyZrJnGwvTsmSya7KjMmwZV9QyojKisiKyL3En3BTyrnIpMaJxZVib8SNemVCecmgxJpmaciHZMutyIjIimXGmzoiyobGi3RyaWJ1xLDLv8i0zILLuSLGmsSGQcqRxqjMhcSazJNuR8e6cGjKu8yRyKdizI7MgcyDzJjEgcmld0FsyrHMhMqGyqXEvcqIxJfEiMaqxLTEtsaVxLTJn8SaxLDEr8S5VcSYIMmkZSDHvG51IMijyZp3zYFvIGNoYW5nzYNzy7HLs29neSBvZs2BaM2DyL/JrMmCIMqryYcgcMunyLTNp2/FgsanLiBDxI1jayDNkc2acM2sxL3NjCDIiMalbs2Ey4rNg8m6b8yMzbXNp82pyIouIsSnxIDGr8y4xJjMgHQxyobIv8e8xLnOkMi0U8WVyobNn2HIlHLEuc6ayKLLs2nLtSDLpsqJyLRzIMu3yoZvcMaMb8mNxqnEgGzJusiHxLlGy7xsxpvEmnbElnXMuMu7y73Khs6YzKXEo8SWxJjEmmTKnsm6yIjMps+Mc8+OzJDOjCLOts2JxLlIybrEjsaLyobOv8itzLjEq8iGzpHMkMSUz4nEpizOtc63zK0izqjLqHQgT2LPr2l2xLjOvs+AzLjOk8+jzI/Mg8SkxJjPlc+XzrjMhEPKpnPKqM2wzrZzy4TLu2PGi2nOss+ez7nEuTLPhcizz4fPpsSl0IHPq86hxI7Ng0V4zbhzyYHPtyLPn8+BxLkz0JbPpM++z6fIhM+Vzo7Ol9CXxL4izpXPgs67y77Qs86cZc6eyKTMhEHIky9PciBTzKnOp86IxqcgV82fxITOlMe7Zc6TzITMh8yk0LTOr86xzrPMtdCCz6zOus+Ez7jPoMS5z4POvNCrz73PiMSlz4vPjWLPj8S5z5HPk8ab0JvPmMyEz5piz5zQtNCnzLjRs9G10aTQmM+/z6jPqtGxz63Ric+xz7PItM+10KXRt8S5z67ItM+yz7TPttG7yIvRptCAz6nPltCc0ITQhtCIzbHIjtCMyrvQj9CR0Z/QqNCE0IrSm9CO0ZjSj8+l0b3RsNCDIlPQniDQoNCi0KTQktGgzITSrMSw0q9v0KPRjs+80bzQrl3EmsyVdEjLs86fzLTRv9Kq04DMicyLxLDSstKg0LXOstClz4bSkMyE0b3KhtGt0arPpSLTltGr0ajEi862y7jMhMWCybVlLdGqb82zO86L0r4i0bnIp8SyzrTSlNKA04jMisyM0ofQk8yEbtOP0qbQrdGn05nRqdGrzITTmsyQ05zEjGHTn9OOyJogIWltzbjGps2RdNOo0qnPrNCFy4FsIER1yJrJidCm07Yi1JTQh8SW1JfUmcmI07rSkdG+07DSqtCFzaPGj8aQ1JvSiNKW1KvEhWbUm9OR0qfQrtKT0ZvEucSfzZLKiM+21K7UndS7yqBv1L7UpdCZ0pLThs+sT3nQh8aSINSs1LPTjMy41YrVjNGE1Y/UtNCz1LbQmtS40pUi1KxkIChGy4Nod8iocinVkcS51Z7VoNWiyYjVpNWm1ajSu9OS0qjVm9KAU8SWdC3EqXJzaNWp0rTVuNW6xqXVvdWF1bTViM6h0LzKoNKa1b/Sq9aJx7rQi9aF1LfWh8yEV8mjzrbIk9S/0rMi1pV01pfJp9Wy1ZnVh9Soz6xXy4XNitaM1qXMrG931pHQmtOq0orIitKM0oXSjtOv1LnQv8qR04nTtNaM07jImtatz4rTvc+S05fPkNO+1ILXgNSE1IbWvM2D1IrUjMuKyKfEvc6L1bXSqkXKiMuEzrIgTcSOaWfSncSH0p/MuNeT0rjQkM2/15jGjNeb0qXWoNO71qLWtiJGyZrJptSXyZXEmNaM161v16/Losqs05DVmNep1KfXq1dhz7Yg04DEhnXXnNao17/Ng9iCzYbYhdeo1KbIhMSa0pnQi2nQjdiF1rXVnNOy04rTtdaa14nWvsSZ14DRrtGs14TOvdeG057EudeJ1InUi9SN147UkNeQ1pMiyI3LuNeexLnYr9ic1JLEuUXQh9iEctiw1JzWmti3yazGpdi71LXXu9i1zIRMYWfXtded2LzTjdmG2YjSnsSB17rYjdeR1YnEt82/1J/RttSdT9mVzbDSl9i02ZPVqtKGzqDYscyEUtmh2LTTqtK1ZdK30rnGldGa2JbWuNOz04vZo9SH17nQrNSm05zYn9SA2KHTlcqe14fYpdOP2KfXjNSOxL3Ukdmf2YXWq9aMTNqI2IzVhte81ZxNyabGksio1ozakM6f2pPajNaG1qPPmdea1b7Zs0janNme2K1WxpLNmtqfZ9qd2YvMuNqj2Log2qbaqNmC2I3Ihc6NzLfEucyi0IXEvWHFgsuv0LXRkNq1YsqGxozWndGRxLlPz7bLlsu81qzMu8SOyIjQlcyERWbGkciK0obUmtSb24HIiNCq0rTSrUPNkMe6zIHMidCHyrvEotCw2rTTk9C8zaJl2YZ52rvKsMqyypLKlC/Ktsq424fKvMq+y4DUoGzLg8uFy7zGlMuJy4vLjXLLj8qeL8uSy5TKucq7yYjLmcubxJbLnsugyYPXt8mHy6XRicuqxKDLrcuWxpIvz6IiyrDRkiLKkNuuyrVlyrfLlcuXyYjbtdKXy4LJiNu6y4fbvcuMy47LkNyDyYjLk9yj3IfIvcuayZvci8ufzaLLodexy6TWsManL8ur3JXbhi82yobTos6iyJxbMTYxLDcwLDE43ZHTqtOi1qVkyaTFqsSazq/QjsSO058wLsWQ3ZvMjNGiyafGqSIqItqyzLbGsNOgyJTEh9iOIsijdHfEksyczoTEocS5K86Lfd29fQ==",
-                      "faIcon": "fa fa-leaf",
-                      "faSize": 32 
-                    }
-                  ]
-              }
-            ]
-        }
-    ]
+    }
 }
 
