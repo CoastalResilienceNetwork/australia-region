@@ -43,6 +43,21 @@
                 "opacity": 1
             }
         ]
+    },
+    {
+        "displayName": "Western Australia",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Australia",
+            "name": "Australia"
+        },
+        "includeLayers": [
+            {
+                "name": "Western Australia",
+                "includeAllLayers": true
+            }
+        ]
     }
 ]
 
