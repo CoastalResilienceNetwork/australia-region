@@ -2,23 +2,23 @@
     "googleAnalyticsPropertyId": "7401895-41",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "titleMain": { "text": "Coastal Resilience", "url": "" },
-    "titleDetail": { "text": "Australia", "url": "http://coastalresilience.org/virginia" },
+    "titleDetail": { "text": "Australia", "url": "https://coastalresilience.org/virginia" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
+        { "text": "Legal Disclosure", "url": "https://coastalresilience.org/terms-of-use/" }
     ],
     "regionLinks": [
-            { "text": "California", "url": "http://maps.coastalresilience.org/california" },
-            { "text": "Connecticut", "url": "http://maps.coastalresilience.org/connecticut" },
-            { "text": "Global", "url": "http://maps.coastalresilience.org/global/" },
-            { "text": "Gulf of Mexico", "url": "http://maps.coastalresilience.org/gulfmex/" },
-            { "text": "Grenada, St. Vincent & the Grenadines", "url": "http://maps.coastalresilience.org/gsvg/" },
-            { "text": "MesoAmerican Reef", "url": "http://maps.coastalresilience.org/mar/" },
-            { "text": "New Jersey", "url": "http://maps.coastalresilience.org/newjersey" },
-            { "text": "Southeast Florida", "url": "http://maps.coastalresilience.org/seflorida/" },
-            { "text": "United States", "url": "http://maps.coastalresilience.org/unitedstates/" },
-            { "text": "U.S. Virgin Islands", "url": "http://maps.coastalresilience.org/usvi/" },
-            { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
+            { "text": "California", "url": "https://maps.coastalresilience.org/california" },
+            { "text": "Connecticut", "url": "https://maps.coastalresilience.org/connecticut" },
+            { "text": "Global", "url": "https://maps.coastalresilience.org/global/" },
+            { "text": "Gulf of Mexico", "url": "https://maps.coastalresilience.org/gulfmex/" },
+            { "text": "Grenada, St. Vincent & the Grenadines", "url": "https://maps.coastalresilience.org/gsvg/" },
+            { "text": "MesoAmerican Reef", "url": "https://maps.coastalresilience.org/mar/" },
+            { "text": "New Jersey", "url": "https://maps.coastalresilience.org/newjersey" },
+            { "text": "Southeast Florida", "url": "https://maps.coastalresilience.org/seflorida/" },
+            { "text": "United States", "url": "https://maps.coastalresilience.org/unitedstates/" },
+            { "text": "U.S. Virgin Islands", "url": "https://maps.coastalresilience.org/usvi/" },
+            { "text": "Washington", "url": "https://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
         140,
@@ -27,15 +27,15 @@
         -35
     ],
     "basemaps": [
-        { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
-        { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
-        { "name": "Basic"              , "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" },
-        { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
-        { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
-        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
-        { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
-        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
-        { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+        { "name": "Topographic"        , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
+        { "name": "National Geographic", "url": "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
+        { "name": "Basic"              , "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" },
+        { "name": "Ocean"              , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
+        { "name": "Imagery"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
+        { "name": "Physical"           , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
+        { "name": "Shaded Relief"      , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
+        { "name": "Streets"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
+        { "name": "Terrain"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
         "restoration-explorer-aus",
@@ -46,7 +46,7 @@
         "full_extent"
     ],
     "print": {
-        "printServerUrl": "http://services.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
+        "printServerUrl": "https://services2.coastalresilience.org/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task", "customPrintTemplatePrefix": "Letter ANSI A GeositeFramework"  
     },
     "colors": {
         "primary": "#2F6384",
