@@ -11,11 +11,8 @@
 	{
 		"repo": "risk-explorer-aus",
 		"name": "risk-explorer-aus"
-	},
-	{
-		"repo": "future_habitat_v2",
-		"name": "future_habitat_v2"
 	}
+	
 	  
   ]
 }
