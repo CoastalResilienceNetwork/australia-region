@@ -35,6 +35,7 @@
     ],
     "pluginOrder": [
         "restoration-explorer-aus",
+        "risk-explorer-aus",
         "regional-planning",
         "zoom_to",
         "measure",
