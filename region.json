@@ -63,12 +63,12 @@
                 },
                 {
                     "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer - Beta",
-                    "description": "Explore the suitability of nature-based techniques for reducing coastal erosion.",
+                    "description": "Explore wetland restoration opportunities in Western Australia.",
                     "pluginName": "restoration-explorer-aus"
                 },
                 {
                     "title": "<img src='img/restoration_explorer.png' hspace=10>Risk Explorer - Beta",
-                    "description": "Risk explorer info goes here",
+                    "description": "Explore coastal and inland flood risk in Western Australia.",
                     "pluginName": "risk-explorer-aus"
                 }
             ],
