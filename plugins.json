@@ -11,6 +11,10 @@
 	{
 		"repo": "risk-explorer-aus",
 		"name": "risk-explorer-aus"
+	},
+	{
+		"repo": "shoreline-explorer-aus",
+		"name": "shoreline-explorer-aus"
 	}
 	
 	  
