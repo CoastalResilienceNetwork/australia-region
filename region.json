@@ -39,6 +39,8 @@
     ],
     "pluginOrder": [
         "restoration-explorer-aus",
+        "risk-explorer-aus",
+        "shoreline-explorer-aus",
         "regional-planning",
         "zoom_to",
         "measure",
@@ -68,6 +70,11 @@
                     "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer - Beta",
                     "description": "Explore the suitability of nature-based techniques for reducing coastal erosion.",
                     "pluginName": "restoration-explorer-aus"
+                },
+                {
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Shoreline Explorer",
+                    "description": "text needed",
+                    "pluginName": "shoreline-explorer-aus"
                 }
             ],
             "partners": [
