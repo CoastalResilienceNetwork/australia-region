@@ -34,10 +34,10 @@
         { "name": "Imagery"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
+        "regional-planning",
         "restoration-explorer-aus",
         "risk-explorer-aus",
         "shoreline-explorer-aus",
-        "regional-planning",
         "zoom_to",
         "measure",
         "legend_display",
