@@ -36,6 +36,7 @@
     "pluginOrder": [
         "restoration-explorer-aus",
         "risk-explorer-aus",
+        "shoreline-explorer-aus",
         "regional-planning",
         "zoom_to",
         "measure",
@@ -70,6 +71,11 @@
                     "title": "<img src='img/restoration_explorer.png' hspace=10>Risk Explorer - Beta",
                     "description": "Explore coastal and inland flood risk in Western Australia.",
                     "pluginName": "risk-explorer-aus"
+                },
+                {
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Shoreline Explorer - Beta",
+                    "description": "text needed",
+                    "pluginName": "shoreline-explorer-aus"
                 }
             ],
             "partners": [
