@@ -4,9 +4,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Australia",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Australia",
             "name": "Australia",
-            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "https://dev-services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
@@ -31,9 +31,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
-            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "https://dev-services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
@@ -41,6 +41,21 @@
                 "name": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
                 "displayName": "Port Phillip and Western Port Blue Carbon (Mg per Hectare)",
                 "opacity": 1
+            }
+        ]
+    },
+    {
+        "displayName": "Western Australia",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Australia",
+            "name": "Australia"
+        },
+        "includeLayers": [
+            {
+                "name": "Western Australia",
+                "includeAllLayers": true
             }
         ]
     }

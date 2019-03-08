@@ -1,11 +1,11 @@
 {
-    "googleAnalyticsPropertyId": "7401895-41",
+    "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "titleMain": { "text": "Coastal Resilience", "url": "" },
-    "titleDetail": { "text": "Australia", "url": "https://coastalresilience.org/virginia" },
+    "titleDetail": { "text": "Australia", "url": "http://coastalresilience.org/virginia" },
     "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
-        { "text": "Legal Disclosure", "url": "https://coastalresilience.org/terms-of-use/" }
+        { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
     ],
     "regionLinks": [
             { "text": "California", "url": "https://maps.coastalresilience.org/california" },
@@ -21,27 +21,23 @@
             { "text": "Washington", "url": "https://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        140,
+        110,
         -40,
-        150,
-        -35
+        155,
+        -10
     ],
     "basemaps": [
+        { "name": "OpenStreetMap"      , "url": "" }, 
         { "name": "Topographic"        , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
-        { "name": "National Geographic", "url": "https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
         { "name": "Basic"              , "url": "https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" },
         { "name": "Ocean"              , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
-        { "name": "Imagery"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
-        { "name": "Physical"           , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
-        { "name": "Shaded Relief"      , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
-        { "name": "Streets"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
-        { "name": "Terrain"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
+        { "name": "Imagery"            , "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
+        "regional-planning",
         "restoration-explorer-aus",
         "risk-explorer-aus",
         "shoreline-explorer-aus",
-        "regional-planning",
         "zoom_to",
         "measure",
         "legend_display",
@@ -59,22 +55,22 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Australia",
-            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities and coastal managers to visualize the risks imposed by coastal hazards and sea level rise on the people, economy, and coastal habitats of Victoria and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities and coastal managers to visualize the risks imposed by coastal hazards and sea level rise on the people, economy, and coastal habitats of <a href= 'https://coastalresilience.org/project/australia/' target='_blank'><b>Australia</b></a> and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-                    "description": "Text here for regional planning efforts",
+                    "description": "Explore data that supports regional conservation, adaptation, and mitigation planning.",
                     "pluginName": "regional-planning"
                 },
                 {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer - Beta",
-                    "description": "Explore the suitability of nature-based techniques for reducing coastal erosion.",
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer",
+                    "description": "Enables communities and coastal managers to visualize where various habitat restoration techniques are most suitable.",
                     "pluginName": "restoration-explorer-aus"
                 },
                 {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Shoreline Explorer",
-                    "description": "text needed",
-                    "pluginName": "shoreline-explorer-aus"
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Risk Explorer",
+                    "description": "Visualize coastal hazards exposure, social vulnerability, and overall risk.  Risk is estimated by multiplying Exposure and Vulnerability. Future risk can also be explored under various sea level rise scenarios.",
+                    "pluginName": "risk-explorer-aus"
                 }
             ],
             "partners": [
