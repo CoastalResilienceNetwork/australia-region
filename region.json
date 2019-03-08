@@ -55,27 +55,22 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Australia",
-            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities and coastal managers to visualize the risks imposed by coastal hazards and sea level rise on the people, economy, and coastal habitats of Victoria and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities and coastal managers to visualize the risks imposed by coastal hazards and sea level rise on the people, economy, and coastal habitats of <a href= 'https://coastalresilience.org/project/australia/' target='_blank'><b>Australia</b></a> and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
                     "description": "Text here for regional planning efforts",
                     "pluginName": "regional-planning"
                 },
                 {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer - Beta",
-                    "description": "Explore wetland restoration opportunities in Western Australia.",
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Restoration Explorer",
+                    "description": "Enables communities and coastal managers to visualize where various habitat restoration techniques are most suitable.",
                     "pluginName": "restoration-explorer-aus"
                 },
                 {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Risk Explorer - Beta",
-                    "description": "Explore coastal and inland flood risk in Western Australia.",
+                    "title": "<img src='img/restoration_explorer.png' hspace=10>Risk Explorer",
+                    "description": "Visualize coastal hazards exposure, social vulnerability, and overall risk.  Risk is estimated by multiplying Exposure and Vulnerability. Future risk can also be explored under various sea level rise scenarios.",
                     "pluginName": "risk-explorer-aus"
-                },
-                {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Shoreline Explorer - Beta",
-                    "description": "text needed",
-                    "pluginName": "shoreline-explorer-aus"
                 }
             ],
             "partners": [
