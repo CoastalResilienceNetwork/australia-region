@@ -55,11 +55,11 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
             "title": "Australia",
+            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities and coastal managers to visualize the risks imposed by coastal hazards and sea level rise on the people, economy, and coastal habitats of <a href= 'https://coastalresilience.org/project/australia/' target='_blank'><b>Australia</b></a> and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
             "plugins": [
                 {
                     "title": "<img src='img/regional_planning.png' hspace=10>Regional Planning",
-            "description": "<p>Coastal Resilience is a decision-support tool that incorporates the best available science and local data to enable communities and coastal managers to visualize the risks imposed by coastal hazards and sea level rise on the people, economy, and coastal habitats of <a href= 'https://coastalresilience.org/project/australia/' target='_blank'><b>Australia</b></a> and identify nature-based solutions for enhancing resilience and reducing risks where possible.</p>",
-                    "description": "Text here for regional planning efforts",
+                    "description": "Explore data that supports regional conservation, adaptation, and mitigation planning.",
                     "pluginName": "regional-planning"
                 },
                 {
