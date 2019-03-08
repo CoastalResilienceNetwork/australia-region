@@ -4,9 +4,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Australia",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Australia",
             "name": "Australia",
-            "reportGpUrl": "https://dev-services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
@@ -31,9 +31,9 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/OceanWealth",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/OceanWealth",
             "name": "Ocean_Wealth",
-            "reportGpUrl": "https://dev-services.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportGpUrl": "https://services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
             "reportDbPath": "oceanwealth.gdb" 
         },
         "includeLayers": [
@@ -49,7 +49,7 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://dev-services.coastalresilience.org/arcgis/rest/services/Australia",
+            "url": "https://services2.coastalresilience.org/arcgis/rest/services/Australia",
             "name": "Australia"
         },
         "includeLayers": [
