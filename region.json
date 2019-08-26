@@ -68,7 +68,7 @@
                     "pluginName": "restoration-explorer-aus"
                 },
                 {
-                    "title": "<img src='img/restoration_explorer.png' hspace=10>Risk Explorer",
+                    "title": "<img src='img/risk_explorer.png' hspace=10>Risk Explorer",
                     "description": "Visualize coastal hazards exposure, social vulnerability, and overall risk.  Risk is estimated by multiplying Exposure and Vulnerability. Future risk can also be explored under various sea level rise scenarios.",
                     "pluginName": "risk-explorer-aus"
                 }
